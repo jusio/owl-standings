@@ -43,8 +43,8 @@ class StandingsTable extends Component {
         return <div>
             {this.props.playedMatches} of {this.props.totalMatches} matches
             played in Stage 1
-            <a href="https://overwatchleague.com/en-us/standings" target="_blank">Official Standings <i className="fas fa-external-link-alt" style={{fontSize: "12px"}}/></a> <a
-            href="https://overwatchleague.com/en-us/schedule" target="_blank">Official Schedule <i className="fas fa-external-link-alt" style={{fontSize: "12px"}}/></a>
+            <a href="https://overwatchleague.com/en-us/standings" target="_blank" rel="noopener noreferrer">Official Standings <i className="fas fa-external-link-alt" style={{fontSize: "12px"}}/></a> <a
+            href="https://overwatchleague.com/en-us/schedule" target="_blank" rel="noopener noreferrer">Official Schedule <i className="fas fa-external-link-alt" style={{fontSize: "12px"}}/></a>
             <table className="StandingsTable">
                 <thead>
                 <tr>
