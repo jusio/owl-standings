@@ -53,7 +53,7 @@ class StandingsTable extends Component {
                     <th className="StandingsTable-teamNameColumn"/>
                     <th className="StandingsTable-wonGamesColumn">WON</th>
                     <th className="StandingsTable-lostGamesColumn">LOST</th>
-                    <th colSpan={3} className="StandingsTable-mapPointsColumn">MAP POINTS</th>
+                    <th colSpan={3} className="StandingsTable-mapPointsColumn">MAPS WON:LOST</th>
                     <th>MAP DRAWS</th>
                 </tr>
 
