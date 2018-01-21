@@ -24,9 +24,7 @@ class TeamOverview extends Component {
     }
 
     renderRow(team, otherTeams, match) {
-
-        console.log(otherTeams);
-        const opponent = otherTeams[match.teams.filter(id => id !== team.id)[0]]
+        const opponent = otherTeams[match.teams.filter(id => id !== team.id)[0]];
         const index = match.teams.indexOf(team.id);
         const opponentIndex = match.teams.indexOf(opponent.id);
 
@@ -114,7 +112,7 @@ class TeamOverview extends Component {
                 <table style={{width: "100%"}}>
                     <thead>
                     <tr>
-                        <th colSpan="3"></th>
+                        <th colSpan="3"/>
                         <th>Escort</th>
                         <th>Assault</th>
                         <th>CP</th>
