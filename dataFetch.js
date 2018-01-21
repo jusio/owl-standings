@@ -10,6 +10,7 @@ const defaultTeams = require("./teamDefaults.json").reduce((acc, item) => {
 
 
 console.log("Downloading schedule");
+
 const schedulePromise = rp('https://api.overwatchleague.com/schedule?locale=en_US').then(data => {
     console.log("Schedule downloaded");
     return data;
@@ -18,6 +19,8 @@ const schedulePromise = rp('https://api.overwatchleague.com/schedule?locale=en_U
     throw e;
 });
 console.log("Downloading teams");
+
+
 const teamsPromise = rp('https://api.overwatchleague.com/teams?expand=team.content&locale=en_us')
     .then(data => {
         console.log("Teams downloaded");
@@ -27,6 +30,9 @@ const teamsPromise = rp('https://api.overwatchleague.com/teams?expand=team.conte
         console.error("Failed to download teams", e);
         throw e;
     });
+
+
+
 
 
 Promise.all([schedulePromise, teamsPromise]).then(([scheduleResponse, teamsResponse]) => {
