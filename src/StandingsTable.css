@@ -69,6 +69,28 @@
     white-space: nowrap;
 }
 
+.StandingsTable-mapPoints{
+    width:1em;
+    display: inline-block;
+    text-align: center;
+}
+
+.StandingsTable-teamLink{
+    color:black;
+    text-decoration: none;
+
+    width:100%;
+    height:1.2em;
+    display: block;
+    padding:10px 20px;
+
+}
+
+.StandingsTable tbody tr:hover {
+    background-color: #BBBBBB;
+}
+
+
 
 
 

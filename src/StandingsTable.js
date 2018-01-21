@@ -15,12 +15,9 @@ class StandingsTable extends Component {
         const rows = teams.map((team, index) => (
             <tr key={team.id}>
                 <td><b>{index + 1}</b></td>
-                <td><img src={team.icon} alt="Team Icon" className="StandingsTable-teamIcon"/></td>
-                <td style={{textAlign: "left"}}>
-                    <Link to={"/team/" + team.id}>{team.name}</Link>&nbsp;
-                    <a href={team.website} target="_blank">
-                        <i className="fas fa-external-link-alt" style={{fontSize: "12px"}}/>
-                </a>
+                <td style={{backgroundColor:"#"+team.color}}><img src={team.icon} alt="Team Icon" className="StandingsTable-teamIcon"/></td>
+                <td style={{textAlign: "left",padding:0}}>
+                    <Link to={"/team/" + team.id} className="StandingsTable-teamLink">{team.name}</Link>
                 </td>
                 <td>
                     {team.won}
@@ -28,13 +25,10 @@ class StandingsTable extends Component {
                 <td>
                     {team.lost}
                 </td>
-                <td className="StandingsTable-mapPointsWon">{team.mapPoints.won}</td>
-                <td style={{width: "1px", paddingLeft: 0, paddingRight: 0}}>:</td>
-                <td className="StandingsTable-mapPointsLost">
-                    {team.mapPoints.lost}
-                </td>
-                <td>
-                    {team.mapPoints.draws}
+                <td className="StandingsTable-mapPointsWon">
+                    <span className="StandingsTable-mapPoints">{team.mapPoints.won}</span>&nbsp;:&nbsp;
+                    <span className="StandingsTable-mapPoints">{team.mapPoints.lost}</span>&nbsp;:&nbsp;
+                    <span className="StandingsTable-mapPoints">{team.mapPoints.draws}</span>
                 </td>
             </tr>
         ));
@@ -43,8 +37,10 @@ class StandingsTable extends Component {
         return <div>
             {this.props.playedMatches} of {this.props.totalMatches} matches
             played in Stage 1
-            <a href="https://overwatchleague.com/en-us/standings" target="_blank" rel="noopener noreferrer">Official Standings <i className="fas fa-external-link-alt" style={{fontSize: "12px"}}/></a> <a
-            href="https://overwatchleague.com/en-us/schedule" target="_blank" rel="noopener noreferrer">Official Schedule <i className="fas fa-external-link-alt" style={{fontSize: "12px"}}/></a>
+            <a href="https://overwatchleague.com/en-us/standings" target="_blank" rel="noopener noreferrer">Official
+                Standings <i className="fas fa-external-link-alt" style={{fontSize: "12px"}}/></a> <a
+            href="https://overwatchleague.com/en-us/schedule" target="_blank" rel="noopener noreferrer">Official
+            Schedule <i className="fas fa-external-link-alt" style={{fontSize: "12px"}}/></a>
             <table className="StandingsTable">
                 <thead>
                 <tr>
@@ -53,8 +49,7 @@ class StandingsTable extends Component {
                     <th className="StandingsTable-teamNameColumn"/>
                     <th className="StandingsTable-wonGamesColumn">WON</th>
                     <th className="StandingsTable-lostGamesColumn">LOST</th>
-                    <th colSpan={3} className="StandingsTable-mapPointsColumn">MAPS WON:LOST</th>
-                    <th>MAP DRAWS</th>
+                    <th className="StandingsTable-mapPointsColumn">MAPS W:L:D</th>
                 </tr>
 
                 </thead>
