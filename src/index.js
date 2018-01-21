@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 
 const xhr = new XMLHttpRequest();
-xhr.open("GET", "/standings.json");
+xhr.open("GET", process.env.PUBLIC_URL + "/standings.json");
 xhr.send();
 xhr.onload = () => {
     const data = JSON.parse(xhr.responseText);
