@@ -51,7 +51,7 @@ class TeamOverview extends Component {
 
             </td>
             <td style={{backgroundColor: "#" + opponent.color, color: "white", width: "2em"}}>
-                <Link to={"/team/" + opponent.id}><img src={opponent.icon} style={{width: "2em"}}/></Link>
+                <Link to={"/team/" + opponent.id}><img src={opponent.icon} style={{width: "2em"}} alt={opponent.name + " Icon"}/></Link>
             </td>
             <td className="TeamOverview-teamNameCell">
                 <Link to={"/team/" + opponent.id}>{opponent.name}</Link>
@@ -100,7 +100,7 @@ class TeamOverview extends Component {
                 <Link to="/">Back to standings</Link>
                 <div style={{backgroundColor: "#" + team.color, color: "#" + team.secondaryColor}}
                      className="TeamOverview-header">
-                    <img src={team.icon} className="TeamOverview-logo"/>
+                    <img src={team.icon} className="TeamOverview-logo" alt={team.name + " logo"}/>
                     <span className="TeamOverview-name">{team.name}</span>
                     &nbsp;
                     <a href={team.website} target="_blank"><i className="fas fa-external-link-alt" style={{
