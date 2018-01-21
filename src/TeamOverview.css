@@ -1,0 +1,96 @@
+.TeamOverview-logo {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.TeamOverview-header {
+    height: 4em;
+    position: relative;
+}
+
+.TeamOverview-name {
+    display: inline-block;
+    font-size: 2rem;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+    padding-top: 0.5em;
+}
+
+.TeamOverview-victory {
+
+    background-color: black;
+}
+
+.TeamOverview-victory .opponentPoints{
+    font-weight: lighter;
+    color: #AAAAAA;
+}
+
+.TeamOverview-victory .teamPoints {
+    color: #eeeeee;
+    font-weight: bold;
+}
+
+.TeamOverview-draw {
+    color:grey;
+    font-weight: normal;
+}
+
+.TeamOverview-loss .opponentPoints {
+    font-weight: bold;
+    color: #eeeeee;
+
+}
+
+.TeamOverview-loss .teamPoints {
+    font-weight: normal;
+    color: #AAAAAA;
+}
+
+.TeamOverview-loss {
+    background-color: #444444;
+}
+
+
+
+.TeamOverview table {
+    border-spacing: 0;
+}
+
+.TeamOverview-scoreCell {
+    padding-top: 0.2em;
+    margin: 0;
+    text-align: center;
+
+}
+
+.TeamOverview table a.videoLink{
+    color:#AAAAAA;
+    font-size: 0.6em;
+    padding: 2px;
+    text-decoration: none;
+    display: inline;
+}
+
+.TeamOverview table td.TeamOverview-teamNameCell a {
+    text-decoration: none;
+    color:black;
+    display: block;
+    width: 100%;
+    height: 2em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    margin: 0;
+}
+
+.TeamOverview-teamNameCell {
+    padding: 0;
+    margin: 0;
+}
+.TeamOverview tbody tr:hover {
+    background-color: #BBBBBB;
+}
+
+

@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+  .App-container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+.App-container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 50px;
+}
+
+
+@media (max-width: 767px){
+  .App-container{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+

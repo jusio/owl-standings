@@ -1,0 +1,83 @@
+[
+  {
+    "id": "SEO",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
+    "secondaryColor": "aa8a00",
+    "color": "000000"
+  },
+  {
+    "id": "NYE",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jz/JZHJUJ8QM1AP1508818097057.svg",
+    "color": "171c38",
+    "secondaryColor": "ffffff"
+  },
+  {
+    "id": "LDN",
+    "name": "London Spitfire",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
+    "color": "ff8200",
+    "secondaryColor": "000000"
+  },
+  {
+    "id": "HOU",
+    "name": "Houston Outlaws",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
+    "secondaryColor": "000000",
+    "color": "97d700"
+  },
+  {
+    "id": "VAL",
+    "name": "Los Angeles Valiant",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
+    "color": "4a7729",
+    "secondaryColor": "ffffff"
+  },
+  {
+    "id": "SFS",
+    "name": "San Francisco Shock",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/PKGNG1U3MGZ71512520986545.svg",
+    "color": "fc4c02",
+    "secondaryColor": "75787b"
+  },
+  {
+    "id": "GLA",
+    "name": "Los Angeles Gladiators",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/HU1A12H9JPNS1512520986367.svg",
+    "color": "3c1053",
+    "secondaryColor": "ffffff"
+  },
+  {
+    "id": "PHI",
+    "name": "Philadelphia Fusion",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
+    "color": "ff9e1b",
+    "secondaryColor": "000000"
+  },
+  {
+    "id": "BOS",
+    "name": "Boston Uprising",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
+    "color": "174b97",
+    "secondaryColor": "ffffff"
+  },
+  {
+    "id": "FLA",
+    "name": "Florida Mayhem",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
+    "color": "feda00"
+  },
+  {
+    "id": "DAL",
+    "name": "Dallas Fuel",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
+    "color": "0c2340",
+    "secondaryColor": "0072ce"
+  },
+  {
+    "id": "SHD",
+    "name": "Shanghai Dragons",
+    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/MHYBGBXKCBWW1512520986598.svg",
+    "color": "d22630",
+    "secondaryColor": "ffffff"
+  }
+]
