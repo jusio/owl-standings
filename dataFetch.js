@@ -1,5 +1,8 @@
 const fs = require('fs');
 const rp = require('request-promise');
+const crypto = require('crypto');
+
+const hash = crypto.createHash('sha256');
 
 
 const defaultTeams = require("./teamDefaults.json").reduce((acc, item) => {
@@ -43,12 +46,28 @@ Promise.all([schedulePromise, teamsPromise]).then(([scheduleResponse, teamsRespo
 
         const target = process.argv[2];
         console.log("Saving result at " + target);
-        fs.writeFile(target, JSON.stringify(processed, null, '\t'), (err) => {
+
+
+        const dataToWrite = JSON.stringify(processed, null, '\t');
+        hash.update(dataToWrite);
+
+        const sha = hash.digest("hex");
+        fs.writeFile(".env","REACT_APP_DATA_VERSION="+ sha,(err)=>{
+            if(err){
+                return;
+            }
+            console.log("Data hash " + sha);
+        });
+
+
+        fs.writeFile(target, dataToWrite, (err) => {
             if (err) {
                 console.error("Failed to save file to " + target + " cause of ", err);
                 return;
             }
             console.log("Success! Result saved at " + target);
+
+
         })
     } catch (e) {
         console.error("Processing error", e);
