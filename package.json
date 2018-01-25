@@ -21,7 +21,6 @@
     "styled-components": "^2.4.0"
   },
   "scripts": {
-    "precommit": "lint-staged",
     "start": "react-scripts start",
     "build": "node dataFetch.js public/standings.json && react-scripts build",
     "test": "react-scripts test --env=jsdom",
