@@ -11,16 +11,21 @@ const defaultTeams = require("./teamDefaults.json").reduce((acc, item) => {
 }, {});
 
 
-
 console.log("Downloading schedule");
 
-const schedulePromise = rp('https://api.overwatchleague.com/schedule?locale=en_US').then(data => {
-    console.log("Schedule downloaded");
-    return data;
-}).catch(e => {
-    console.error("Failed to download schedule", e);
-    throw e;
-});
+function fetchVods(matchId) {
+    return rp("https://api.overwatchleague.com/vods?tag=esports-match-" + matchId + "&locale=en-us")
+}
+
+
+const schedulePromise = rp('https://api.overwatchleague.com/schedule?locale=en_US')
+    .then(data => {
+        console.log("Schedule downloaded");
+        return data;
+    }).catch(e => {
+        console.error("Failed to download schedule", e);
+        throw e;
+    });
 console.log("Downloading teams");
 
 
@@ -34,15 +39,23 @@ const teamsPromise = rp('https://api.overwatchleague.com/teams?expand=team.conte
         throw e;
     });
 
-
-
-
+async function printVods(matches) {
+    const vods = await Promise
+        .all(matches.map(match => fetchVods(match.id)));
+    vods.map(data=>JSON.parse(data)).forEach(vodData=>{
+        for (let i = vodData.data.length - 1; i > -1; i--) {
+            let vod = vodData.data[i];
+            console.log("* ["+vod.title + "](" + vod.share_url +")");
+        }
+    });
+}
 
 Promise.all([schedulePromise, teamsPromise]).then(([scheduleResponse, teamsResponse]) => {
     console.log("Processing");
     try {
         const processed = transformData(JSON.parse(scheduleResponse), JSON.parse(teamsResponse));
         console.log("Finished");
+        printVods(processed.matches);
 
         const target = process.argv[2];
         console.log("Saving result at " + target);
@@ -52,8 +65,8 @@ Promise.all([schedulePromise, teamsPromise]).then(([scheduleResponse, teamsRespo
         hash.update(dataToWrite);
 
         const sha = hash.digest("hex");
-        fs.writeFile(".env","REACT_APP_DATA_VERSION="+ sha,(err)=>{
-            if(err){
+        fs.writeFile(".env", "REACT_APP_DATA_VERSION=" + sha, (err) => {
+            if (err) {
                 return;
             }
             console.log("Data hash " + sha);
@@ -67,8 +80,9 @@ Promise.all([schedulePromise, teamsPromise]).then(([scheduleResponse, teamsRespo
             }
             console.log("Success! Result saved at " + target);
 
-
         })
+
+
     } catch (e) {
         console.error("Processing error", e);
     }

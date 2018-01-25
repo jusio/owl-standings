@@ -1,0 +1,47 @@
+.Scores-text {
+  white-space: nowrap;
+}
+
+.Scores-victory {
+}
+
+.Scores-victory .opponentPoints {
+  font-weight: lighter;
+}
+
+.Scores-victory .teamPoints {
+  font-weight: bold;
+}
+
+.Scores-draw {
+  color: grey;
+  font-weight: normal;
+}
+
+.Scores-loss .opponentPoints {
+  font-weight: bold;
+}
+
+.Scores-loss .teamPoints {
+  font-weight: normal;
+}
+
+.Scores-loss {
+}
+
+.Scores .separatorShort {
+  display: none;
+}
+
+@media (max-width: 637px) {
+  .Scores .separatorLong {
+    display: none;
+  }
+  .Scores .childrenSlot {
+    display: none;
+  }
+
+  .Scores .separatorShort {
+    display: inline;
+  }
+}

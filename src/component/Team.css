@@ -1,0 +1,49 @@
+.Team {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  display: flex;
+  height: 2.5em;
+}
+
+.Team-left {
+  flex-direction: row;
+}
+
+.Team-right {
+  flex-direction: row-reverse;
+}
+
+.left {
+  flex-wrap: nowrap;
+}
+
+.Team .icon {
+  width: 3em;
+  height: 2.5em;
+  padding: 0 10px;
+}
+
+.Team .teamId {
+  display: none;
+
+  padding: 12px 10px;
+}
+
+.Team .teamName {
+  padding: 5px 20px;
+  height: 2em;
+}
+
+@media (max-width: 850px) {
+  .Team .icon {
+    width: 2em;
+    padding: 0;
+  }
+  .Team .teamName {
+    display: none;
+  }
+  .Team .teamId {
+    display: block;
+  }
+}

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
@@ -19,7 +19,6 @@
     <!--<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>-->
 
 
-
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -30,21 +29,28 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Improved OWL ranking</title>
-  </head>
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
-  </body>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112810739-1"></script>
-  <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+</head>
+<body>
+<noscript>
+    You need to enable JavaScript to run this app.
+</noscript>
+<div id="root"></div>
+</body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+    if ("%NODE_ENV%" === "production") {
+        var script = document.createElement("script");
+        script.src = "https://www.googletagmanager.com/gtag/js?id=UA-112810739-1";
+        document.body.appendChild(script);
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-      gtag('config', 'UA-112810739-1');
-  </script>
+        gtag('js', new Date());
+        gtag('config', 'UA-112810739-1');
+    }
+</script>
+
 
 </html>

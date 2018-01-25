@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-const cachedData = localStorage.getItem(process.env.REACT_APP_DATA_VERSION);
-console.log(process.env.REACT_APP_DATA_VERSION);
+const localStorage = window.localStorage;
+
+const cachedData =
+  localStorage && localStorage.getItem(process.env.REACT_APP_DATA_VERSION);
 
 function fetchData() {
   ReactDOM.render(<div>Loading</div>, document.getElementById('root'));
@@ -13,16 +15,20 @@ function fetchData() {
   xhr.send();
   xhr.onload = () => {
     const data = JSON.parse(xhr.responseText);
-    localStorage.clear();
-    localStorage.setItem(process.env.REACT_APP_DATA_VERSION, xhr.responseText);
-    render(data);
+    localStorage && localStorage.clear();
+    localStorage &&
+      localStorage.setItem(
+        process.env.REACT_APP_DATA_VERSION,
+        xhr.responseText
+      );
+    renderUI(data);
   };
 }
 
 if (cachedData) {
   try {
     let data = JSON.parse(cachedData);
-    render(data);
+    renderUI(data);
   } catch (e) {
     fetchData();
   }
@@ -30,7 +36,7 @@ if (cachedData) {
   fetchData();
 }
 
-function render(data) {
+function renderUI(data) {
   ReactDOM.render(
     <App
       initialState={{

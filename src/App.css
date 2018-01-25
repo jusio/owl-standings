@@ -1,3 +1,65 @@
+.App-container header {
+  background-color: white;
+  z-index: 50;
+}
+
+.App-container header a {
+  text-decoration: none;
+  color: black;
+  border-left: rgba(51, 51, 51, 0.06) 1px solid;
+  padding: 2px 17px;
+  height: 60px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 60px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: center;
+  border-bottom: white 5px solid;
+}
+
+.App-sideBar {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 70vw;
+  overflow: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-sideBar a {
+  border-top: rgba(51, 51, 51, 0.06) 1px solid;
+  text-decoration: none;
+  color: black;
+  border-left: white 5px solid;
+  vertical-align: center;
+  display: inline-block;
+  padding: 20px 40px;
+  font-weight: bold;
+}
+
+.App-sideBar a.active {
+  border-left: orange 5px solid;
+}
+
+.App-container header a.active {
+  border-bottom: orange 5px solid;
+}
+
+.App-container header {
+  background-color: white;
+}
+
+.App-container header a:hover {
+  border-bottom: orange 5px solid;
+  color: orange;
+}
+
 @media (min-width: 768px) {
   .App-container {
     padding-left: 80px;
@@ -5,21 +67,58 @@
   }
 }
 
-.App-container{
+.App-desktopHeader {
+  display: flex;
+}
+
+.App-mobileHeader {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  line-height: 60px;
+  font-size: 1.5em;
+  padding: 5px 30px;
+  vertical-align: center;
+}
+
+.App-container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
 }
 
-
-@media (max-width: 767px){
-  .App-container{
+@media (max-width: 767px) {
+  .App-container {
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 60px;
+  }
+
+  .App-mobileHeader {
+    display: flex;
+  }
+
+  .App-desktopHeader {
+    display: none;
   }
 }
 
+@media (max-width: 556px) {
+  .App-container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 60px;
+  }
 
+  .App-mobileHeader {
+    display: flex;
+  }
+
+  .App-desktopHeader {
+    display: none;
+  }
+}

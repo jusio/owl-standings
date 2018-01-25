@@ -4,24 +4,49 @@
   "private": true,
   "homepage": "https://jusio.github.io/owl-standings/",
   "dependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.1",
+    "moment": "^2.20.1",
+    "prettier": "^1.10.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.0",
+    "react-snapshot": "^1.3.0",
+    "reactstrap": "^5.0.0-alpha.4",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
-    "request-promise-native": "^1.0.5"
+    "request-promise-native": "^1.0.5",
+    "styled-components": "^2.4.0"
   },
   "scripts": {
+    "precommit": "lint-staged",
     "start": "react-scripts start",
     "build": "node dataFetch.js public/standings.json && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "refreshData": "node dataFetch.js public/standings.json",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.3.10",
+    "@storybook/addon-links": "^3.3.10",
+    "@storybook/react": "^3.3.10",
     "gh-pages": "^1.1.0"
+  },
+  "reactSnapshot": {
+    "include": [
+      "/team/SEO.html"
+    ]
   }
 }
