@@ -46,6 +46,21 @@
 			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
+			"id": "HOU",
+			"name": "Houston Outlaws",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
+			"secondaryColor": "000000",
+			"color": "97d700",
+			"mapPoints": {
+				"won": 15,
+				"lost": 6,
+				"draws": 0
+			},
+			"won": 3,
+			"lost": 2,
+			"website": "https://outlaws.overwatchleague.com"
+		},
+		{
 			"id": "VAL",
 			"name": "Los Angeles Valiant",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
@@ -74,21 +89,6 @@
 			"won": 3,
 			"lost": 2,
 			"website": "https://fusion.overwatchleague.com"
-		},
-		{
-			"id": "HOU",
-			"name": "Houston Outlaws",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
-			"secondaryColor": "000000",
-			"color": "97d700",
-			"mapPoints": {
-				"won": 11,
-				"lost": 6,
-				"draws": 0
-			},
-			"won": 2,
-			"lost": 2,
-			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
 			"id": "BOS",
@@ -143,11 +143,11 @@
 			"secondaryColor": "af272f",
 			"mapPoints": {
 				"won": 5,
-				"lost": 11,
+				"lost": 15,
 				"draws": 0
 			},
 			"won": 1,
-			"lost": 3,
+			"lost": 4,
 			"website": "https://mayhem.overwatchleague.com"
 		},
 		{
@@ -182,38 +182,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10252,
-			"teams": [
-				"HOU",
-				"FLA"
-			],
-			"mapData": [
-				[
-					5715,
-					"numbani",
-					2,
-					1
-				],
-				[
-					5716,
-					"Horizon",
-					2,
-					0
-				],
-				[
-					5717,
-					"ilios",
-					2,
-					0
-				],
-				[
-					5718,
-					"junkertown"
-				]
-			],
-			"date": "2018-01-26T02:40:00.000Z"
-		},
 		{
 			"id": 10253,
 			"teams": [
@@ -1755,6 +1723,40 @@
 				]
 			],
 			"date": "2018-01-25T22:00:00.000Z"
+		},
+		{
+			"id": 10252,
+			"teams": [
+				"HOU",
+				"FLA"
+			],
+			"mapData": [
+				[
+					5715,
+					"numbani",
+					2,
+					1
+				],
+				[
+					5716,
+					"Horizon",
+					2,
+					0
+				],
+				[
+					5717,
+					"ilios",
+					2,
+					0
+				],
+				[
+					5718,
+					"junkertown",
+					3,
+					0
+				]
+			],
+			"date": "2018-01-26T02:40:00.000Z"
 		},
 		{
 			"id": 10251,
