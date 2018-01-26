@@ -37,12 +37,12 @@
 			"secondaryColor": "ffffff",
 			"name": "New York Excelsior",
 			"mapPoints": {
-				"won": 13,
-				"lost": 2,
+				"won": 15,
+				"lost": 5,
 				"draws": 1
 			},
 			"won": 4,
-			"lost": 0,
+			"lost": 1,
 			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
@@ -61,6 +61,21 @@
 			"website": "https://valiant.overwatchleague.com"
 		},
 		{
+			"id": "PHI",
+			"name": "Philadelphia Fusion",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
+			"color": "ff9e1b",
+			"secondaryColor": "000000",
+			"mapPoints": {
+				"won": 10,
+				"lost": 12,
+				"draws": 1
+			},
+			"won": 3,
+			"lost": 2,
+			"website": "https://fusion.overwatchleague.com"
+		},
+		{
 			"id": "HOU",
 			"name": "Houston Outlaws",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
@@ -74,21 +89,6 @@
 			"won": 2,
 			"lost": 2,
 			"website": "https://outlaws.overwatchleague.com"
-		},
-		{
-			"id": "PHI",
-			"name": "Philadelphia Fusion",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
-			"color": "ff9e1b",
-			"secondaryColor": "000000",
-			"mapPoints": {
-				"won": 7,
-				"lost": 10,
-				"draws": 1
-			},
-			"won": 2,
-			"lost": 2,
-			"website": "https://fusion.overwatchleague.com"
 		},
 		{
 			"id": "BOS",
@@ -191,7 +191,9 @@
 			"mapData": [
 				[
 					5715,
-					"numbani"
+					"numbani",
+					1,
+					0
 				],
 				[
 					5716,
@@ -206,7 +208,7 @@
 					"junkertown"
 				]
 			],
-			"date": "2018-01-26T02:15:00.000Z"
+			"date": "2018-01-26T02:40:00.000Z"
 		},
 		{
 			"id": 10253,
@@ -987,38 +989,6 @@
 				]
 			],
 			"date": "2018-02-09T02:00:00.000Z"
-		},
-		{
-			"id": 10251,
-			"teams": [
-				"PHI",
-				"NYE"
-			],
-			"mapData": [
-				[
-					5711,
-					"numbani",
-					1,
-					2
-				],
-				[
-					5712,
-					"Anubis",
-					2,
-					1
-				],
-				[
-					5713,
-					"ilios",
-					1,
-					2
-				],
-				[
-					5714,
-					"dorado"
-				]
-			],
-			"date": "2018-01-26T00:25:00.000Z"
 		}
 	],
 	"matches": [
@@ -1781,6 +1751,46 @@
 				]
 			],
 			"date": "2018-01-25T22:00:00.000Z"
+		},
+		{
+			"id": 10251,
+			"teams": [
+				"PHI",
+				"NYE"
+			],
+			"mapData": [
+				[
+					5711,
+					"numbani",
+					1,
+					2
+				],
+				[
+					5712,
+					"Anubis",
+					2,
+					1
+				],
+				[
+					5713,
+					"ilios",
+					1,
+					2
+				],
+				[
+					5714,
+					"dorado",
+					2,
+					1
+				],
+				[
+					6441,
+					"lijiang",
+					2,
+					0
+				]
+			],
+			"date": "2018-01-26T00:25:00.000Z"
 		},
 		{
 			"id": 10244,
