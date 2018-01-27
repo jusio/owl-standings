@@ -7,13 +7,28 @@
 			"color": "000000",
 			"name": "Seoul Dynasty",
 			"mapPoints": {
-				"won": 17,
-				"lost": 2,
+				"won": 19,
+				"lost": 5,
 				"draws": 1
 			},
 			"won": 5,
-			"lost": 0,
+			"lost": 1,
 			"website": "https://dynasty.overwatchleague.com"
+		},
+		{
+			"id": "NYE",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jz/JZHJUJ8QM1AP1508818097057.svg",
+			"color": "171c38",
+			"secondaryColor": "ffffff",
+			"name": "New York Excelsior",
+			"mapPoints": {
+				"won": 18,
+				"lost": 7,
+				"draws": 1
+			},
+			"won": 5,
+			"lost": 1,
+			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
 			"id": "LDN",
@@ -29,21 +44,6 @@
 			"won": 5,
 			"lost": 1,
 			"website": "https://spitfire.overwatchleague.com"
-		},
-		{
-			"id": "NYE",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jz/JZHJUJ8QM1AP1508818097057.svg",
-			"color": "171c38",
-			"secondaryColor": "ffffff",
-			"name": "New York Excelsior",
-			"mapPoints": {
-				"won": 15,
-				"lost": 5,
-				"draws": 1
-			},
-			"won": 4,
-			"lost": 1,
-			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
 			"id": "HOU",
@@ -182,44 +182,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10253,
-			"teams": [
-				"SEO",
-				"NYE"
-			],
-			"mapData": [
-				[
-					5719,
-					"eichenwalde",
-					1,
-					2
-				],
-				[
-					5720,
-					"Horizon",
-					5,
-					4
-				],
-				[
-					5721,
-					"oasis",
-					1,
-					2
-				],
-				[
-					5722,
-					"junkertown",
-					1,
-					0
-				],
-				[
-					6779,
-					"lijiang"
-				]
-			],
-			"date": "2018-01-27T00:00:00.000Z"
-		},
 		{
 			"id": 10254,
 			"teams": [
@@ -1769,6 +1731,46 @@
 				]
 			],
 			"date": "2018-01-26T02:40:00.000Z"
+		},
+		{
+			"id": 10253,
+			"teams": [
+				"SEO",
+				"NYE"
+			],
+			"mapData": [
+				[
+					5719,
+					"eichenwalde",
+					1,
+					2
+				],
+				[
+					5720,
+					"Horizon",
+					5,
+					4
+				],
+				[
+					5721,
+					"oasis",
+					1,
+					2
+				],
+				[
+					5722,
+					"junkertown",
+					1,
+					0
+				],
+				[
+					6779,
+					"lijiang",
+					0,
+					2
+				]
+			],
+			"date": "2018-01-27T00:00:00.000Z"
 		},
 		{
 			"id": 10251,
