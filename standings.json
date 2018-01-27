@@ -128,12 +128,27 @@
 			"secondaryColor": "75787b",
 			"mapPoints": {
 				"won": 8,
-				"lost": 12,
-				"draws": 1
+				"lost": 15,
+				"draws": 2
 			},
 			"won": 2,
-			"lost": 3,
+			"lost": 4,
 			"website": "https://shock.overwatchleague.com"
+		},
+		{
+			"id": "DAL",
+			"name": "Dallas Fuel",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
+			"color": "0c2340",
+			"secondaryColor": "0072ce",
+			"mapPoints": {
+				"won": 5,
+				"lost": 12,
+				"draws": 3
+			},
+			"won": 1,
+			"lost": 4,
+			"website": "https://fuel.overwatchleague.com"
 		},
 		{
 			"id": "FLA",
@@ -149,21 +164,6 @@
 			"won": 1,
 			"lost": 4,
 			"website": "https://mayhem.overwatchleague.com"
-		},
-		{
-			"id": "DAL",
-			"name": "Dallas Fuel",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
-			"color": "0c2340",
-			"secondaryColor": "0072ce",
-			"mapPoints": {
-				"won": 2,
-				"lost": 12,
-				"draws": 2
-			},
-			"won": 0,
-			"lost": 4,
-			"website": "https://fuel.overwatchleague.com"
 		},
 		{
 			"id": "SHD",
@@ -182,36 +182,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10255,
-			"teams": [
-				"DAL",
-				"SFS"
-			],
-			"mapData": [
-				[
-					5727,
-					"eichenwalde",
-					3,
-					3
-				],
-				[
-					5728,
-					"Horizon",
-					3,
-					2
-				],
-				[
-					5729,
-					"ilios"
-				],
-				[
-					5730,
-					"junkertown"
-				]
-			],
-			"date": "2018-01-27T04:30:00.000Z"
-		},
 		{
 			"id": 10256,
 			"teams": [
@@ -1789,6 +1759,40 @@
 				]
 			],
 			"date": "2018-01-27T02:15:00.000Z"
+		},
+		{
+			"id": 10255,
+			"teams": [
+				"DAL",
+				"SFS"
+			],
+			"mapData": [
+				[
+					5727,
+					"eichenwalde",
+					3,
+					3
+				],
+				[
+					5728,
+					"Horizon",
+					3,
+					2
+				],
+				[
+					5729,
+					"ilios",
+					2,
+					0
+				],
+				[
+					5730,
+					"junkertown",
+					3,
+					1
+				]
+			],
+			"date": "2018-01-27T04:30:00.000Z"
 		},
 		{
 			"id": 10251,
