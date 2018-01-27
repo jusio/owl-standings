@@ -46,6 +46,21 @@
 			"website": "https://spitfire.overwatchleague.com"
 		},
 		{
+			"id": "PHI",
+			"name": "Philadelphia Fusion",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
+			"color": "ff9e1b",
+			"secondaryColor": "000000",
+			"mapPoints": {
+				"won": 13,
+				"lost": 14,
+				"draws": 1
+			},
+			"won": 4,
+			"lost": 2,
+			"website": "https://fusion.overwatchleague.com"
+		},
+		{
 			"id": "HOU",
 			"name": "Houston Outlaws",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
@@ -74,21 +89,6 @@
 			"won": 3,
 			"lost": 2,
 			"website": "https://valiant.overwatchleague.com"
-		},
-		{
-			"id": "PHI",
-			"name": "Philadelphia Fusion",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
-			"color": "ff9e1b",
-			"secondaryColor": "000000",
-			"mapPoints": {
-				"won": 10,
-				"lost": 12,
-				"draws": 1
-			},
-			"won": 3,
-			"lost": 2,
-			"website": "https://fusion.overwatchleague.com"
 		},
 		{
 			"id": "BOS",
@@ -172,50 +172,16 @@
 			"color": "d22630",
 			"secondaryColor": "ffffff",
 			"mapPoints": {
-				"won": 2,
-				"lost": 18,
+				"won": 4,
+				"lost": 21,
 				"draws": 0
 			},
 			"won": 0,
-			"lost": 5,
+			"lost": 6,
 			"website": null
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10254,
-			"teams": [
-				"SHD",
-				"PHI"
-			],
-			"mapData": [
-				[
-					5723,
-					"eichenwalde",
-					0,
-					1
-				],
-				[
-					5724,
-					"Horizon",
-					2,
-					3
-				],
-				[
-					5725,
-					"oasis",
-					2,
-					1
-				],
-				[
-					5726,
-					"junkertown",
-					2,
-					0
-				]
-			],
-			"date": "2018-01-27T02:15:00.000Z"
-		},
 		{
 			"id": 10255,
 			"teams": [
@@ -240,7 +206,7 @@
 					"junkertown"
 				]
 			],
-			"date": "2018-01-27T04:10:00.000Z"
+			"date": "2018-01-27T04:30:00.000Z"
 		},
 		{
 			"id": 10256,
@@ -1779,6 +1745,46 @@
 				]
 			],
 			"date": "2018-01-27T00:00:00.000Z"
+		},
+		{
+			"id": 10254,
+			"teams": [
+				"SHD",
+				"PHI"
+			],
+			"mapData": [
+				[
+					5723,
+					"eichenwalde",
+					0,
+					1
+				],
+				[
+					5724,
+					"Horizon",
+					2,
+					3
+				],
+				[
+					5725,
+					"oasis",
+					2,
+					1
+				],
+				[
+					5726,
+					"junkertown",
+					3,
+					2
+				],
+				[
+					6784,
+					"lijiang",
+					0,
+					2
+				]
+			],
+			"date": "2018-01-27T02:15:00.000Z"
 		},
 		{
 			"id": 10251,
