@@ -191,11 +191,15 @@
 			"mapData": [
 				[
 					5723,
-					"eichenwalde"
+					"eichenwalde",
+					0,
+					1
 				],
 				[
 					5724,
-					"Horizon"
+					"Horizon",
+					1,
+					0
 				],
 				[
 					5725,
