@@ -46,6 +46,21 @@
 			"website": "https://spitfire.overwatchleague.com"
 		},
 		{
+			"id": "VAL",
+			"name": "Los Angeles Valiant",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
+			"color": "4a7729",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 15,
+				"lost": 9,
+				"draws": 2
+			},
+			"won": 4,
+			"lost": 2,
+			"website": "https://valiant.overwatchleague.com"
+		},
+		{
 			"id": "PHI",
 			"name": "Philadelphia Fusion",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
@@ -74,21 +89,6 @@
 			"won": 3,
 			"lost": 2,
 			"website": "https://outlaws.overwatchleague.com"
-		},
-		{
-			"id": "VAL",
-			"name": "Los Angeles Valiant",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
-			"color": "4a7729",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 12,
-				"lost": 8,
-				"draws": 2
-			},
-			"won": 3,
-			"lost": 2,
-			"website": "https://valiant.overwatchleague.com"
 		},
 		{
 			"id": "BOS",
@@ -136,21 +136,6 @@
 			"website": "https://shock.overwatchleague.com"
 		},
 		{
-			"id": "FLA",
-			"name": "Florida Mayhem",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
-			"color": "feda01",
-			"secondaryColor": "af272f",
-			"mapPoints": {
-				"won": 5,
-				"lost": 15,
-				"draws": 0
-			},
-			"won": 1,
-			"lost": 4,
-			"website": "https://mayhem.overwatchleague.com"
-		},
-		{
 			"id": "DAL",
 			"name": "Dallas Fuel",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
@@ -164,6 +149,21 @@
 			"won": 1,
 			"lost": 5,
 			"website": "https://fuel.overwatchleague.com"
+		},
+		{
+			"id": "FLA",
+			"name": "Florida Mayhem",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
+			"color": "feda01",
+			"secondaryColor": "af272f",
+			"mapPoints": {
+				"won": 6,
+				"lost": 18,
+				"draws": 0
+			},
+			"won": 1,
+			"lost": 5,
+			"website": "https://mayhem.overwatchleague.com"
 		},
 		{
 			"id": "SHD",
@@ -831,36 +831,6 @@
 				]
 			],
 			"date": "2018-02-09T02:00:00.000Z"
-		},
-		{
-			"id": 10257,
-			"teams": [
-				"VAL",
-				"FLA"
-			],
-			"mapData": [
-				[
-					5735,
-					"eichenwalde",
-					3,
-					2
-				],
-				[
-					5736,
-					"Anubis",
-					1,
-					0
-				],
-				[
-					5737,
-					"ilios"
-				],
-				[
-					5738,
-					"dorado"
-				]
-			],
-			"date": "2018-01-27T21:15:00.000Z"
 		}
 	],
 	"matches": [
@@ -1851,6 +1821,40 @@
 				]
 			],
 			"date": "2018-01-26T00:25:00.000Z"
+		},
+		{
+			"id": 10257,
+			"teams": [
+				"VAL",
+				"FLA"
+			],
+			"mapData": [
+				[
+					5735,
+					"eichenwalde",
+					3,
+					2
+				],
+				[
+					5736,
+					"Anubis",
+					2,
+					0
+				],
+				[
+					5737,
+					"ilios",
+					2,
+					0
+				],
+				[
+					5738,
+					"dorado",
+					2,
+					3
+				]
+			],
+			"date": "2018-01-27T21:15:00.000Z"
 		},
 		{
 			"id": 10244,
