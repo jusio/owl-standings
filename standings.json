@@ -97,11 +97,11 @@
 			"color": "174b97",
 			"secondaryColor": "ffffff",
 			"mapPoints": {
-				"won": 10,
-				"lost": 12,
+				"won": 13,
+				"lost": 14,
 				"draws": 0
 			},
-			"won": 2,
+			"won": 3,
 			"lost": 3,
 			"website": "https://uprising.overwatchleague.com"
 		},
@@ -136,21 +136,6 @@
 			"website": "https://shock.overwatchleague.com"
 		},
 		{
-			"id": "DAL",
-			"name": "Dallas Fuel",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
-			"color": "0c2340",
-			"secondaryColor": "0072ce",
-			"mapPoints": {
-				"won": 5,
-				"lost": 12,
-				"draws": 3
-			},
-			"won": 1,
-			"lost": 4,
-			"website": "https://fuel.overwatchleague.com"
-		},
-		{
 			"id": "FLA",
 			"name": "Florida Mayhem",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
@@ -164,6 +149,21 @@
 			"won": 1,
 			"lost": 4,
 			"website": "https://mayhem.overwatchleague.com"
+		},
+		{
+			"id": "DAL",
+			"name": "Dallas Fuel",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
+			"color": "0c2340",
+			"secondaryColor": "0072ce",
+			"mapPoints": {
+				"won": 7,
+				"lost": 15,
+				"draws": 3
+			},
+			"won": 1,
+			"lost": 5,
+			"website": "https://fuel.overwatchleague.com"
 		},
 		{
 			"id": "SHD",
@@ -182,44 +182,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10256,
-			"teams": [
-				"DAL",
-				"BOS"
-			],
-			"mapData": [
-				[
-					5731,
-					"numbani",
-					6,
-					4
-				],
-				[
-					5732,
-					"Anubis",
-					2,
-					3
-				],
-				[
-					5733,
-					"ilios",
-					1,
-					2
-				],
-				[
-					5734,
-					"dorado",
-					3,
-					0
-				],
-				[
-					6855,
-					"lijiang"
-				]
-			],
-			"date": "2018-01-27T19:00:00.000Z"
-		},
 		{
 			"id": 10257,
 			"teams": [
@@ -1805,6 +1767,46 @@
 				]
 			],
 			"date": "2018-01-27T04:30:00.000Z"
+		},
+		{
+			"id": 10256,
+			"teams": [
+				"DAL",
+				"BOS"
+			],
+			"mapData": [
+				[
+					5731,
+					"numbani",
+					6,
+					4
+				],
+				[
+					5732,
+					"Anubis",
+					2,
+					3
+				],
+				[
+					5733,
+					"ilios",
+					1,
+					2
+				],
+				[
+					5734,
+					"dorado",
+					3,
+					0
+				],
+				[
+					6855,
+					"lijiang",
+					0,
+					2
+				]
+			],
+			"date": "2018-01-27T19:00:00.000Z"
 		},
 		{
 			"id": 10251,
