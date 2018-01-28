@@ -1,105 +1,109 @@
 .TeamOverview-logo {
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .TeamOverview-header {
-  height: 4em;
-  position: relative;
+    height: 4em;
+    position: relative;
 }
 
 .TeamOverview-name {
-  display: inline-block;
-  font-size: 2rem;
-  padding-bottom: 1em;
-  padding-left: 2.5em;
-  padding-top: 0.5em;
+    display: inline-block;
+    font-size: 2rem;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+    padding-top: 0.5em;
 }
 
 .TeamOverview-victory {
 }
 
 .TeamOverview-victory .opponentPoints {
-  font-weight: lighter;
+    font-weight: lighter;
 }
 
 .TeamOverview-victory .teamPoints {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .TeamOverview-draw {
-  color: grey;
-  font-weight: normal;
+    color: grey;
+    font-weight: normal;
 }
 
 .TeamOverview-loss .opponentPoints {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .TeamOverview-loss .teamPoints {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 .TeamOverview-loss {
 }
 
 .TeamOverview table {
-  border-spacing: 0;
+    border-spacing: 0;
 }
 
 .TeamOverview-scoreCell {
-  padding-top: 0.2em;
-  margin: 0;
-  text-align: center;
+    padding-top: 0.2em;
+    margin: 0;
+    text-align: center;
 }
 
 .TeamOverview table a.videoLink {
-  color: #aaaaaa;
-  font-size: 0.6em;
-  padding: 2px;
-  text-decoration: none;
-  display: inline;
+    color: #aaaaaa;
+    font-size: 0.6em;
+    padding: 2px;
+    text-decoration: none;
+    display: inline;
 }
 
 .TeamOverview table td.TeamOverview-teamNameCell a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  width: 100%;
-  height: 2em;
-  padding-top: 0.5em;
-  padding-left: 0.5em;
-  margin: 0;
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 2em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    margin: 0;
 }
 
 .TeamOverview-teamNameCell {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .TeamOverview td {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .TeamOverview tbody tr.matchRow:nth-child(even) {
-  background-color: rgba(51, 51, 51, 0.06);
+    background-color: rgba(51, 51, 51, 0.06);
 }
 
 .TeamOverview tbody tr.matchRow:hover {
-  background-color: #cccccc;
+    background-color: #cccccc;
 }
 
 .TeamOverview-dateColumn {
-  width: 4em;
-  font-size: 0.6em;
-  color: gray;
+    width: 4em;
+    font-size: 0.6em;
+    color: gray;
+}
+
+.TeamOverview-mapScoreHeader {
+    width: 5em;
 }
 
 @media (max-width: 636px) {
-  .TeamOverview th {
-    display: none;
-  }
+    .TeamOverview th {
+        display: none;
+    }
 }

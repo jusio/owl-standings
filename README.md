@@ -16,6 +16,7 @@ Todo:
 - Recent results
 - No-spoiler VODs page
 - Mobile optimization
-- Static prerendering
+- Static pre-rendering
+- Make less fugly
  
 

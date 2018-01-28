@@ -41,13 +41,24 @@ const teamsPromise = rp('https://api.overwatchleague.com/teams?expand=team.conte
 
 async function printVods(matches) {
     const vods = await Promise
-        .all(matches.map(match => fetchVods(match.id)));
-    vods.map(data=>JSON.parse(data)).forEach(vodData=>{
-        for (let i = vodData.data.length - 1; i > -1; i--) {
-            let vod = vodData.data[i];
-            console.log("* ["+vod.title + "](" + vod.share_url +")");
-        }
-    });
+        .all(matches.map(match => fetchVods(match.id)
+            .then(vod => {
+                vod.matchId = match.id;
+                return vod;
+            })));
+    vods.map(data => JSON.parse(data))
+        .filter(vodData => vodData.data)
+        .forEach(vodData => {
+            vodData.data
+                .sort((vod1, vod2) => {
+                    const title1 = vod1.title.trim();
+                    const title2 = vod2.title.trim();
+                    if (title1 > title2) return 1;
+                    if (title1 < title2) return -1;
+                    return 0;
+                })
+                .forEach(vod => console.log("* [" + vod.title.trim() + "](" + vod.share_url + ")"))
+        });
 }
 
 Promise.all([schedulePromise, teamsPromise]).then(([scheduleResponse, teamsResponse]) => {
@@ -136,73 +147,108 @@ function transformData(scheduleResponse, teamsResponse) {
     const teams = defaultTeams;
     const matches = [];
     const upcomingMatches = [];
-    scheduleResponse.data.stages[1].matches.forEach(stageMatch => {
-        const competitors = stageMatch.competitors;
-        if (competitors.some(comp => comp === null)) {
-            return;
-        }
-        competitors.forEach(competitor => {
-            const teamId = competitor.abbreviatedName;
-            if (!teams[teamId]) {
-                teams[teamId] = {"id": teamId};
+    scheduleResponse.data.stages[1].matches
+        .sort((match1, match2) => {
+            if (match1.startDate > match2.startDate) return 1;
+            if (match1.startDate < match2.startDate) return -1;
+            return 0;
+        })
+        .forEach((stageMatch) => {
+            const competitors = stageMatch.competitors;
+            if (competitors.some(comp => comp === null)) {
+                return;
             }
-            const team = teams[teamId];
-            if (!team.name)
-                team.name = competitor.name;
-            if (!team.icon)
-                team.icon = competitor.secondaryPhoto;
-            if (!team.color)
-                team.color = competitor.primaryColor;
-            if (!team.secondaryColor)
-                team.secondaryColor = competitor.secondaryColor;
-        });
-
-        const match = {
-            id: stageMatch.id,
-            teams: competitors.map(comp => comp.abbreviatedName),
-            mapData: stageMatch.games.map(game => {
-                return [game.id, transformMapName(game.attributes.map)].concat(toEmptyArrayIfNull(game.points).filter(val => val !== null));
-            }),
-            date: stageMatch.startDate
-        };
-
-
-        if (stageMatch.state !== "PENDING") {
-            const team1 = teams[match.teams[0]];
-            const team2 = teams[match.teams[1]];
-            [team1, team2].forEach(team => {
-                if (!team.mapPoints) {
-                    team.mapPoints = {
-                        won: 0,
-                        lost: 0,
-                        draws: 0
-                    };
-                    team.won = 0;
-                    team.lost = 0;
+            competitors.forEach(competitor => {
+                const teamId = competitor.abbreviatedName;
+                if (!teams[teamId]) {
+                    teams[teamId] = {"id": teamId};
                 }
+                const team = teams[teamId];
+                if (!team.name)
+                    team.name = competitor.name;
+                if (!team.icon)
+                    team.icon = competitor.secondaryPhoto;
+                if (!team.color)
+                    team.color = competitor.primaryColor;
+                if (!team.secondaryColor)
+                    team.secondaryColor = competitor.secondaryColor;
             });
-            const wins = stageMatch.wins;
-            if (wins[0] > wins[1]) {
-                team1.won++;
-                team2.lost++;
-            } else if (wins[0] < wins[1]) {
-                team2.won++;
-                team1.lost++;
+
+            const match = {
+                id: stageMatch.id,
+                teams: competitors.map(comp => comp.abbreviatedName),
+                mapData: stageMatch.games.map(game => {
+                    return [game.id, transformMapName(game.attributes.map)].concat(toEmptyArrayIfNull(game.points).filter(val => val !== null));
+                }),
+                date: stageMatch.startDate
+            };
+
+
+            if (stageMatch.state !== "PENDING") {
+                const team1 = teams[match.teams[0]];
+                const team2 = teams[match.teams[1]];
+                [team1, team2].forEach(team => {
+                    if (!team.mapPoints) {
+                        team.mapPoints = {
+                            won: 0,
+                            lost: 0,
+                            draws: 0
+                        };
+                        team.won = 0;
+                        team.lost = 0;
+                    }
+                    if (!team.mapStats) {
+                        team.mapStats = {};
+                    }
+
+
+                });
+                const wins = stageMatch.wins;
+                if (wins[0] > wins[1]) {
+                    team1.won++;
+                    team2.lost++;
+                } else if (wins[0] < wins[1]) {
+                    team2.won++;
+                    team1.lost++;
+                }
+
+                const draws = stageMatch.games.filter(game => game.points[0] === game.points[1]).length;
+                team1.mapPoints.won += wins[0];
+                team1.mapPoints.lost += wins[1];
+                team1.mapPoints.draws += draws;
+                team2.mapPoints.won += wins[1];
+                team2.mapPoints.lost += wins[0];
+                team2.mapPoints.draws += draws;
+
+                const updateMapStats = (team, map, win, loss, draw) => {
+                    const mapStats = team.mapStats;
+                    if (!mapStats[map]) {
+                        mapStats[map] = [0, 0, 0]
+                    }
+                    [currentWins, currentLosses, currentDraws] = mapStats[map];
+                    if (win) {
+                        mapStats[map][0]++;
+                    }
+                    if (loss) {
+                        mapStats[map][1]++;
+                    }
+                    if (draw) {
+                        mapStats[map][2]++;
+                    }
+
+                };
+                stageMatch.games.forEach(game => {
+                    const mapName = transformMapName(game.attributes.map);
+                    updateMapStats(team1, mapName, game.points[0] > game.points[1], game.points[1] > game.points[0], game.points[0] === game.points[1]);
+                    updateMapStats(team2, mapName, game.points[0] < game.points[1], game.points[1] < game.points[0], game.points[0] === game.points[1]);
+                });
+
+
+                matches.push(match);
+            } else {
+                upcomingMatches.push(match);
             }
-
-            const draws = stageMatch.games.filter(game => game.points[0] === game.points[1]).length;
-            team1.mapPoints.won += wins[0];
-            team1.mapPoints.lost += wins[1];
-            team1.mapPoints.draws += draws;
-            team2.mapPoints.won += wins[1];
-            team2.mapPoints.lost += wins[0];
-            team2.mapPoints.draws += draws;
-
-            matches.push(match);
-        } else {
-            upcomingMatches.push(match);
-        }
-    });
+        });
     teamsResponse.competitors.forEach(({competitor}) => {
         teams[competitor.abbreviatedName].website = competitor.content.teamWebsite;
     });

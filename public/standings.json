@@ -7,28 +7,60 @@
 			"color": "000000",
 			"name": "Seoul Dynasty",
 			"mapPoints": {
-				"won": 17,
-				"lost": 2,
+				"won": 19,
+				"lost": 5,
 				"draws": 1
 			},
 			"won": 5,
-			"lost": 0,
-			"website": "https://dynasty.overwatchleague.com"
-		},
-		{
-			"id": "LDN",
-			"name": "London Spitfire",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
-			"color": "ff8200",
-			"secondaryColor": "000000",
-			"mapPoints": {
-				"won": 16,
-				"lost": 5,
-				"draws": 0
+			"lost": 1,
+			"mapStats": {
+				"junkertown": [
+					3,
+					1,
+					0
+				],
+				"Anubis": [
+					2,
+					0,
+					0
+				],
+				"ilios": [
+					2,
+					0,
+					0
+				],
+				"numbani": [
+					3,
+					0,
+					1
+				],
+				"Horizon": [
+					4,
+					0,
+					0
+				],
+				"dorado": [
+					1,
+					1,
+					0
+				],
+				"oasis": [
+					3,
+					1,
+					0
+				],
+				"eichenwalde": [
+					1,
+					1,
+					0
+				],
+				"lijiang": [
+					0,
+					1,
+					0
+				]
 			},
-			"won": 5,
-			"lost": 0,
-			"website": "https://spitfire.overwatchleague.com"
+			"website": "https://dynasty.overwatchleague.com"
 		},
 		{
 			"id": "NYE",
@@ -37,28 +69,122 @@
 			"secondaryColor": "ffffff",
 			"name": "New York Excelsior",
 			"mapPoints": {
-				"won": 13,
-				"lost": 2,
+				"won": 18,
+				"lost": 7,
 				"draws": 1
 			},
-			"won": 4,
-			"lost": 0,
+			"won": 5,
+			"lost": 1,
+			"mapStats": {
+				"junkertown": [
+					2,
+					2,
+					0
+				],
+				"Horizon": [
+					2,
+					2,
+					0
+				],
+				"ilios": [
+					3,
+					0,
+					0
+				],
+				"numbani": [
+					3,
+					0,
+					1
+				],
+				"Anubis": [
+					1,
+					1,
+					0
+				],
+				"oasis": [
+					3,
+					0,
+					0
+				],
+				"dorado": [
+					1,
+					1,
+					0
+				],
+				"eichenwalde": [
+					2,
+					0,
+					0
+				],
+				"lijiang": [
+					1,
+					1,
+					0
+				]
+			},
 			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
-			"id": "VAL",
-			"name": "Los Angeles Valiant",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
-			"color": "4a7729",
-			"secondaryColor": "ffffff",
+			"id": "LDN",
+			"name": "London Spitfire",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
+			"color": "ff8200",
+			"secondaryColor": "000000",
 			"mapPoints": {
-				"won": 12,
+				"won": 18,
 				"lost": 8,
-				"draws": 2
+				"draws": 0
 			},
-			"won": 3,
-			"lost": 2,
-			"website": "https://valiant.overwatchleague.com"
+			"won": 5,
+			"lost": 1,
+			"mapStats": {
+				"dorado": [
+					1,
+					1,
+					0
+				],
+				"Anubis": [
+					1,
+					1,
+					0
+				],
+				"oasis": [
+					1,
+					3,
+					0
+				],
+				"numbani": [
+					4,
+					0,
+					0
+				],
+				"junkertown": [
+					4,
+					0,
+					0
+				],
+				"Horizon": [
+					4,
+					0,
+					0
+				],
+				"ilios": [
+					1,
+					1,
+					0
+				],
+				"eichenwalde": [
+					1,
+					1,
+					0
+				],
+				"lijiang": [
+					1,
+					1,
+					0
+				]
+			},
+			"website": "https://spitfire.overwatchleague.com"
 		},
 		{
 			"id": "HOU",
@@ -67,13 +193,122 @@
 			"secondaryColor": "000000",
 			"color": "97d700",
 			"mapPoints": {
-				"won": 11,
+				"won": 19,
 				"lost": 6,
 				"draws": 0
 			},
-			"won": 2,
+			"won": 4,
 			"lost": 2,
+			"mapStats": {
+				"dorado": [
+					1,
+					1,
+					0
+				],
+				"Horizon": [
+					4,
+					0,
+					0
+				],
+				"oasis": [
+					2,
+					1,
+					0
+				],
+				"eichenwalde": [
+					2,
+					0,
+					0
+				],
+				"lijiang": [
+					0,
+					1,
+					0
+				],
+				"junkertown": [
+					4,
+					0,
+					0
+				],
+				"Anubis": [
+					1,
+					1,
+					0
+				],
+				"ilios": [
+					2,
+					1,
+					0
+				],
+				"numbani": [
+					3,
+					1,
+					0
+				]
+			},
 			"website": "https://outlaws.overwatchleague.com"
+		},
+		{
+			"id": "VAL",
+			"name": "Los Angeles Valiant",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
+			"color": "4a7729",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 15,
+				"lost": 9,
+				"draws": 2
+			},
+			"won": 4,
+			"lost": 2,
+			"mapStats": {
+				"dorado": [
+					1,
+					2,
+					0
+				],
+				"Anubis": [
+					2,
+					0,
+					0
+				],
+				"ilios": [
+					4,
+					0,
+					0
+				],
+				"numbani": [
+					2,
+					0,
+					1
+				],
+				"junkertown": [
+					2,
+					1,
+					0
+				],
+				"Horizon": [
+					0,
+					3,
+					1
+				],
+				"oasis": [
+					1,
+					1,
+					0
+				],
+				"eichenwalde": [
+					2,
+					1,
+					0
+				],
+				"lijiang": [
+					1,
+					1,
+					0
+				]
+			},
+			"website": "https://valiant.overwatchleague.com"
 		},
 		{
 			"id": "PHI",
@@ -82,13 +317,122 @@
 			"color": "ff9e1b",
 			"secondaryColor": "000000",
 			"mapPoints": {
-				"won": 7,
-				"lost": 10,
+				"won": 13,
+				"lost": 14,
 				"draws": 1
 			},
-			"won": 2,
+			"won": 4,
 			"lost": 2,
+			"mapStats": {
+				"dorado": [
+					2,
+					1,
+					0
+				],
+				"Horizon": [
+					1,
+					2,
+					0
+				],
+				"oasis": [
+					2,
+					1,
+					0
+				],
+				"eichenwalde": [
+					1,
+					1,
+					1
+				],
+				"lijiang": [
+					3,
+					1,
+					0
+				],
+				"junkertown": [
+					1,
+					2,
+					0
+				],
+				"ilios": [
+					0,
+					3,
+					0
+				],
+				"numbani": [
+					0,
+					3,
+					0
+				],
+				"Anubis": [
+					3,
+					0,
+					0
+				]
+			},
 			"website": "https://fusion.overwatchleague.com"
+		},
+		{
+			"id": "BOS",
+			"name": "Boston Uprising",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
+			"color": "174b97",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 13,
+				"lost": 14,
+				"draws": 0
+			},
+			"won": 3,
+			"lost": 3,
+			"mapStats": {
+				"junkertown": [
+					0,
+					3,
+					0
+				],
+				"Horizon": [
+					2,
+					1,
+					0
+				],
+				"ilios": [
+					2,
+					1,
+					0
+				],
+				"numbani": [
+					0,
+					4,
+					0
+				],
+				"dorado": [
+					1,
+					2,
+					0
+				],
+				"Anubis": [
+					3,
+					0,
+					0
+				],
+				"oasis": [
+					1,
+					2,
+					0
+				],
+				"eichenwalde": [
+					2,
+					0,
+					0
+				],
+				"lijiang": [
+					2,
+					1,
+					0
+				]
+			},
+			"website": "https://uprising.overwatchleague.com"
 		},
 		{
 			"id": "GLA",
@@ -98,11 +442,58 @@
 			"secondaryColor": "ffffff",
 			"mapPoints": {
 				"won": 9,
-				"lost": 13,
+				"lost": 17,
 				"draws": 0
 			},
 			"won": 2,
-			"lost": 3,
+			"lost": 4,
+			"mapStats": {
+				"dorado": [
+					1,
+					2,
+					0
+				],
+				"Anubis": [
+					1,
+					2,
+					0
+				],
+				"ilios": [
+					2,
+					3,
+					0
+				],
+				"eichenwalde": [
+					2,
+					1,
+					0
+				],
+				"junkertown": [
+					0,
+					3,
+					0
+				],
+				"Horizon": [
+					1,
+					2,
+					0
+				],
+				"numbani": [
+					1,
+					2,
+					0
+				],
+				"lijiang": [
+					1,
+					1,
+					0
+				],
+				"oasis": [
+					0,
+					1,
+					0
+				]
+			},
 			"website": "https://gladiators.overwatchleague.com"
 		},
 		{
@@ -113,42 +504,59 @@
 			"secondaryColor": "75787b",
 			"mapPoints": {
 				"won": 8,
-				"lost": 12,
-				"draws": 1
+				"lost": 15,
+				"draws": 2
 			},
 			"won": 2,
-			"lost": 3,
+			"lost": 4,
+			"mapStats": {
+				"dorado": [
+					2,
+					1,
+					0
+				],
+				"Anubis": [
+					0,
+					2,
+					0
+				],
+				"ilios": [
+					1,
+					2,
+					0
+				],
+				"numbani": [
+					1,
+					1,
+					0
+				],
+				"junkertown": [
+					1,
+					2,
+					0
+				],
+				"Horizon": [
+					0,
+					4,
+					0
+				],
+				"oasis": [
+					2,
+					1,
+					0
+				],
+				"eichenwalde": [
+					0,
+					2,
+					2
+				],
+				"lijiang": [
+					1,
+					0,
+					0
+				]
+			},
 			"website": "https://shock.overwatchleague.com"
-		},
-		{
-			"id": "BOS",
-			"name": "Boston Uprising",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
-			"color": "174b97",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 7,
-				"lost": 10,
-				"draws": 0
-			},
-			"won": 1,
-			"lost": 3,
-			"website": "https://uprising.overwatchleague.com"
-		},
-		{
-			"id": "FLA",
-			"name": "Florida Mayhem",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
-			"color": "feda01",
-			"secondaryColor": "af272f",
-			"mapPoints": {
-				"won": 5,
-				"lost": 11,
-				"draws": 0
-			},
-			"won": 1,
-			"lost": 3,
-			"website": "https://mayhem.overwatchleague.com"
 		},
 		{
 			"id": "DAL",
@@ -157,13 +565,117 @@
 			"color": "0c2340",
 			"secondaryColor": "0072ce",
 			"mapPoints": {
-				"won": 2,
-				"lost": 12,
-				"draws": 2
+				"won": 7,
+				"lost": 15,
+				"draws": 3
 			},
-			"won": 0,
-			"lost": 4,
+			"won": 1,
+			"lost": 5,
+			"mapStats": {
+				"junkertown": [
+					2,
+					3,
+					0
+				],
+				"Anubis": [
+					0,
+					2,
+					0
+				],
+				"ilios": [
+					1,
+					3,
+					0
+				],
+				"numbani": [
+					1,
+					2,
+					1
+				],
+				"Horizon": [
+					1,
+					2,
+					1
+				],
+				"oasis": [
+					1,
+					1,
+					0
+				],
+				"eichenwalde": [
+					0,
+					1,
+					1
+				],
+				"dorado": [
+					1,
+					0,
+					0
+				],
+				"lijiang": [
+					0,
+					1,
+					0
+				]
+			},
 			"website": "https://fuel.overwatchleague.com"
+		},
+		{
+			"id": "FLA",
+			"name": "Florida Mayhem",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
+			"color": "feda01",
+			"secondaryColor": "af272f",
+			"mapPoints": {
+				"won": 6,
+				"lost": 18,
+				"draws": 0
+			},
+			"won": 1,
+			"lost": 5,
+			"mapStats": {
+				"dorado": [
+					3,
+					2,
+					0
+				],
+				"Anubis": [
+					1,
+					3,
+					0
+				],
+				"oasis": [
+					0,
+					3,
+					0
+				],
+				"numbani": [
+					1,
+					2,
+					0
+				],
+				"eichenwalde": [
+					0,
+					3,
+					0
+				],
+				"Horizon": [
+					0,
+					2,
+					0
+				],
+				"ilios": [
+					1,
+					2,
+					0
+				],
+				"junkertown": [
+					0,
+					1,
+					0
+				]
+			},
+			"website": "https://mayhem.overwatchleague.com"
 		},
 		{
 			"id": "SHD",
@@ -172,224 +684,63 @@
 			"color": "d22630",
 			"secondaryColor": "ffffff",
 			"mapPoints": {
-				"won": 2,
-				"lost": 18,
+				"won": 4,
+				"lost": 21,
 				"draws": 0
 			},
 			"won": 0,
-			"lost": 5,
+			"lost": 6,
+			"mapStats": {
+				"dorado": [
+					1,
+					2,
+					0
+				],
+				"Anubis": [
+					0,
+					3,
+					0
+				],
+				"ilios": [
+					0,
+					3,
+					0
+				],
+				"eichenwalde": [
+					0,
+					2,
+					0
+				],
+				"junkertown": [
+					1,
+					2,
+					0
+				],
+				"Horizon": [
+					1,
+					2,
+					0
+				],
+				"numbani": [
+					0,
+					4,
+					0
+				],
+				"oasis": [
+					1,
+					2,
+					0
+				],
+				"lijiang": [
+					0,
+					1,
+					0
+				]
+			},
 			"website": null
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10250,
-			"teams": [
-				"BOS",
-				"LDN"
-			],
-			"mapData": [
-				[
-					5707,
-					"numbani"
-				],
-				[
-					5708,
-					"Anubis"
-				],
-				[
-					5709,
-					"ilios"
-				],
-				[
-					5710,
-					"junkertown"
-				]
-			],
-			"date": "2018-01-25T22:00:00.000Z"
-		},
-		{
-			"id": 10252,
-			"teams": [
-				"HOU",
-				"FLA"
-			],
-			"mapData": [
-				[
-					5715,
-					"numbani"
-				],
-				[
-					5716,
-					"Horizon"
-				],
-				[
-					5717,
-					"ilios"
-				],
-				[
-					5718,
-					"junkertown"
-				]
-			],
-			"date": "2018-01-26T02:00:00.000Z"
-		},
-		{
-			"id": 10253,
-			"teams": [
-				"SEO",
-				"NYE"
-			],
-			"mapData": [
-				[
-					5719,
-					"eichenwalde"
-				],
-				[
-					5720,
-					"Horizon"
-				],
-				[
-					5721,
-					"oasis"
-				],
-				[
-					5722,
-					"junkertown"
-				]
-			],
-			"date": "2018-01-27T00:00:00.000Z"
-		},
-		{
-			"id": 10254,
-			"teams": [
-				"SHD",
-				"PHI"
-			],
-			"mapData": [
-				[
-					5723,
-					"eichenwalde"
-				],
-				[
-					5724,
-					"Horizon"
-				],
-				[
-					5725,
-					"oasis"
-				],
-				[
-					5726,
-					"junkertown"
-				]
-			],
-			"date": "2018-01-27T02:00:00.000Z"
-		},
-		{
-			"id": 10255,
-			"teams": [
-				"DAL",
-				"SFS"
-			],
-			"mapData": [
-				[
-					5727,
-					"eichenwalde"
-				],
-				[
-					5728,
-					"Horizon"
-				],
-				[
-					5729,
-					"ilios"
-				],
-				[
-					5730,
-					"junkertown"
-				]
-			],
-			"date": "2018-01-27T04:00:00.000Z"
-		},
-		{
-			"id": 10256,
-			"teams": [
-				"DAL",
-				"BOS"
-			],
-			"mapData": [
-				[
-					5731,
-					"numbani"
-				],
-				[
-					5732,
-					"Anubis"
-				],
-				[
-					5733,
-					"ilios"
-				],
-				[
-					5734,
-					"dorado"
-				]
-			],
-			"date": "2018-01-27T19:00:00.000Z"
-		},
-		{
-			"id": 10257,
-			"teams": [
-				"VAL",
-				"FLA"
-			],
-			"mapData": [
-				[
-					5735,
-					"eichenwalde"
-				],
-				[
-					5736,
-					"Anubis"
-				],
-				[
-					5737,
-					"ilios"
-				],
-				[
-					5738,
-					"dorado"
-				]
-			],
-			"date": "2018-01-27T21:00:00.000Z"
-		},
-		{
-			"id": 10258,
-			"teams": [
-				"GLA",
-				"HOU"
-			],
-			"mapData": [
-				[
-					5739,
-					"numbani"
-				],
-				[
-					5740,
-					"Anubis"
-				],
-				[
-					5741,
-					"ilios"
-				],
-				[
-					5742,
-					"dorado"
-				]
-			],
-			"date": "2018-01-27T23:00:00.000Z"
-		},
 		{
 			"id": 10259,
 			"teams": [
@@ -729,6 +1080,32 @@
 			"date": "2018-02-08T00:00:00.000Z"
 		},
 		{
+			"id": 10565,
+			"teams": [
+				"SFS",
+				"GLA"
+			],
+			"mapData": [
+				[
+					5795,
+					"numbani"
+				],
+				[
+					5796,
+					"Horizon"
+				],
+				[
+					5797,
+					"oasis"
+				],
+				[
+					5798,
+					"junkertown"
+				]
+			],
+			"date": "2018-02-08T02:00:00.000Z"
+		},
+		{
 			"id": 10566,
 			"teams": [
 				"VAL",
@@ -753,6 +1130,84 @@
 				]
 			],
 			"date": "2018-02-08T04:00:00.000Z"
+		},
+		{
+			"id": 10567,
+			"teams": [
+				"PHI",
+				"BOS"
+			],
+			"mapData": [
+				[
+					5803,
+					"eichenwalde"
+				],
+				[
+					5804,
+					"Horizon"
+				],
+				[
+					5805,
+					"ilios"
+				],
+				[
+					5806,
+					"junkertown"
+				]
+			],
+			"date": "2018-02-08T22:00:00.000Z"
+		},
+		{
+			"id": 10568,
+			"teams": [
+				"FLA",
+				"NYE"
+			],
+			"mapData": [
+				[
+					5807,
+					"eichenwalde"
+				],
+				[
+					5808,
+					"Horizon"
+				],
+				[
+					5809,
+					"ilios"
+				],
+				[
+					5810,
+					"junkertown"
+				]
+			],
+			"date": "2018-02-09T00:00:00.000Z"
+		},
+		{
+			"id": 10569,
+			"teams": [
+				"LDN",
+				"HOU"
+			],
+			"mapData": [
+				[
+					5811,
+					"eichenwalde"
+				],
+				[
+					5812,
+					"Anubis"
+				],
+				[
+					5813,
+					"oasis"
+				],
+				[
+					5814,
+					"dorado"
+				]
+			],
+			"date": "2018-02-09T02:00:00.000Z"
 		},
 		{
 			"id": 10570,
@@ -909,136 +1364,6 @@
 				]
 			],
 			"date": "2018-02-10T23:00:00.000Z"
-		},
-		{
-			"id": 10565,
-			"teams": [
-				"SFS",
-				"GLA"
-			],
-			"mapData": [
-				[
-					5795,
-					"numbani"
-				],
-				[
-					5796,
-					"Horizon"
-				],
-				[
-					5797,
-					"oasis"
-				],
-				[
-					5798,
-					"junkertown"
-				]
-			],
-			"date": "2018-02-08T02:00:00.000Z"
-		},
-		{
-			"id": 10567,
-			"teams": [
-				"PHI",
-				"BOS"
-			],
-			"mapData": [
-				[
-					5803,
-					"eichenwalde"
-				],
-				[
-					5804,
-					"Horizon"
-				],
-				[
-					5805,
-					"ilios"
-				],
-				[
-					5806,
-					"junkertown"
-				]
-			],
-			"date": "2018-02-08T22:00:00.000Z"
-		},
-		{
-			"id": 10568,
-			"teams": [
-				"FLA",
-				"NYE"
-			],
-			"mapData": [
-				[
-					5807,
-					"eichenwalde"
-				],
-				[
-					5808,
-					"Horizon"
-				],
-				[
-					5809,
-					"ilios"
-				],
-				[
-					5810,
-					"junkertown"
-				]
-			],
-			"date": "2018-02-09T00:00:00.000Z"
-		},
-		{
-			"id": 10569,
-			"teams": [
-				"LDN",
-				"HOU"
-			],
-			"mapData": [
-				[
-					5811,
-					"eichenwalde"
-				],
-				[
-					5812,
-					"Anubis"
-				],
-				[
-					5813,
-					"oasis"
-				],
-				[
-					5814,
-					"dorado"
-				]
-			],
-			"date": "2018-02-09T02:00:00.000Z"
-		},
-		{
-			"id": 10251,
-			"teams": [
-				"PHI",
-				"NYE"
-			],
-			"mapData": [
-				[
-					5711,
-					"numbani"
-				],
-				[
-					5712,
-					"Anubis"
-				],
-				[
-					5713,
-					"ilios"
-				],
-				[
-					5714,
-					"dorado"
-				]
-			],
-			"date": "2018-01-26T00:00:00.000Z"
 		}
 	],
 	"matches": [
@@ -1423,6 +1748,40 @@
 			"date": "2018-01-13T20:45:00.000Z"
 		},
 		{
+			"id": 10234,
+			"teams": [
+				"SEO",
+				"GLA"
+			],
+			"mapData": [
+				[
+					5643,
+					"junkertown",
+					4,
+					3
+				],
+				[
+					5644,
+					"Horizon",
+					3,
+					2
+				],
+				[
+					5645,
+					"ilios",
+					2,
+					0
+				],
+				[
+					5646,
+					"numbani",
+					3,
+					0
+				]
+			],
+			"date": "2018-01-13T22:35:00.000Z"
+		},
+		{
 			"id": 10235,
 			"teams": [
 				"SFS",
@@ -1593,6 +1952,46 @@
 			"date": "2018-01-18T23:30:00.000Z"
 		},
 		{
+			"id": 10240,
+			"teams": [
+				"PHI",
+				"GLA"
+			],
+			"mapData": [
+				[
+					5667,
+					"junkertown",
+					2,
+					1
+				],
+				[
+					5668,
+					"Anubis",
+					3,
+					2
+				],
+				[
+					5669,
+					"ilios",
+					1,
+					2
+				],
+				[
+					5670,
+					"numbani",
+					2,
+					3
+				],
+				[
+					6192,
+					"lijiang",
+					0,
+					2
+				]
+			],
+			"date": "2018-01-19T01:55:00.000Z"
+		},
+		{
 			"id": 10241,
 			"teams": [
 				"SEO",
@@ -1625,6 +2024,40 @@
 				]
 			],
 			"date": "2018-01-20T00:00:00.000Z"
+		},
+		{
+			"id": 10242,
+			"teams": [
+				"SHD",
+				"FLA"
+			],
+			"mapData": [
+				[
+					5675,
+					"dorado",
+					1,
+					2
+				],
+				[
+					5676,
+					"Anubis",
+					1,
+					2
+				],
+				[
+					5677,
+					"ilios",
+					0,
+					2
+				],
+				[
+					5678,
+					"numbani",
+					2,
+					3
+				]
+			],
+			"date": "2018-01-20T01:45:00.000Z"
 		},
 		{
 			"id": 10243,
@@ -1661,6 +2094,46 @@
 			"date": "2018-01-20T03:35:00.000Z"
 		},
 		{
+			"id": 10244,
+			"teams": [
+				"VAL",
+				"LDN"
+			],
+			"mapData": [
+				[
+					5683,
+					"dorado",
+					1,
+					2
+				],
+				[
+					5684,
+					"Horizon",
+					2,
+					3
+				],
+				[
+					5685,
+					"oasis",
+					2,
+					0
+				],
+				[
+					5686,
+					"eichenwalde",
+					3,
+					1
+				],
+				[
+					6308,
+					"lijiang",
+					0,
+					2
+				]
+			],
+			"date": "2018-01-20T19:00:00.000Z"
+		},
+		{
 			"id": 10245,
 			"teams": [
 				"GLA",
@@ -1693,6 +2166,46 @@
 				]
 			],
 			"date": "2018-01-20T21:10:00.000Z"
+		},
+		{
+			"id": 10246,
+			"teams": [
+				"BOS",
+				"SFS"
+			],
+			"mapData": [
+				[
+					5691,
+					"dorado",
+					2,
+					3
+				],
+				[
+					5692,
+					"Horizon",
+					2,
+					0
+				],
+				[
+					5693,
+					"oasis",
+					0,
+					2
+				],
+				[
+					5694,
+					"eichenwalde",
+					3,
+					1
+				],
+				[
+					6315,
+					"lijiang",
+					1,
+					2
+				]
+			],
+			"date": "2018-01-20T22:55:00.000Z"
 		},
 		{
 			"id": 10247,
@@ -1763,120 +2276,6 @@
 			"date": "2018-01-25T02:00:00.000Z"
 		},
 		{
-			"id": 10244,
-			"teams": [
-				"VAL",
-				"LDN"
-			],
-			"mapData": [
-				[
-					5683,
-					"dorado",
-					1,
-					2
-				],
-				[
-					5684,
-					"Horizon",
-					2,
-					3
-				],
-				[
-					5685,
-					"oasis",
-					2,
-					0
-				],
-				[
-					5686,
-					"eichenwalde",
-					3,
-					1
-				],
-				[
-					6308,
-					"lijiang",
-					0,
-					2
-				]
-			],
-			"date": "2018-01-20T19:00:00.000Z"
-		},
-		{
-			"id": 10240,
-			"teams": [
-				"PHI",
-				"GLA"
-			],
-			"mapData": [
-				[
-					5667,
-					"junkertown",
-					2,
-					1
-				],
-				[
-					5668,
-					"Anubis",
-					3,
-					2
-				],
-				[
-					5669,
-					"ilios",
-					1,
-					2
-				],
-				[
-					5670,
-					"numbani",
-					2,
-					3
-				],
-				[
-					6192,
-					"lijiang",
-					0,
-					2
-				]
-			],
-			"date": "2018-01-19T01:55:00.000Z"
-		},
-		{
-			"id": 10234,
-			"teams": [
-				"SEO",
-				"GLA"
-			],
-			"mapData": [
-				[
-					5643,
-					"junkertown",
-					4,
-					3
-				],
-				[
-					5644,
-					"Horizon",
-					3,
-					2
-				],
-				[
-					5645,
-					"ilios",
-					2,
-					0
-				],
-				[
-					5646,
-					"numbani",
-					3,
-					0
-				]
-			],
-			"date": "2018-01-13T22:35:00.000Z"
-		},
-		{
 			"id": 10249,
 			"teams": [
 				"GLA",
@@ -1917,78 +2316,340 @@
 			"date": "2018-01-25T03:55:00.000Z"
 		},
 		{
-			"id": 10246,
+			"id": 10250,
 			"teams": [
 				"BOS",
-				"SFS"
+				"LDN"
 			],
 			"mapData": [
 				[
-					5691,
-					"dorado",
+					5707,
+					"numbani",
+					4,
+					5
+				],
+				[
+					5708,
+					"Anubis",
+					3,
+					2
+				],
+				[
+					5709,
+					"ilios",
+					2,
+					1
+				],
+				[
+					5710,
+					"junkertown",
 					2,
 					3
 				],
 				[
-					5692,
+					6424,
+					"lijiang",
+					2,
+					0
+				]
+			],
+			"date": "2018-01-25T22:00:00.000Z"
+		},
+		{
+			"id": 10251,
+			"teams": [
+				"PHI",
+				"NYE"
+			],
+			"mapData": [
+				[
+					5711,
+					"numbani",
+					1,
+					2
+				],
+				[
+					5712,
+					"Anubis",
+					2,
+					1
+				],
+				[
+					5713,
+					"ilios",
+					1,
+					2
+				],
+				[
+					5714,
+					"dorado",
+					2,
+					1
+				],
+				[
+					6441,
+					"lijiang",
+					2,
+					0
+				]
+			],
+			"date": "2018-01-26T00:25:00.000Z"
+		},
+		{
+			"id": 10252,
+			"teams": [
+				"HOU",
+				"FLA"
+			],
+			"mapData": [
+				[
+					5715,
+					"numbani",
+					2,
+					1
+				],
+				[
+					5716,
 					"Horizon",
 					2,
 					0
 				],
 				[
-					5693,
-					"oasis",
-					0,
+					5717,
+					"ilios",
+					2,
+					0
+				],
+				[
+					5718,
+					"junkertown",
+					3,
+					0
+				]
+			],
+			"date": "2018-01-26T02:40:00.000Z"
+		},
+		{
+			"id": 10253,
+			"teams": [
+				"SEO",
+				"NYE"
+			],
+			"mapData": [
+				[
+					5719,
+					"eichenwalde",
+					1,
 					2
 				],
 				[
-					5694,
-					"eichenwalde",
-					3,
-					1
+					5720,
+					"Horizon",
+					5,
+					4
 				],
 				[
-					6315,
-					"lijiang",
+					5721,
+					"oasis",
 					1,
+					2
+				],
+				[
+					5722,
+					"junkertown",
+					1,
+					0
+				],
+				[
+					6779,
+					"lijiang",
+					0,
 					2
 				]
 			],
-			"date": "2018-01-20T22:55:00.000Z"
+			"date": "2018-01-27T00:00:00.000Z"
 		},
 		{
-			"id": 10242,
+			"id": 10254,
 			"teams": [
 				"SHD",
+				"PHI"
+			],
+			"mapData": [
+				[
+					5723,
+					"eichenwalde",
+					0,
+					1
+				],
+				[
+					5724,
+					"Horizon",
+					2,
+					3
+				],
+				[
+					5725,
+					"oasis",
+					2,
+					1
+				],
+				[
+					5726,
+					"junkertown",
+					3,
+					2
+				],
+				[
+					6784,
+					"lijiang",
+					0,
+					2
+				]
+			],
+			"date": "2018-01-27T02:15:00.000Z"
+		},
+		{
+			"id": 10255,
+			"teams": [
+				"DAL",
+				"SFS"
+			],
+			"mapData": [
+				[
+					5727,
+					"eichenwalde",
+					3,
+					3
+				],
+				[
+					5728,
+					"Horizon",
+					3,
+					2
+				],
+				[
+					5729,
+					"ilios",
+					2,
+					0
+				],
+				[
+					5730,
+					"junkertown",
+					3,
+					1
+				]
+			],
+			"date": "2018-01-27T04:30:00.000Z"
+		},
+		{
+			"id": 10256,
+			"teams": [
+				"DAL",
+				"BOS"
+			],
+			"mapData": [
+				[
+					5731,
+					"numbani",
+					6,
+					4
+				],
+				[
+					5732,
+					"Anubis",
+					2,
+					3
+				],
+				[
+					5733,
+					"ilios",
+					1,
+					2
+				],
+				[
+					5734,
+					"dorado",
+					3,
+					0
+				],
+				[
+					6855,
+					"lijiang",
+					0,
+					2
+				]
+			],
+			"date": "2018-01-27T19:00:00.000Z"
+		},
+		{
+			"id": 10257,
+			"teams": [
+				"VAL",
 				"FLA"
 			],
 			"mapData": [
 				[
-					5675,
-					"dorado",
-					1,
+					5735,
+					"eichenwalde",
+					3,
 					2
 				],
 				[
-					5676,
+					5736,
 					"Anubis",
-					1,
-					2
+					2,
+					0
 				],
 				[
-					5677,
+					5737,
+					"ilios",
+					2,
+					0
+				],
+				[
+					5738,
+					"dorado",
+					2,
+					3
+				]
+			],
+			"date": "2018-01-27T21:15:00.000Z"
+		},
+		{
+			"id": 10258,
+			"teams": [
+				"GLA",
+				"HOU"
+			],
+			"mapData": [
+				[
+					5739,
+					"numbani",
+					3,
+					4
+				],
+				[
+					5740,
+					"Anubis",
+					0,
+					1
+				],
+				[
+					5741,
 					"ilios",
 					0,
 					2
 				],
 				[
-					5678,
-					"numbani",
-					2,
-					3
+					5742,
+					"dorado",
+					0,
+					1
 				]
 			],
-			"date": "2018-01-20T01:45:00.000Z"
+			"date": "2018-01-27T23:00:00.000Z"
 		}
 	]
 }

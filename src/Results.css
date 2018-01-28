@@ -1,0 +1,65 @@
+.Results table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    margin-bottom: 3em;
+}
+
+.Results tbody {
+    margin-top: 60px;
+}
+
+.Results td {
+    padding: 0;
+}
+
+.Results-headerRow {
+    font-weight: lighter;
+
+}
+
+.Results-mapHeader {
+    font-weight: normal;
+    font-size: 0.7em;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 6em;
+    background-color: white;
+    border-bottom: rgba(0, 0, 0, 0.09) 1px solid;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.Results-mapScore {
+    text-align: center;
+    width: 4em;
+}
+
+.Results-victory {
+    background-color: white;
+    font-weight: bold;
+}
+
+.Results-loss {
+    background-color: rgba(0, 0, 0, 0.09);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.Results-teamRow {
+    background-color: white;
+}
+
+.Results-matchResultCell {
+    width: 3em;
+    text-align: center;
+    border-right: rgba(0, 0, 0, 0.09) 1px solid;
+}
+.Results-victoryRow .Results-matchResultCell {
+    background-color: black;
+    color:white;
+}
+
+
+
+.Results {
+    display: flex;
+}
