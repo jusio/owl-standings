@@ -46,6 +46,21 @@
 			"website": "https://spitfire.overwatchleague.com"
 		},
 		{
+			"id": "HOU",
+			"name": "Houston Outlaws",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
+			"secondaryColor": "000000",
+			"color": "97d700",
+			"mapPoints": {
+				"won": 19,
+				"lost": 6,
+				"draws": 0
+			},
+			"won": 4,
+			"lost": 2,
+			"website": "https://outlaws.overwatchleague.com"
+		},
+		{
 			"id": "VAL",
 			"name": "Los Angeles Valiant",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
@@ -76,21 +91,6 @@
 			"website": "https://fusion.overwatchleague.com"
 		},
 		{
-			"id": "HOU",
-			"name": "Houston Outlaws",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
-			"secondaryColor": "000000",
-			"color": "97d700",
-			"mapPoints": {
-				"won": 15,
-				"lost": 6,
-				"draws": 0
-			},
-			"won": 3,
-			"lost": 2,
-			"website": "https://outlaws.overwatchleague.com"
-		},
-		{
 			"id": "BOS",
 			"name": "Boston Uprising",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
@@ -113,11 +113,11 @@
 			"secondaryColor": "ffffff",
 			"mapPoints": {
 				"won": 9,
-				"lost": 13,
+				"lost": 17,
 				"draws": 0
 			},
 			"won": 2,
-			"lost": 3,
+			"lost": 4,
 			"website": "https://gladiators.overwatchleague.com"
 		},
 		{
@@ -182,36 +182,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10258,
-			"teams": [
-				"GLA",
-				"HOU"
-			],
-			"mapData": [
-				[
-					5739,
-					"numbani",
-					3,
-					4
-				],
-				[
-					5740,
-					"Anubis",
-					0,
-					1
-				],
-				[
-					5741,
-					"ilios"
-				],
-				[
-					5742,
-					"dorado"
-				]
-			],
-			"date": "2018-01-27T23:00:00.000Z"
-		},
 		{
 			"id": 10259,
 			"teams": [
@@ -1785,6 +1755,40 @@
 				]
 			],
 			"date": "2018-01-27T19:00:00.000Z"
+		},
+		{
+			"id": 10258,
+			"teams": [
+				"GLA",
+				"HOU"
+			],
+			"mapData": [
+				[
+					5739,
+					"numbani",
+					3,
+					4
+				],
+				[
+					5740,
+					"Anubis",
+					0,
+					1
+				],
+				[
+					5741,
+					"ilios",
+					0,
+					2
+				],
+				[
+					5742,
+					"dorado",
+					0,
+					1
+				]
+			],
+			"date": "2018-01-27T23:00:00.000Z"
 		},
 		{
 			"id": 10251,
