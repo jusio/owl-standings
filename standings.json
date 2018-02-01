@@ -750,11 +750,15 @@
 			"mapData": [
 				[
 					5743,
-					"numbani"
+					"numbani",
+					3,
+					2
 				],
 				[
 					5744,
-					"Anubis"
+					"Anubis",
+					2,
+					4
 				],
 				[
 					5745,
