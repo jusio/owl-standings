@@ -441,11 +441,11 @@
 			"color": "3c1053",
 			"secondaryColor": "ffffff",
 			"mapPoints": {
-				"won": 9,
-				"lost": 17,
+				"won": 12,
+				"lost": 18,
 				"draws": 0
 			},
-			"won": 2,
+			"won": 3,
 			"lost": 4,
 			"mapStats": {
 				"dorado": [
@@ -464,17 +464,17 @@
 					0
 				],
 				"eichenwalde": [
-					2,
+					3,
 					1,
 					0
 				],
 				"junkertown": [
 					0,
-					3,
+					4,
 					0
 				],
 				"Horizon": [
-					1,
+					2,
 					2,
 					0
 				],
@@ -489,7 +489,7 @@
 					0
 				],
 				"oasis": [
-					0,
+					1,
 					1,
 					0
 				]
@@ -627,12 +627,12 @@
 			"color": "feda01",
 			"secondaryColor": "af272f",
 			"mapPoints": {
-				"won": 6,
-				"lost": 18,
+				"won": 7,
+				"lost": 21,
 				"draws": 0
 			},
 			"won": 1,
-			"lost": 5,
+			"lost": 6,
 			"mapStats": {
 				"dorado": [
 					3,
@@ -646,7 +646,7 @@
 				],
 				"oasis": [
 					0,
-					3,
+					4,
 					0
 				],
 				"numbani": [
@@ -656,12 +656,12 @@
 				],
 				"eichenwalde": [
 					0,
-					3,
+					4,
 					0
 				],
 				"Horizon": [
 					0,
-					2,
+					3,
 					0
 				],
 				"ilios": [
@@ -670,7 +670,7 @@
 					0
 				],
 				"junkertown": [
-					0,
+					1,
 					1,
 					0
 				]
@@ -741,34 +741,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10260,
-			"teams": [
-				"FLA",
-				"GLA"
-			],
-			"mapData": [
-				[
-					5747,
-					"eichenwalde",
-					1,
-					2
-				],
-				[
-					5748,
-					"Horizon"
-				],
-				[
-					5749,
-					"oasis"
-				],
-				[
-					5750,
-					"junkertown"
-				]
-			],
-			"date": "2018-02-01T02:00:00.000Z"
-		},
 		{
 			"id": 10261,
 			"teams": [
@@ -2660,6 +2632,40 @@
 				]
 			],
 			"date": "2018-02-01T00:00:00.000Z"
+		},
+		{
+			"id": 10260,
+			"teams": [
+				"FLA",
+				"GLA"
+			],
+			"mapData": [
+				[
+					5747,
+					"eichenwalde",
+					1,
+					2
+				],
+				[
+					5748,
+					"Horizon",
+					0,
+					1
+				],
+				[
+					5749,
+					"oasis",
+					1,
+					2
+				],
+				[
+					5750,
+					"junkertown",
+					3,
+					2
+				]
+			],
+			"date": "2018-02-01T02:00:00.000Z"
 		}
 	]
 }
