@@ -187,6 +187,68 @@
 			"website": "https://spitfire.overwatchleague.com"
 		},
 		{
+			"id": "VAL",
+			"name": "Los Angeles Valiant",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
+			"color": "4a7729",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 19,
+				"lost": 9,
+				"draws": 2
+			},
+			"won": 5,
+			"lost": 2,
+			"mapStats": {
+				"dorado": [
+					2,
+					2,
+					0
+				],
+				"Anubis": [
+					3,
+					0,
+					0
+				],
+				"ilios": [
+					4,
+					0,
+					0
+				],
+				"numbani": [
+					3,
+					0,
+					1
+				],
+				"junkertown": [
+					2,
+					1,
+					0
+				],
+				"Horizon": [
+					0,
+					3,
+					1
+				],
+				"oasis": [
+					2,
+					1,
+					0
+				],
+				"eichenwalde": [
+					2,
+					1,
+					0
+				],
+				"lijiang": [
+					1,
+					1,
+					0
+				]
+			},
+			"website": "https://valiant.overwatchleague.com"
+		},
+		{
 			"id": "HOU",
 			"name": "Houston Outlaws",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
@@ -249,68 +311,6 @@
 			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
-			"id": "VAL",
-			"name": "Los Angeles Valiant",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
-			"color": "4a7729",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 15,
-				"lost": 9,
-				"draws": 2
-			},
-			"won": 4,
-			"lost": 2,
-			"mapStats": {
-				"dorado": [
-					1,
-					2,
-					0
-				],
-				"Anubis": [
-					2,
-					0,
-					0
-				],
-				"ilios": [
-					4,
-					0,
-					0
-				],
-				"numbani": [
-					2,
-					0,
-					1
-				],
-				"junkertown": [
-					2,
-					1,
-					0
-				],
-				"Horizon": [
-					0,
-					3,
-					1
-				],
-				"oasis": [
-					1,
-					1,
-					0
-				],
-				"eichenwalde": [
-					2,
-					1,
-					0
-				],
-				"lijiang": [
-					1,
-					1,
-					0
-				]
-			},
-			"website": "https://valiant.overwatchleague.com"
-		},
-		{
 			"id": "PHI",
 			"name": "Philadelphia Fusion",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
@@ -318,15 +318,15 @@
 			"secondaryColor": "000000",
 			"mapPoints": {
 				"won": 13,
-				"lost": 14,
+				"lost": 18,
 				"draws": 1
 			},
 			"won": 4,
-			"lost": 2,
+			"lost": 3,
 			"mapStats": {
 				"dorado": [
 					2,
-					1,
+					2,
 					0
 				],
 				"Horizon": [
@@ -336,7 +336,7 @@
 				],
 				"oasis": [
 					2,
-					1,
+					2,
 					0
 				],
 				"eichenwalde": [
@@ -361,12 +361,12 @@
 				],
 				"numbani": [
 					0,
-					3,
+					4,
 					0
 				],
 				"Anubis": [
 					3,
-					0,
+					1,
 					0
 				]
 			},
@@ -741,36 +741,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10259,
-			"teams": [
-				"VAL",
-				"PHI"
-			],
-			"mapData": [
-				[
-					5743,
-					"numbani",
-					3,
-					2
-				],
-				[
-					5744,
-					"Anubis",
-					2,
-					4
-				],
-				[
-					5745,
-					"oasis"
-				],
-				[
-					5746,
-					"dorado"
-				]
-			],
-			"date": "2018-02-01T00:00:00.000Z"
-		},
 		{
 			"id": 10260,
 			"teams": [
@@ -2654,6 +2624,40 @@
 				]
 			],
 			"date": "2018-01-27T23:00:00.000Z"
+		},
+		{
+			"id": 10259,
+			"teams": [
+				"VAL",
+				"PHI"
+			],
+			"mapData": [
+				[
+					5743,
+					"numbani",
+					3,
+					2
+				],
+				[
+					5744,
+					"Anubis",
+					5,
+					4
+				],
+				[
+					5745,
+					"oasis",
+					2,
+					0
+				],
+				[
+					5746,
+					"dorado",
+					3,
+					2
+				]
+			],
+			"date": "2018-02-01T00:00:00.000Z"
 		}
 	]
 }
