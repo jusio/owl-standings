@@ -63,88 +63,26 @@
 			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
-			"id": "SEO",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
-			"secondaryColor": "aa8a00",
-			"color": "000000",
-			"name": "Seoul Dynasty",
-			"mapPoints": {
-				"won": 19,
-				"lost": 5,
-				"draws": 1
-			},
-			"won": 5,
-			"lost": 1,
-			"mapStats": {
-				"junkertown": [
-					3,
-					1,
-					0
-				],
-				"Anubis": [
-					2,
-					0,
-					0
-				],
-				"ilios": [
-					2,
-					0,
-					0
-				],
-				"numbani": [
-					3,
-					0,
-					1
-				],
-				"Horizon": [
-					4,
-					0,
-					0
-				],
-				"dorado": [
-					1,
-					1,
-					0
-				],
-				"oasis": [
-					3,
-					1,
-					0
-				],
-				"eichenwalde": [
-					1,
-					1,
-					0
-				],
-				"lijiang": [
-					0,
-					1,
-					0
-				]
-			},
-			"website": "https://dynasty.overwatchleague.com"
-		},
-		{
 			"id": "LDN",
 			"name": "London Spitfire",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
 			"color": "ff8200",
 			"secondaryColor": "000000",
 			"mapPoints": {
-				"won": 18,
+				"won": 22,
 				"lost": 8,
 				"draws": 0
 			},
-			"won": 5,
+			"won": 6,
 			"lost": 1,
 			"mapStats": {
 				"dorado": [
-					1,
+					2,
 					1,
 					0
 				],
 				"Anubis": [
-					1,
+					2,
 					1,
 					0
 				],
@@ -154,7 +92,7 @@
 					0
 				],
 				"numbani": [
-					4,
+					5,
 					0,
 					0
 				],
@@ -169,7 +107,7 @@
 					0
 				],
 				"ilios": [
-					1,
+					2,
 					1,
 					0
 				],
@@ -247,6 +185,68 @@
 				]
 			},
 			"website": "https://outlaws.overwatchleague.com"
+		},
+		{
+			"id": "SEO",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
+			"secondaryColor": "aa8a00",
+			"color": "000000",
+			"name": "Seoul Dynasty",
+			"mapPoints": {
+				"won": 19,
+				"lost": 9,
+				"draws": 1
+			},
+			"won": 5,
+			"lost": 2,
+			"mapStats": {
+				"junkertown": [
+					3,
+					1,
+					0
+				],
+				"Anubis": [
+					2,
+					1,
+					0
+				],
+				"ilios": [
+					2,
+					1,
+					0
+				],
+				"numbani": [
+					3,
+					1,
+					1
+				],
+				"Horizon": [
+					4,
+					0,
+					0
+				],
+				"dorado": [
+					1,
+					2,
+					0
+				],
+				"oasis": [
+					3,
+					1,
+					0
+				],
+				"eichenwalde": [
+					1,
+					1,
+					0
+				],
+				"lijiang": [
+					0,
+					1,
+					0
+				]
+			},
+			"website": "https://dynasty.overwatchleague.com"
 		},
 		{
 			"id": "VAL",
@@ -741,36 +741,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10264,
-			"teams": [
-				"LDN",
-				"SEO"
-			],
-			"mapData": [
-				[
-					5763,
-					"numbani",
-					2,
-					0
-				],
-				[
-					5764,
-					"Anubis",
-					2,
-					0
-				],
-				[
-					5765,
-					"ilios"
-				],
-				[
-					5766,
-					"dorado"
-				]
-			],
-			"date": "2018-02-02T01:50:00.000Z"
-		},
 		{
 			"id": 10265,
 			"teams": [
@@ -2694,6 +2664,40 @@
 				]
 			],
 			"date": "2018-02-01T23:55:00.000Z"
+		},
+		{
+			"id": 10264,
+			"teams": [
+				"LDN",
+				"SEO"
+			],
+			"mapData": [
+				[
+					5763,
+					"numbani",
+					2,
+					0
+				],
+				[
+					5764,
+					"Anubis",
+					2,
+					0
+				],
+				[
+					5765,
+					"ilios",
+					2,
+					0
+				],
+				[
+					5766,
+					"dorado",
+					3,
+					2
+				]
+			],
+			"date": "2018-02-02T01:50:00.000Z"
 		}
 	]
 }
