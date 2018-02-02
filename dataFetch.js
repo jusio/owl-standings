@@ -48,16 +48,30 @@ async function printVods(matches) {
             })));
     vods.map(data => JSON.parse(data))
         .filter(vodData => vodData.data)
-        .forEach(vodData => {
-            vodData.data
+        .forEach((vodData,index) => {
+
+
+            const sorted = vodData.data
                 .sort((vod1, vod2) => {
                     const title1 = vod1.title.trim();
                     const title2 = vod2.title.trim();
                     if (title1 > title2) return 1;
                     if (title1 < title2) return -1;
                     return 0;
-                })
-                .forEach(vod => console.log("* [" + vod.title.trim() + "](" + vod.share_url + ")"))
+                });
+            const hasFullGame =  sorted.some(vod=>vod.title.indexOf("Full Match") > -1);
+            if(!hasFullGame){
+                console.log("\n NO FULL MATCH VOD FOR " + sorted[0].title.substring(7,17) + "\n")
+            }
+
+            sorted
+                .forEach(vod => console.log("* [" + vod.title.trim() + "](" + vod.share_url + ")"));
+
+
+            //FAKE 5th game if needed
+            if(sorted.length === (hasFullGame ? 5:4)){
+                console.log("* [Game 5 " + sorted[1].title.substring(7) + "](http://overwatch.eventvods.com/#uUMS)");
+            }
         });
 }
 
@@ -269,6 +283,9 @@ function transformData(scheduleResponse, teamsResponse) {
                 }
                 if (team1.mapPoints.lost !== team2.mapPoints.lost) {
                     return team1.mapPoints.lost - team2.mapPoints.lost;
+                }
+                if(team1.mapPoints.draws !== team2.mapPoints.draws){
+                    return team2.mapPoints.draws - team1.mapPoints.draws;
                 }
                 return 0;
             }),

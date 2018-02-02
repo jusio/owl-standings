@@ -1,6 +1,5 @@
 import "./Results.css"
 import React, {Component} from 'react';
-import Scores from './component/Scores';
 
 import Team from './component/Team';
 
@@ -51,6 +50,10 @@ const TeamRow = ({team, won, lost, mapData, index, opponentIndex}) => (
 class Results extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            "sort": "asc",
+            "filter": null
+        };
     }
 
     renderMatch(team1, team2, matchData, index, array) {

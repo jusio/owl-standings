@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://jusio.github.io/owl-standings/",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.1",
     "moment": "^2.20.1",
