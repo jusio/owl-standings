@@ -187,68 +187,6 @@
 			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
-			"id": "SEO",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
-			"secondaryColor": "aa8a00",
-			"color": "000000",
-			"name": "Seoul Dynasty",
-			"mapPoints": {
-				"won": 19,
-				"lost": 9,
-				"draws": 1
-			},
-			"won": 5,
-			"lost": 2,
-			"mapStats": {
-				"junkertown": [
-					3,
-					1,
-					0
-				],
-				"Anubis": [
-					2,
-					1,
-					0
-				],
-				"ilios": [
-					2,
-					1,
-					0
-				],
-				"numbani": [
-					3,
-					1,
-					1
-				],
-				"Horizon": [
-					4,
-					0,
-					0
-				],
-				"dorado": [
-					1,
-					2,
-					0
-				],
-				"oasis": [
-					3,
-					1,
-					0
-				],
-				"eichenwalde": [
-					1,
-					1,
-					0
-				],
-				"lijiang": [
-					0,
-					1,
-					0
-				]
-			},
-			"website": "https://dynasty.overwatchleague.com"
-		},
-		{
 			"id": "VAL",
 			"name": "Los Angeles Valiant",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
@@ -309,6 +247,68 @@
 				]
 			},
 			"website": "https://valiant.overwatchleague.com"
+		},
+		{
+			"id": "SEO",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
+			"secondaryColor": "aa8a00",
+			"color": "000000",
+			"name": "Seoul Dynasty",
+			"mapPoints": {
+				"won": 19,
+				"lost": 9,
+				"draws": 1
+			},
+			"won": 5,
+			"lost": 2,
+			"mapStats": {
+				"junkertown": [
+					3,
+					1,
+					0
+				],
+				"Anubis": [
+					2,
+					1,
+					0
+				],
+				"ilios": [
+					2,
+					1,
+					0
+				],
+				"numbani": [
+					3,
+					1,
+					1
+				],
+				"Horizon": [
+					4,
+					0,
+					0
+				],
+				"dorado": [
+					1,
+					2,
+					0
+				],
+				"oasis": [
+					3,
+					1,
+					0
+				],
+				"eichenwalde": [
+					1,
+					1,
+					0
+				],
+				"lijiang": [
+					0,
+					1,
+					0
+				]
+			},
+			"website": "https://dynasty.overwatchleague.com"
 		},
 		{
 			"id": "PHI",
