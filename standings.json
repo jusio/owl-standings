@@ -69,11 +69,11 @@
 			"secondaryColor": "ffffff",
 			"name": "New York Excelsior",
 			"mapPoints": {
-				"won": 22,
-				"lost": 7,
+				"won": 25,
+				"lost": 8,
 				"draws": 1
 			},
-			"won": 6,
+			"won": 7,
 			"lost": 1,
 			"mapStats": {
 				"junkertown": [
@@ -92,22 +92,22 @@
 					0
 				],
 				"numbani": [
-					3,
+					4,
 					0,
 					1
 				],
 				"Anubis": [
-					2,
+					3,
 					1,
 					0
 				],
 				"oasis": [
 					4,
-					0,
+					1,
 					0
 				],
 				"dorado": [
-					2,
+					3,
 					1,
 					0
 				],
@@ -565,12 +565,12 @@
 			"color": "0c2340",
 			"secondaryColor": "0072ce",
 			"mapPoints": {
-				"won": 7,
-				"lost": 19,
+				"won": 8,
+				"lost": 22,
 				"draws": 3
 			},
 			"won": 1,
-			"lost": 6,
+			"lost": 7,
 			"mapStats": {
 				"junkertown": [
 					2,
@@ -579,7 +579,7 @@
 				],
 				"Anubis": [
 					0,
-					3,
+					4,
 					0
 				],
 				"ilios": [
@@ -589,7 +589,7 @@
 				],
 				"numbani": [
 					1,
-					2,
+					3,
 					1
 				],
 				"Horizon": [
@@ -598,7 +598,7 @@
 					1
 				],
 				"oasis": [
-					1,
+					2,
 					1,
 					0
 				],
@@ -609,7 +609,7 @@
 				],
 				"dorado": [
 					1,
-					1,
+					2,
 					0
 				],
 				"lijiang": [
@@ -742,36 +742,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10269,
-			"teams": [
-				"DAL",
-				"NYE"
-			],
-			"mapData": [
-				[
-					5783,
-					"numbani",
-					0,
-					1
-				],
-				[
-					5784,
-					"Anubis",
-					4,
-					6
-				],
-				[
-					5785,
-					"oasis"
-				],
-				[
-					5786,
-					"dorado"
-				]
-			],
-			"date": "2018-02-03T20:25:00.000Z"
-		},
-		{
 			"id": 10270,
 			"teams": [
 				"BOS",
@@ -795,7 +765,7 @@
 					"junkertown"
 				]
 			],
-			"date": "2018-02-03T23:00:00.000Z"
+			"date": "2018-02-03T22:40:00.000Z"
 		},
 		{
 			"id": 10564,
@@ -2740,6 +2710,40 @@
 				]
 			],
 			"date": "2018-02-03T19:00:00.000Z"
+		},
+		{
+			"id": 10269,
+			"teams": [
+				"DAL",
+				"NYE"
+			],
+			"mapData": [
+				[
+					5783,
+					"numbani",
+					0,
+					1
+				],
+				[
+					5784,
+					"Anubis",
+					4,
+					6
+				],
+				[
+					5785,
+					"oasis",
+					2,
+					1
+				],
+				[
+					5786,
+					"dorado",
+					1,
+					2
+				]
+			],
+			"date": "2018-02-03T20:25:00.000Z"
 		}
 	]
 }
