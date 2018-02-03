@@ -750,15 +750,21 @@
 			"mapData": [
 				[
 					5779,
-					"eichenwalde"
+					"eichenwalde",
+					0,
+					1
 				],
 				[
 					5780,
-					"Horizon"
+					"Horizon",
+					0,
+					1
 				],
 				[
 					5781,
-					"ilios"
+					"ilios",
+					0,
+					1
 				],
 				[
 					5782,
