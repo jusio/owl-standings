@@ -187,68 +187,6 @@
 			"website": "https://dynasty.overwatchleague.com"
 		},
 		{
-			"id": "VAL",
-			"name": "Los Angeles Valiant",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
-			"color": "4a7729",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 19,
-				"lost": 9,
-				"draws": 2
-			},
-			"won": 5,
-			"lost": 2,
-			"mapStats": {
-				"dorado": [
-					2,
-					2,
-					0
-				],
-				"Anubis": [
-					3,
-					0,
-					0
-				],
-				"ilios": [
-					4,
-					0,
-					0
-				],
-				"numbani": [
-					3,
-					0,
-					1
-				],
-				"junkertown": [
-					2,
-					1,
-					0
-				],
-				"Horizon": [
-					0,
-					3,
-					1
-				],
-				"oasis": [
-					2,
-					1,
-					0
-				],
-				"eichenwalde": [
-					2,
-					1,
-					0
-				],
-				"lijiang": [
-					1,
-					1,
-					0
-				]
-			},
-			"website": "https://valiant.overwatchleague.com"
-		},
-		{
 			"id": "HOU",
 			"name": "Houston Outlaws",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
@@ -311,6 +249,130 @@
 			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
+			"id": "BOS",
+			"name": "Boston Uprising",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
+			"color": "174b97",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 21,
+				"lost": 14,
+				"draws": 0
+			},
+			"won": 5,
+			"lost": 3,
+			"mapStats": {
+				"junkertown": [
+					1,
+					3,
+					0
+				],
+				"Horizon": [
+					3,
+					1,
+					0
+				],
+				"ilios": [
+					2,
+					1,
+					0
+				],
+				"numbani": [
+					1,
+					4,
+					0
+				],
+				"dorado": [
+					2,
+					2,
+					0
+				],
+				"Anubis": [
+					4,
+					0,
+					0
+				],
+				"oasis": [
+					3,
+					2,
+					0
+				],
+				"eichenwalde": [
+					3,
+					0,
+					0
+				],
+				"lijiang": [
+					2,
+					1,
+					0
+				]
+			},
+			"website": "https://uprising.overwatchleague.com"
+		},
+		{
+			"id": "VAL",
+			"name": "Los Angeles Valiant",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
+			"color": "4a7729",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 19,
+				"lost": 13,
+				"draws": 2
+			},
+			"won": 5,
+			"lost": 3,
+			"mapStats": {
+				"dorado": [
+					2,
+					2,
+					0
+				],
+				"Anubis": [
+					3,
+					0,
+					0
+				],
+				"ilios": [
+					4,
+					0,
+					0
+				],
+				"numbani": [
+					3,
+					0,
+					1
+				],
+				"junkertown": [
+					2,
+					2,
+					0
+				],
+				"Horizon": [
+					0,
+					4,
+					1
+				],
+				"oasis": [
+					2,
+					2,
+					0
+				],
+				"eichenwalde": [
+					2,
+					2,
+					0
+				],
+				"lijiang": [
+					1,
+					1,
+					0
+				]
+			},
+			"website": "https://valiant.overwatchleague.com"
+		},
+		{
 			"id": "PHI",
 			"name": "Philadelphia Fusion",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
@@ -371,68 +433,6 @@
 				]
 			},
 			"website": "https://fusion.overwatchleague.com"
-		},
-		{
-			"id": "BOS",
-			"name": "Boston Uprising",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
-			"color": "174b97",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 17,
-				"lost": 14,
-				"draws": 0
-			},
-			"won": 4,
-			"lost": 3,
-			"mapStats": {
-				"junkertown": [
-					0,
-					3,
-					0
-				],
-				"Horizon": [
-					2,
-					1,
-					0
-				],
-				"ilios": [
-					2,
-					1,
-					0
-				],
-				"numbani": [
-					1,
-					4,
-					0
-				],
-				"dorado": [
-					2,
-					2,
-					0
-				],
-				"Anubis": [
-					4,
-					0,
-					0
-				],
-				"oasis": [
-					2,
-					2,
-					0
-				],
-				"eichenwalde": [
-					2,
-					0,
-					0
-				],
-				"lijiang": [
-					2,
-					1,
-					0
-				]
-			},
-			"website": "https://uprising.overwatchleague.com"
 		},
 		{
 			"id": "SFS",
@@ -741,36 +741,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10270,
-			"teams": [
-				"BOS",
-				"VAL"
-			],
-			"mapData": [
-				[
-					5787,
-					"eichenwalde",
-					6,
-					4
-				],
-				[
-					5788,
-					"Horizon",
-					2,
-					1
-				],
-				[
-					5789,
-					"oasis"
-				],
-				[
-					5790,
-					"junkertown"
-				]
-			],
-			"date": "2018-02-03T22:40:00.000Z"
-		},
 		{
 			"id": 10564,
 			"teams": [
@@ -2748,6 +2718,40 @@
 				]
 			],
 			"date": "2018-02-03T20:25:00.000Z"
+		},
+		{
+			"id": 10270,
+			"teams": [
+				"BOS",
+				"VAL"
+			],
+			"mapData": [
+				[
+					5787,
+					"eichenwalde",
+					6,
+					4
+				],
+				[
+					5788,
+					"Horizon",
+					2,
+					1
+				],
+				[
+					5789,
+					"oasis",
+					2,
+					0
+				],
+				[
+					5790,
+					"junkertown",
+					3,
+					1
+				]
+			],
+			"date": "2018-02-03T22:40:00.000Z"
 		}
 	]
 }
