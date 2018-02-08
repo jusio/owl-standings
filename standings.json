@@ -125,6 +125,68 @@
 			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
+			"id": "BOS",
+			"name": "Boston Uprising",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
+			"color": "174b97",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 25,
+				"lost": 14,
+				"draws": 0
+			},
+			"won": 6,
+			"lost": 3,
+			"mapStats": {
+				"junkertown": [
+					2,
+					3,
+					0
+				],
+				"Horizon": [
+					4,
+					1,
+					0
+				],
+				"ilios": [
+					3,
+					1,
+					0
+				],
+				"numbani": [
+					1,
+					4,
+					0
+				],
+				"dorado": [
+					2,
+					2,
+					0
+				],
+				"Anubis": [
+					4,
+					0,
+					0
+				],
+				"oasis": [
+					3,
+					2,
+					0
+				],
+				"eichenwalde": [
+					4,
+					0,
+					0
+				],
+				"lijiang": [
+					2,
+					1,
+					0
+				]
+			},
+			"website": "https://uprising.overwatchleague.com"
+		},
+		{
 			"id": "VAL",
 			"name": "Los Angeles Valiant",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
@@ -311,68 +373,6 @@
 			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
-			"id": "BOS",
-			"name": "Boston Uprising",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
-			"color": "174b97",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 21,
-				"lost": 14,
-				"draws": 0
-			},
-			"won": 5,
-			"lost": 3,
-			"mapStats": {
-				"junkertown": [
-					1,
-					3,
-					0
-				],
-				"Horizon": [
-					3,
-					1,
-					0
-				],
-				"ilios": [
-					2,
-					1,
-					0
-				],
-				"numbani": [
-					1,
-					4,
-					0
-				],
-				"dorado": [
-					2,
-					2,
-					0
-				],
-				"Anubis": [
-					4,
-					0,
-					0
-				],
-				"oasis": [
-					3,
-					2,
-					0
-				],
-				"eichenwalde": [
-					3,
-					0,
-					0
-				],
-				"lijiang": [
-					2,
-					1,
-					0
-				]
-			},
-			"website": "https://uprising.overwatchleague.com"
-		},
-		{
 			"id": "PHI",
 			"name": "Philadelphia Fusion",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
@@ -380,11 +380,11 @@
 			"secondaryColor": "000000",
 			"mapPoints": {
 				"won": 17,
-				"lost": 18,
+				"lost": 22,
 				"draws": 1
 			},
 			"won": 5,
-			"lost": 3,
+			"lost": 4,
 			"mapStats": {
 				"dorado": [
 					3,
@@ -393,7 +393,7 @@
 				],
 				"Horizon": [
 					1,
-					2,
+					3,
 					0
 				],
 				"oasis": [
@@ -403,7 +403,7 @@
 				],
 				"eichenwalde": [
 					2,
-					1,
+					2,
 					1
 				],
 				"lijiang": [
@@ -413,12 +413,12 @@
 				],
 				"junkertown": [
 					1,
-					2,
+					3,
 					0
 				],
 				"ilios": [
 					1,
-					3,
+					4,
 					0
 				],
 				"numbani": [
@@ -742,36 +742,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10567,
-			"teams": [
-				"PHI",
-				"BOS"
-			],
-			"mapData": [
-				[
-					5803,
-					"eichenwalde",
-					0,
-					1
-				],
-				[
-					5804,
-					"Horizon",
-					3,
-					4
-				],
-				[
-					5805,
-					"ilios"
-				],
-				[
-					5806,
-					"junkertown"
-				]
-			],
-			"date": "2018-02-08T22:00:00.000Z"
-		},
-		{
 			"id": 10568,
 			"teams": [
 				"FLA",
@@ -795,7 +765,7 @@
 					"junkertown"
 				]
 			],
-			"date": "2018-02-09T00:00:00.000Z"
+			"date": "2018-02-08T23:50:00.000Z"
 		},
 		{
 			"id": 10569,
@@ -2786,6 +2756,40 @@
 				]
 			],
 			"date": "2018-02-08T04:25:00.000Z"
+		},
+		{
+			"id": 10567,
+			"teams": [
+				"PHI",
+				"BOS"
+			],
+			"mapData": [
+				[
+					5803,
+					"eichenwalde",
+					0,
+					1
+				],
+				[
+					5804,
+					"Horizon",
+					3,
+					4
+				],
+				[
+					5805,
+					"ilios",
+					0,
+					2
+				],
+				[
+					5806,
+					"junkertown",
+					3,
+					4
+				]
+			],
+			"date": "2018-02-08T22:00:00.000Z"
 		}
 	]
 }
