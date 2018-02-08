@@ -750,7 +750,9 @@
 			"mapData": [
 				[
 					5791,
-					"eichenwalde"
+					"eichenwalde",
+					4,
+					3
 				],
 				[
 					5792,
