@@ -69,26 +69,26 @@
 			"color": "ff8200",
 			"secondaryColor": "000000",
 			"mapPoints": {
-				"won": 26,
-				"lost": 8,
+				"won": 27,
+				"lost": 11,
 				"draws": 0
 			},
 			"won": 7,
-			"lost": 1,
+			"lost": 2,
 			"mapStats": {
 				"dorado": [
-					2,
+					3,
 					1,
 					0
 				],
 				"Anubis": [
 					2,
-					1,
+					2,
 					0
 				],
 				"oasis": [
 					1,
-					3,
+					4,
 					0
 				],
 				"numbani": [
@@ -113,7 +113,7 @@
 				],
 				"eichenwalde": [
 					2,
-					1,
+					2,
 					0
 				],
 				"lijiang": [
@@ -123,6 +123,68 @@
 				]
 			},
 			"website": "https://spitfire.overwatchleague.com"
+		},
+		{
+			"id": "HOU",
+			"name": "Houston Outlaws",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
+			"secondaryColor": "000000",
+			"color": "97d700",
+			"mapPoints": {
+				"won": 27,
+				"lost": 11,
+				"draws": 0
+			},
+			"won": 6,
+			"lost": 3,
+			"mapStats": {
+				"dorado": [
+					2,
+					2,
+					0
+				],
+				"Horizon": [
+					4,
+					1,
+					0
+				],
+				"oasis": [
+					3,
+					2,
+					0
+				],
+				"eichenwalde": [
+					4,
+					0,
+					0
+				],
+				"lijiang": [
+					0,
+					2,
+					0
+				],
+				"junkertown": [
+					5,
+					0,
+					0
+				],
+				"Anubis": [
+					3,
+					1,
+					0
+				],
+				"ilios": [
+					2,
+					2,
+					0
+				],
+				"numbani": [
+					4,
+					1,
+					0
+				]
+			},
+			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
 			"id": "BOS",
@@ -309,68 +371,6 @@
 				]
 			},
 			"website": "https://dynasty.overwatchleague.com"
-		},
-		{
-			"id": "HOU",
-			"name": "Houston Outlaws",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
-			"secondaryColor": "000000",
-			"color": "97d700",
-			"mapPoints": {
-				"won": 24,
-				"lost": 10,
-				"draws": 0
-			},
-			"won": 5,
-			"lost": 3,
-			"mapStats": {
-				"dorado": [
-					2,
-					1,
-					0
-				],
-				"Horizon": [
-					4,
-					1,
-					0
-				],
-				"oasis": [
-					2,
-					2,
-					0
-				],
-				"eichenwalde": [
-					3,
-					0,
-					0
-				],
-				"lijiang": [
-					0,
-					2,
-					0
-				],
-				"junkertown": [
-					5,
-					0,
-					0
-				],
-				"Anubis": [
-					2,
-					1,
-					0
-				],
-				"ilios": [
-					2,
-					2,
-					0
-				],
-				"numbani": [
-					4,
-					1,
-					0
-				]
-			},
-			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
 			"id": "PHI",
@@ -741,36 +741,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10569,
-			"teams": [
-				"LDN",
-				"HOU"
-			],
-			"mapData": [
-				[
-					5811,
-					"eichenwalde",
-					1,
-					2
-				],
-				[
-					5812,
-					"Anubis",
-					1,
-					1
-				],
-				[
-					5813,
-					"oasis"
-				],
-				[
-					5814,
-					"dorado"
-				]
-			],
-			"date": "2018-02-09T01:55:00.000Z"
-		},
 		{
 			"id": 10570,
 			"teams": [
@@ -2802,6 +2772,40 @@
 				]
 			],
 			"date": "2018-02-08T23:50:00.000Z"
+		},
+		{
+			"id": 10569,
+			"teams": [
+				"LDN",
+				"HOU"
+			],
+			"mapData": [
+				[
+					5811,
+					"eichenwalde",
+					1,
+					2
+				],
+				[
+					5812,
+					"Anubis",
+					1,
+					2
+				],
+				[
+					5813,
+					"oasis",
+					0,
+					2
+				],
+				[
+					5814,
+					"dorado",
+					2,
+					1
+				]
+			],
+			"date": "2018-02-09T01:55:00.000Z"
 		}
 	]
 }
