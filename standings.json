@@ -750,11 +750,15 @@
 			"mapData": [
 				[
 					5815,
-					"eichenwalde"
+					"eichenwalde",
+					0,
+					1
 				],
 				[
 					5816,
-					"Anubis"
+					"Anubis",
+					2,
+					3
 				],
 				[
 					5817,
