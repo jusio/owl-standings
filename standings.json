@@ -7,16 +7,16 @@
 			"secondaryColor": "ffffff",
 			"name": "New York Excelsior",
 			"mapPoints": {
-				"won": 28,
-				"lost": 8,
+				"won": 31,
+				"lost": 10,
 				"draws": 2
 			},
-			"won": 8,
+			"won": 9,
 			"lost": 1,
 			"mapStats": {
 				"eichenwalde": [
 					4,
-					0,
+					1,
 					0
 				],
 				"Horizon": [
@@ -35,12 +35,12 @@
 					0
 				],
 				"lijiang": [
-					1,
+					2,
 					1,
 					0
 				],
 				"ilios": [
-					4,
+					5,
 					0,
 					0
 				],
@@ -50,13 +50,13 @@
 					1
 				],
 				"Anubis": [
-					3,
+					4,
 					1,
 					0
 				],
 				"dorado": [
 					3,
-					1,
+					2,
 					0
 				]
 			},
@@ -69,21 +69,21 @@
 			"color": "ff8200",
 			"secondaryColor": "000000",
 			"mapPoints": {
-				"won": 27,
-				"lost": 11,
+				"won": 29,
+				"lost": 14,
 				"draws": 0
 			},
 			"won": 7,
-			"lost": 2,
+			"lost": 3,
 			"mapStats": {
 				"dorado": [
-					3,
+					4,
 					1,
 					0
 				],
 				"Anubis": [
 					2,
-					2,
+					3,
 					0
 				],
 				"oasis": [
@@ -108,17 +108,17 @@
 				],
 				"ilios": [
 					3,
-					1,
+					2,
 					0
 				],
 				"eichenwalde": [
-					2,
+					3,
 					2,
 					0
 				],
 				"lijiang": [
 					1,
-					1,
+					2,
 					0
 				]
 			},
@@ -742,44 +742,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10573,
-			"teams": [
-				"NYE",
-				"LDN"
-			],
-			"mapData": [
-				[
-					5827,
-					"eichenwalde",
-					2,
-					3
-				],
-				[
-					5828,
-					"Anubis",
-					2,
-					1
-				],
-				[
-					5829,
-					"ilios",
-					2,
-					0
-				],
-				[
-					5830,
-					"dorado",
-					2,
-					3
-				],
-				[
-					7123,
-					"lijiang"
-				]
-			],
-			"date": "2018-02-10T19:00:00.000Z"
-		},
-		{
 			"id": 10574,
 			"teams": [
 				"HOU",
@@ -788,7 +750,9 @@
 			"mapData": [
 				[
 					5831,
-					"eichenwalde"
+					"eichenwalde",
+					2,
+					2
 				],
 				[
 					5832,
@@ -803,7 +767,7 @@
 					"dorado"
 				]
 			],
-			"date": "2018-02-10T21:00:00.000Z"
+			"date": "2018-02-10T21:15:00.000Z"
 		},
 		{
 			"id": 10575,
@@ -2848,6 +2812,46 @@
 				]
 			],
 			"date": "2018-02-10T04:00:00.000Z"
+		},
+		{
+			"id": 10573,
+			"teams": [
+				"NYE",
+				"LDN"
+			],
+			"mapData": [
+				[
+					5827,
+					"eichenwalde",
+					2,
+					3
+				],
+				[
+					5828,
+					"Anubis",
+					2,
+					1
+				],
+				[
+					5829,
+					"ilios",
+					2,
+					0
+				],
+				[
+					5830,
+					"dorado",
+					2,
+					3
+				],
+				[
+					7123,
+					"lijiang",
+					2,
+					0
+				]
+			],
+			"date": "2018-02-10T19:00:00.000Z"
 		}
 	]
 }
