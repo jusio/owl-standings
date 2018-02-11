@@ -63,6 +63,68 @@
 			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
+			"id": "HOU",
+			"name": "Houston Outlaws",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
+			"secondaryColor": "000000",
+			"color": "97d700",
+			"mapPoints": {
+				"won": 30,
+				"lost": 13,
+				"draws": 0
+			},
+			"won": 7,
+			"lost": 3,
+			"mapStats": {
+				"dorado": [
+					3,
+					2,
+					0
+				],
+				"Horizon": [
+					4,
+					1,
+					0
+				],
+				"oasis": [
+					3,
+					2,
+					0
+				],
+				"eichenwalde": [
+					5,
+					0,
+					0
+				],
+				"lijiang": [
+					1,
+					2,
+					0
+				],
+				"junkertown": [
+					5,
+					0,
+					0
+				],
+				"Anubis": [
+					3,
+					2,
+					0
+				],
+				"ilios": [
+					2,
+					3,
+					0
+				],
+				"numbani": [
+					4,
+					1,
+					0
+				]
+			},
+			"website": "https://outlaws.overwatchleague.com"
+		},
+		{
 			"id": "LDN",
 			"name": "London Spitfire",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
@@ -249,80 +311,18 @@
 			"website": "https://dynasty.overwatchleague.com"
 		},
 		{
-			"id": "HOU",
-			"name": "Houston Outlaws",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
-			"secondaryColor": "000000",
-			"color": "97d700",
-			"mapPoints": {
-				"won": 27,
-				"lost": 11,
-				"draws": 0
-			},
-			"won": 6,
-			"lost": 3,
-			"mapStats": {
-				"dorado": [
-					2,
-					2,
-					0
-				],
-				"Horizon": [
-					4,
-					1,
-					0
-				],
-				"oasis": [
-					3,
-					2,
-					0
-				],
-				"eichenwalde": [
-					4,
-					0,
-					0
-				],
-				"lijiang": [
-					0,
-					2,
-					0
-				],
-				"junkertown": [
-					5,
-					0,
-					0
-				],
-				"Anubis": [
-					3,
-					1,
-					0
-				],
-				"ilios": [
-					2,
-					2,
-					0
-				],
-				"numbani": [
-					4,
-					1,
-					0
-				]
-			},
-			"website": "https://outlaws.overwatchleague.com"
-		},
-		{
 			"id": "BOS",
 			"name": "Boston Uprising",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
 			"color": "174b97",
 			"secondaryColor": "ffffff",
 			"mapPoints": {
-				"won": 25,
-				"lost": 14,
+				"won": 27,
+				"lost": 17,
 				"draws": 0
 			},
 			"won": 6,
-			"lost": 3,
+			"lost": 4,
 			"mapStats": {
 				"junkertown": [
 					2,
@@ -335,7 +335,7 @@
 					0
 				],
 				"ilios": [
-					3,
+					4,
 					1,
 					0
 				],
@@ -346,11 +346,11 @@
 				],
 				"dorado": [
 					2,
-					2,
+					3,
 					0
 				],
 				"Anubis": [
-					4,
+					5,
 					0,
 					0
 				],
@@ -361,12 +361,12 @@
 				],
 				"eichenwalde": [
 					4,
-					0,
+					1,
 					0
 				],
 				"lijiang": [
 					2,
-					1,
+					2,
 					0
 				]
 			},
@@ -742,40 +742,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10574,
-			"teams": [
-				"HOU",
-				"BOS"
-			],
-			"mapData": [
-				[
-					5831,
-					"eichenwalde",
-					3,
-					2
-				],
-				[
-					5832,
-					"Anubis",
-					1,
-					2
-				],
-				[
-					5833,
-					"ilios",
-					0,
-					2
-				],
-				[
-					5834,
-					"dorado",
-					2,
-					0
-				]
-			],
-			"date": "2018-02-10T21:15:00.000Z"
-		},
-		{
 			"id": 10575,
 			"teams": [
 				"FLA",
@@ -799,7 +765,37 @@
 					"junkertown"
 				]
 			],
-			"date": "2018-02-10T23:00:00.000Z"
+			"date": "2018-02-10T23:40:00.000Z"
+		},
+		{
+			"id": 10537,
+			"teams": [
+				"HOU",
+				"LDN"
+			],
+			"mapData": [
+				[
+					7062,
+					"dorado"
+				],
+				[
+					7063,
+					"ilios"
+				],
+				[
+					7064,
+					"Anubis"
+				],
+				[
+					7065,
+					"eichenwalde"
+				],
+				[
+					7066,
+					"junkertown"
+				]
+			],
+			"date": "2018-02-11T01:00:00.000Z"
 		}
 	],
 	"matches": [
@@ -2858,6 +2854,46 @@
 				]
 			],
 			"date": "2018-02-10T19:00:00.000Z"
+		},
+		{
+			"id": 10574,
+			"teams": [
+				"HOU",
+				"BOS"
+			],
+			"mapData": [
+				[
+					5831,
+					"eichenwalde",
+					3,
+					2
+				],
+				[
+					5832,
+					"Anubis",
+					1,
+					2
+				],
+				[
+					5833,
+					"ilios",
+					0,
+					2
+				],
+				[
+					5834,
+					"dorado",
+					3,
+					2
+				],
+				[
+					7127,
+					"lijiang",
+					2,
+					1
+				]
+			],
+			"date": "2018-02-10T21:15:00.000Z"
 		}
 	]
 }
