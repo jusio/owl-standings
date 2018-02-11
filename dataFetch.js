@@ -198,7 +198,7 @@ function transformData(scheduleResponse, teamsResponse) {
             };
 
 
-            if (stageMatch.state !== "PENDING") {
+            if (stageMatch.state === "CONCLUDED") {
                 const team1 = teams[match.teams[0]];
                 const team2 = teams[match.teams[1]];
                 [team1, team2].forEach(team => {
@@ -226,7 +226,7 @@ function transformData(scheduleResponse, teamsResponse) {
                     team1.lost++;
                 }
 
-                const draws = stageMatch.games.filter(game => game.points[0] === game.points[1]).length;
+                const draws = stageMatch.games.filter(game => game.points && game.points[0] === game.points[1]).length;
                 team1.mapPoints.won += wins[0];
                 team1.mapPoints.lost += wins[1];
                 team1.mapPoints.draws += draws;
@@ -252,6 +252,10 @@ function transformData(scheduleResponse, teamsResponse) {
 
                 };
                 stageMatch.games.forEach(game => {
+                    if(!game.points){
+                        console.log(JSON.stringify(game,null,"\t"));
+                        return;
+                    }
                     const mapName = transformMapName(game.attributes.map);
                     updateMapStats(team1, mapName, game.points[0] > game.points[1], game.points[1] > game.points[0], game.points[0] === game.points[1]);
                     updateMapStats(team2, mapName, game.points[0] < game.points[1], game.points[1] < game.points[0], game.points[0] === game.points[1]);
