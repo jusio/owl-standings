@@ -750,11 +750,15 @@
 			"mapData": [
 				[
 					5835,
-					"numbani"
+					"numbani",
+					2,
+					3
 				],
 				[
 					5836,
-					"Horizon"
+					"Horizon",
+					2,
+					1
 				],
 				[
 					5837,
@@ -770,8 +774,8 @@
 		{
 			"id": 10537,
 			"teams": [
-				"HOU",
-				"LDN"
+				"LDN",
+				"HOU"
 			],
 			"mapData": [
 				[
@@ -795,7 +799,7 @@
 					"junkertown"
 				]
 			],
-			"date": "2018-02-11T01:00:00.000Z"
+			"date": "2018-02-11T01:30:00.000Z"
 		}
 	],
 	"matches": [
