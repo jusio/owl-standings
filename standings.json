@@ -14,30 +14,15 @@
 			"won": 9,
 			"lost": 2,
 			"mapStats": {
-				"eichenwalde": [
+				"junkertown": [
 					4,
-					1,
+					2,
 					0
 				],
 				"Horizon": [
 					2,
 					3,
 					1
-				],
-				"oasis": [
-					5,
-					1,
-					0
-				],
-				"junkertown": [
-					4,
-					2,
-					0
-				],
-				"lijiang": [
-					2,
-					1,
-					0
 				],
 				"ilios": [
 					5,
@@ -54,9 +39,24 @@
 					1,
 					0
 				],
+				"oasis": [
+					5,
+					1,
+					0
+				],
 				"dorado": [
 					3,
 					3,
+					0
+				],
+				"eichenwalde": [
+					4,
+					1,
+					0
+				],
+				"lijiang": [
+					2,
+					1,
 					0
 				]
 			},
@@ -138,14 +138,14 @@
 			"won": 7,
 			"lost": 3,
 			"mapStats": {
-				"junkertown": [
+				"dorado": [
 					3,
 					2,
 					0
 				],
-				"Horizon": [
-					0,
+				"Anubis": [
 					4,
+					0,
 					1
 				],
 				"ilios": [
@@ -158,12 +158,17 @@
 					0,
 					1
 				],
-				"oasis": [
+				"junkertown": [
 					3,
 					2,
 					0
 				],
-				"dorado": [
+				"Horizon": [
+					0,
+					4,
+					1
+				],
+				"oasis": [
 					3,
 					2,
 					0
@@ -177,11 +182,6 @@
 					1,
 					1,
 					0
-				],
-				"Anubis": [
-					4,
-					0,
-					1
 				]
 			},
 			"website": "https://valiant.overwatchleague.com"
@@ -200,29 +200,9 @@
 			"won": 7,
 			"lost": 3,
 			"mapStats": {
-				"eichenwalde": [
-					2,
-					3,
-					0
-				],
-				"Horizon": [
-					5,
-					0,
-					0
-				],
-				"oasis": [
-					3,
-					2,
-					0
-				],
 				"junkertown": [
 					3,
 					2,
-					0
-				],
-				"lijiang": [
-					2,
-					1,
 					0
 				],
 				"Anubis": [
@@ -240,9 +220,29 @@
 					1,
 					1
 				],
+				"Horizon": [
+					5,
+					0,
+					0
+				],
 				"dorado": [
 					2,
 					3,
+					0
+				],
+				"oasis": [
+					3,
+					2,
+					0
+				],
+				"eichenwalde": [
+					2,
+					3,
+					0
+				],
+				"lijiang": [
+					2,
+					1,
 					0
 				]
 			},
@@ -510,14 +510,14 @@
 			"won": 3,
 			"lost": 7,
 			"mapStats": {
-				"junkertown": [
+				"dorado": [
 					2,
 					3,
 					0
 				],
-				"Horizon": [
-					0,
-					5,
+				"Anubis": [
+					2,
+					3,
 					0
 				],
 				"ilios": [
@@ -530,14 +530,14 @@
 					2,
 					0
 				],
-				"dorado": [
+				"junkertown": [
 					2,
 					3,
 					0
 				],
-				"Anubis": [
-					2,
-					3,
+				"Horizon": [
+					0,
+					5,
 					0
 				],
 				"oasis": [
@@ -748,44 +748,38 @@
 	"upcomingMatches": [],
 	"matches": [
 		{
-			"id": 10253,
+			"id": 10223,
 			"teams": [
-				"SEO",
-				"NYE"
+				"SFS",
+				"VAL"
 			],
 			"mapData": [
 				[
-					5719,
-					"eichenwalde",
-					1,
-					2
+					5599,
+					"dorado",
+					2,
+					3
 				],
 				[
-					5720,
-					"Horizon",
-					5,
+					5600,
+					"Anubis",
+					3,
 					4
 				],
 				[
-					5721,
-					"oasis",
+					5601,
+					"ilios",
 					1,
 					2
 				],
 				[
-					5722,
-					"junkertown",
+					5602,
+					"numbani",
 					1,
-					0
-				],
-				[
-					6779,
-					"lijiang",
-					0,
 					2
 				]
 			],
-			"date": "2018-01-27T00:00:00.000Z"
+			"date": "2018-01-11T00:00:00.000Z"
 		},
 		{
 			"id": 10224,
@@ -1816,38 +1810,44 @@
 			"date": "2018-01-26T02:40:00.000Z"
 		},
 		{
-			"id": 10223,
+			"id": 10253,
 			"teams": [
-				"SFS",
-				"VAL"
+				"SEO",
+				"NYE"
 			],
 			"mapData": [
 				[
-					5599,
-					"dorado",
-					2,
-					3
+					5719,
+					"eichenwalde",
+					1,
+					2
 				],
 				[
-					5600,
-					"Anubis",
-					3,
+					5720,
+					"Horizon",
+					5,
 					4
 				],
 				[
-					5601,
-					"ilios",
+					5721,
+					"oasis",
 					1,
 					2
 				],
 				[
-					5602,
-					"numbani",
+					5722,
+					"junkertown",
 					1,
+					0
+				],
+				[
+					6779,
+					"lijiang",
+					0,
 					2
 				]
 			],
-			"date": "2018-01-11T00:00:00.000Z"
+			"date": "2018-01-27T00:00:00.000Z"
 		},
 		{
 			"id": 10254,
