@@ -11,10 +11,10 @@ const MapTypeIcon = ({type}) => (<img
     alt="Hybrid"
 />);
 
-const escortMaps = new Set(["junkertown", "dorado"]);
-const assaultMaps = new Set(["Anubis", "Horizon"]);
-const cpMaps = new Set(["oasis", "ilios", "lijiang"]);
-const hybridMaps = new Set(["eichenwalde", "numbani"]);
+const escortMaps = new Set(["junkertown", "dorado","route-66","gibraltar"]);
+const assaultMaps = new Set(["Anubis", "Horizon","volskaya","hanamura"]);
+const cpMaps = new Set(["oasis", "ilios", "lijiang","nepal"]);
+const hybridMaps = new Set(["eichenwalde", "numbani","hollywood","kings-row"]);
 
 const getMapType = (mapName) => {
     if (escortMaps.has(mapName)) {
