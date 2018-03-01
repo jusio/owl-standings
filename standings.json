@@ -157,6 +157,58 @@
 			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
+			"id": "GLA",
+			"name": "Los Angeles Gladiators",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/HU1A12H9JPNS1512520986367.svg",
+			"color": "3c1053",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 9,
+				"lost": 3,
+				"draws": 0
+			},
+			"won": 2,
+			"lost": 1,
+			"mapStats": {
+				"hanamura": [
+					1,
+					1,
+					0
+				],
+				"nepal": [
+					2,
+					0,
+					0
+				],
+				"kings-row": [
+					2,
+					1,
+					0
+				],
+				"gibraltar": [
+					1,
+					1,
+					0
+				],
+				"lijiang": [
+					1,
+					0,
+					0
+				],
+				"volskaya": [
+					1,
+					0,
+					0
+				],
+				"route-66": [
+					1,
+					0,
+					0
+				]
+			},
+			"website": "https://gladiators.overwatchleague.com"
+		},
+		{
 			"id": "DAL",
 			"name": "Dallas Fuel",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
@@ -266,48 +318,6 @@
 			"website": "https://valiant.overwatchleague.com"
 		},
 		{
-			"id": "GLA",
-			"name": "Los Angeles Gladiators",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/HU1A12H9JPNS1512520986367.svg",
-			"color": "3c1053",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 5,
-				"lost": 3,
-				"draws": 0
-			},
-			"won": 1,
-			"lost": 1,
-			"mapStats": {
-				"hanamura": [
-					1,
-					1,
-					0
-				],
-				"nepal": [
-					1,
-					0,
-					0
-				],
-				"kings-row": [
-					1,
-					1,
-					0
-				],
-				"gibraltar": [
-					1,
-					1,
-					0
-				],
-				"lijiang": [
-					1,
-					0,
-					0
-				]
-			},
-			"website": "https://gladiators.overwatchleague.com"
-		},
-		{
 			"id": "NYE",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jz/JZHJUJ8QM1AP1508818097057.svg",
 			"color": "171c38",
@@ -405,63 +415,6 @@
 				]
 			},
 			"website": "https://spitfire.overwatchleague.com"
-		},
-		{
-			"id": "SHD",
-			"name": "Shanghai Dragons",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/MHYBGBXKCBWW1512520986598.svg",
-			"color": "d22630",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 1,
-				"lost": 6,
-				"draws": 1
-			},
-			"won": 0,
-			"lost": 2,
-			"mapStats": {
-				"volskaya": [
-					0,
-					1,
-					0
-				],
-				"nepal": [
-					0,
-					1,
-					0
-				],
-				"hollywood": [
-					1,
-					0,
-					0
-				],
-				"route-66": [
-					0,
-					1,
-					0
-				],
-				"hanamura": [
-					0,
-					0,
-					1
-				],
-				"lijiang": [
-					0,
-					1,
-					0
-				],
-				"kings-row": [
-					0,
-					1,
-					0
-				],
-				"gibraltar": [
-					0,
-					1,
-					0
-				]
-			},
-			"website": null
 		},
 		{
 			"id": "FLA",
@@ -603,39 +556,66 @@
 				]
 			},
 			"website": "https://shock.overwatchleague.com"
+		},
+		{
+			"id": "SHD",
+			"name": "Shanghai Dragons",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/MHYBGBXKCBWW1512520986598.svg",
+			"color": "d22630",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 1,
+				"lost": 10,
+				"draws": 1
+			},
+			"won": 0,
+			"lost": 3,
+			"mapStats": {
+				"volskaya": [
+					0,
+					2,
+					0
+				],
+				"nepal": [
+					0,
+					2,
+					0
+				],
+				"hollywood": [
+					1,
+					0,
+					0
+				],
+				"route-66": [
+					0,
+					2,
+					0
+				],
+				"hanamura": [
+					0,
+					0,
+					1
+				],
+				"lijiang": [
+					0,
+					1,
+					0
+				],
+				"kings-row": [
+					0,
+					2,
+					0
+				],
+				"gibraltar": [
+					0,
+					1,
+					0
+				]
+			},
+			"website": null
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10292,
-			"teams": [
-				"GLA",
-				"SHD"
-			],
-			"mapData": [
-				[
-					5989,
-					"volskaya",
-					2,
-					0
-				],
-				[
-					5990,
-					"nepal",
-					2,
-					0
-				],
-				[
-					6936,
-					"kings-row"
-				],
-				[
-					5991,
-					"route-66"
-				]
-			],
-			"date": "2018-03-01T04:10:00.000Z"
-		},
 		{
 			"id": 10293,
 			"teams": [
@@ -2295,6 +2275,40 @@
 				]
 			],
 			"date": "2018-03-01T02:00:00.000Z"
+		},
+		{
+			"id": 10292,
+			"teams": [
+				"GLA",
+				"SHD"
+			],
+			"mapData": [
+				[
+					5989,
+					"volskaya",
+					2,
+					0
+				],
+				[
+					5990,
+					"nepal",
+					2,
+					0
+				],
+				[
+					6936,
+					"kings-row",
+					3,
+					2
+				],
+				[
+					5991,
+					"route-66",
+					3,
+					0
+				]
+			],
+			"date": "2018-03-01T04:10:00.000Z"
 		}
 	]
 }
