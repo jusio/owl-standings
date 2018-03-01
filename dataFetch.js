@@ -161,7 +161,7 @@ function transformData(scheduleResponse, teamsResponse) {
     const teams = defaultTeams;
     const matches = [];
     const upcomingMatches = [];
-    scheduleResponse.data.stages[1].matches
+    scheduleResponse.data.stages[2].matches
         .sort((match1, match2) => {
             if (match1.startDate > match2.startDate) return 1;
             if (match1.startDate < match2.startDate) return -1;

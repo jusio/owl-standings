@@ -72,7 +72,7 @@ class StandingsTable extends Component {
                 <h3>
                     {' '}
                     {this.props.playedMatches} of {this.props.totalMatches} matches played
-                    in Stage 1
+                    in Stage 2
                 </h3>
                 <table className="StandingsTable">
                     <thead>
