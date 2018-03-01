@@ -1,6 +1,63 @@
 {
 	"teams": [
 		{
+			"id": "SEO",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
+			"secondaryColor": "aa8a00",
+			"color": "000000",
+			"name": "Seoul Dynasty",
+			"mapPoints": {
+				"won": 10,
+				"lost": 2,
+				"draws": 0
+			},
+			"won": 3,
+			"lost": 0,
+			"mapStats": {
+				"volskaya": [
+					1,
+					0,
+					0
+				],
+				"nepal": [
+					2,
+					0,
+					0
+				],
+				"kings-row": [
+					1,
+					0,
+					0
+				],
+				"route-66": [
+					2,
+					0,
+					0
+				],
+				"hanamura": [
+					1,
+					1,
+					0
+				],
+				"lijiang": [
+					1,
+					0,
+					0
+				],
+				"hollywood": [
+					1,
+					1,
+					0
+				],
+				"gibraltar": [
+					1,
+					0,
+					0
+				]
+			},
+			"website": "https://dynasty.overwatchleague.com"
+		},
+		{
 			"id": "PHI",
 			"name": "Philadelphia Fusion",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
@@ -41,63 +98,6 @@
 				]
 			},
 			"website": "https://fusion.overwatchleague.com"
-		},
-		{
-			"id": "SEO",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
-			"secondaryColor": "aa8a00",
-			"color": "000000",
-			"name": "Seoul Dynasty",
-			"mapPoints": {
-				"won": 7,
-				"lost": 1,
-				"draws": 0
-			},
-			"won": 2,
-			"lost": 0,
-			"mapStats": {
-				"volskaya": [
-					1,
-					0,
-					0
-				],
-				"nepal": [
-					1,
-					0,
-					0
-				],
-				"kings-row": [
-					1,
-					0,
-					0
-				],
-				"route-66": [
-					1,
-					0,
-					0
-				],
-				"hanamura": [
-					0,
-					1,
-					0
-				],
-				"lijiang": [
-					1,
-					0,
-					0
-				],
-				"hollywood": [
-					1,
-					0,
-					0
-				],
-				"gibraltar": [
-					1,
-					0,
-					0
-				]
-			},
-			"website": "https://dynasty.overwatchleague.com"
 		},
 		{
 			"id": "HOU",
@@ -163,12 +163,12 @@
 			"color": "0c2340",
 			"secondaryColor": "0072ce",
 			"mapPoints": {
-				"won": 6,
-				"lost": 2,
+				"won": 7,
+				"lost": 5,
 				"draws": 0
 			},
 			"won": 2,
-			"lost": 0,
+			"lost": 1,
 			"mapStats": {
 				"volskaya": [
 					1,
@@ -177,22 +177,22 @@
 				],
 				"nepal": [
 					1,
-					0,
+					1,
 					0
 				],
 				"hollywood": [
-					0,
+					1,
 					1,
 					0
 				],
 				"route-66": [
 					1,
-					0,
+					1,
 					0
 				],
 				"hanamura": [
 					1,
-					0,
+					1,
 					0
 				],
 				"lijiang": [
@@ -601,36 +601,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10290,
-			"teams": [
-				"SEO",
-				"DAL"
-			],
-			"mapData": [
-				[
-					5982,
-					"hanamura",
-					4,
-					3
-				],
-				[
-					5983,
-					"nepal",
-					2,
-					1
-				],
-				[
-					5984,
-					"hollywood"
-				],
-				[
-					5985,
-					"route-66"
-				]
-			],
-			"date": "2018-03-01T00:00:00.000Z"
-		},
 		{
 			"id": 10291,
 			"teams": [
@@ -2274,6 +2244,40 @@
 				]
 			],
 			"date": "2018-02-25T00:45:00.000Z"
+		},
+		{
+			"id": 10290,
+			"teams": [
+				"SEO",
+				"DAL"
+			],
+			"mapData": [
+				[
+					5982,
+					"hanamura",
+					4,
+					3
+				],
+				[
+					5983,
+					"nepal",
+					2,
+					1
+				],
+				[
+					5984,
+					"hollywood",
+					2,
+					3
+				],
+				[
+					5985,
+					"route-66",
+					3,
+					2
+				]
+			],
+			"date": "2018-03-01T00:00:00.000Z"
 		}
 	]
 }
