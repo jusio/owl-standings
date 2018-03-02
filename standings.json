@@ -167,6 +167,58 @@
 			"website": "https://gladiators.overwatchleague.com"
 		},
 		{
+			"id": "NYE",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jz/JZHJUJ8QM1AP1508818097057.svg",
+			"color": "171c38",
+			"secondaryColor": "ffffff",
+			"name": "New York Excelsior",
+			"mapPoints": {
+				"won": 9,
+				"lost": 4,
+				"draws": 0
+			},
+			"won": 2,
+			"lost": 1,
+			"mapStats": {
+				"hanamura": [
+					2,
+					0,
+					0
+				],
+				"lijiang": [
+					1,
+					1,
+					0
+				],
+				"kings-row": [
+					3,
+					0,
+					0
+				],
+				"gibraltar": [
+					2,
+					1,
+					0
+				],
+				"volskaya": [
+					0,
+					1,
+					0
+				],
+				"ilios": [
+					0,
+					1,
+					0
+				],
+				"nepal": [
+					1,
+					0,
+					0
+				]
+			},
+			"website": "https://excelsior.overwatchleague.com"
+		},
+		{
 			"id": "HOU",
 			"name": "Houston Outlaws",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
@@ -390,95 +442,6 @@
 			"website": "https://valiant.overwatchleague.com"
 		},
 		{
-			"id": "NYE",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jz/JZHJUJ8QM1AP1508818097057.svg",
-			"color": "171c38",
-			"secondaryColor": "ffffff",
-			"name": "New York Excelsior",
-			"mapPoints": {
-				"won": 5,
-				"lost": 4,
-				"draws": 0
-			},
-			"won": 1,
-			"lost": 1,
-			"mapStats": {
-				"hanamura": [
-					1,
-					0,
-					0
-				],
-				"lijiang": [
-					1,
-					1,
-					0
-				],
-				"kings-row": [
-					2,
-					0,
-					0
-				],
-				"gibraltar": [
-					1,
-					1,
-					0
-				],
-				"volskaya": [
-					0,
-					1,
-					0
-				],
-				"ilios": [
-					0,
-					1,
-					0
-				]
-			},
-			"website": "https://excelsior.overwatchleague.com"
-		},
-		{
-			"id": "BOS",
-			"name": "Boston Uprising",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
-			"color": "174b97",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 0,
-				"lost": 8,
-				"draws": 0
-			},
-			"won": 0,
-			"lost": 2,
-			"mapStats": {
-				"hanamura": [
-					0,
-					2,
-					0
-				],
-				"lijiang": [
-					0,
-					2,
-					0
-				],
-				"hollywood": [
-					0,
-					1,
-					0
-				],
-				"gibraltar": [
-					0,
-					2,
-					0
-				],
-				"kings-row": [
-					0,
-					1,
-					0
-				]
-			},
-			"website": "https://uprising.overwatchleague.com"
-		},
-		{
 			"id": "SFS",
 			"name": "San Francisco Shock",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/PKGNG1U3MGZ71512520986545.svg",
@@ -643,43 +606,56 @@
 				]
 			},
 			"website": null
+		},
+		{
+			"id": "BOS",
+			"name": "Boston Uprising",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
+			"color": "174b97",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 0,
+				"lost": 12,
+				"draws": 0
+			},
+			"won": 0,
+			"lost": 3,
+			"mapStats": {
+				"hanamura": [
+					0,
+					3,
+					0
+				],
+				"lijiang": [
+					0,
+					2,
+					0
+				],
+				"hollywood": [
+					0,
+					1,
+					0
+				],
+				"gibraltar": [
+					0,
+					3,
+					0
+				],
+				"kings-row": [
+					0,
+					2,
+					0
+				],
+				"nepal": [
+					0,
+					1,
+					0
+				]
+			},
+			"website": "https://uprising.overwatchleague.com"
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10295,
-			"teams": [
-				"NYE",
-				"BOS"
-			],
-			"mapData": [
-				[
-					5999,
-					"hanamura",
-					2,
-					1
-				],
-				[
-					6000,
-					"nepal",
-					2,
-					1
-				],
-				[
-					6938,
-					"kings-row",
-					3,
-					2
-				],
-				[
-					6001,
-					"gibraltar",
-					3,
-					0
-				]
-			],
-			"date": "2018-03-02T04:10:00.000Z"
-		},
 		{
 			"id": 10296,
 			"teams": [
@@ -2369,6 +2345,40 @@
 				]
 			],
 			"date": "2018-03-02T01:45:00.000Z"
+		},
+		{
+			"id": 10295,
+			"teams": [
+				"NYE",
+				"BOS"
+			],
+			"mapData": [
+				[
+					5999,
+					"hanamura",
+					2,
+					1
+				],
+				[
+					6000,
+					"nepal",
+					2,
+					1
+				],
+				[
+					6938,
+					"kings-row",
+					3,
+					2
+				],
+				[
+					6001,
+					"gibraltar",
+					3,
+					0
+				]
+			],
+			"date": "2018-03-02T04:10:00.000Z"
 		}
 	]
 }
