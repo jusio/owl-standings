@@ -209,6 +209,58 @@
 			"website": "https://gladiators.overwatchleague.com"
 		},
 		{
+			"id": "LDN",
+			"name": "London Spitfire",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
+			"color": "ff8200",
+			"secondaryColor": "000000",
+			"mapPoints": {
+				"won": 8,
+				"lost": 6,
+				"draws": 0
+			},
+			"won": 2,
+			"lost": 1,
+			"mapStats": {
+				"volskaya": [
+					2,
+					1,
+					0
+				],
+				"nepal": [
+					0,
+					1,
+					0
+				],
+				"kings-row": [
+					1,
+					2,
+					0
+				],
+				"route-66": [
+					2,
+					0,
+					0
+				],
+				"ilios": [
+					1,
+					1,
+					0
+				],
+				"lijiang": [
+					1,
+					1,
+					0
+				],
+				"gibraltar": [
+					1,
+					0,
+					0
+				]
+			},
+			"website": "https://spitfire.overwatchleague.com"
+		},
+		{
 			"id": "DAL",
 			"name": "Dallas Fuel",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
@@ -365,105 +417,6 @@
 			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
-			"id": "LDN",
-			"name": "London Spitfire",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
-			"color": "ff8200",
-			"secondaryColor": "000000",
-			"mapPoints": {
-				"won": 5,
-				"lost": 5,
-				"draws": 0
-			},
-			"won": 1,
-			"lost": 1,
-			"mapStats": {
-				"volskaya": [
-					2,
-					0,
-					0
-				],
-				"nepal": [
-					0,
-					1,
-					0
-				],
-				"kings-row": [
-					0,
-					2,
-					0
-				],
-				"route-66": [
-					1,
-					0,
-					0
-				],
-				"ilios": [
-					1,
-					1,
-					0
-				],
-				"lijiang": [
-					0,
-					1,
-					0
-				],
-				"gibraltar": [
-					1,
-					0,
-					0
-				]
-			},
-			"website": "https://spitfire.overwatchleague.com"
-		},
-		{
-			"id": "FLA",
-			"name": "Florida Mayhem",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
-			"color": "feda01",
-			"secondaryColor": "af272f",
-			"mapPoints": {
-				"won": 1,
-				"lost": 7,
-				"draws": 0
-			},
-			"won": 0,
-			"lost": 2,
-			"mapStats": {
-				"hanamura": [
-					0,
-					2,
-					0
-				],
-				"lijiang": [
-					1,
-					0,
-					0
-				],
-				"kings-row": [
-					0,
-					1,
-					0
-				],
-				"gibraltar": [
-					0,
-					2,
-					0
-				],
-				"nepal": [
-					0,
-					1,
-					0
-				],
-				"hollywood": [
-					0,
-					1,
-					0
-				]
-			},
-			"website": "https://mayhem.overwatchleague.com"
-		},
-		{
 			"id": "BOS",
 			"name": "Boston Uprising",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
@@ -558,6 +511,63 @@
 			"website": "https://shock.overwatchleague.com"
 		},
 		{
+			"id": "FLA",
+			"name": "Florida Mayhem",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
+			"color": "feda01",
+			"secondaryColor": "af272f",
+			"mapPoints": {
+				"won": 2,
+				"lost": 10,
+				"draws": 0
+			},
+			"won": 0,
+			"lost": 3,
+			"mapStats": {
+				"hanamura": [
+					0,
+					2,
+					0
+				],
+				"lijiang": [
+					1,
+					1,
+					0
+				],
+				"kings-row": [
+					0,
+					2,
+					0
+				],
+				"gibraltar": [
+					0,
+					2,
+					0
+				],
+				"nepal": [
+					0,
+					1,
+					0
+				],
+				"hollywood": [
+					0,
+					1,
+					0
+				],
+				"volskaya": [
+					1,
+					0,
+					0
+				],
+				"route-66": [
+					0,
+					1,
+					0
+				]
+			},
+			"website": "https://mayhem.overwatchleague.com"
+		},
+		{
 			"id": "SHD",
 			"name": "Shanghai Dragons",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/MHYBGBXKCBWW1512520986598.svg",
@@ -617,36 +627,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10293,
-			"teams": [
-				"FLA",
-				"LDN"
-			],
-			"mapData": [
-				[
-					5992,
-					"volskaya",
-					4,
-					3
-				],
-				[
-					5993,
-					"lijiang",
-					0,
-					2
-				],
-				[
-					6937,
-					"kings-row"
-				],
-				[
-					5994,
-					"route-66"
-				]
-			],
-			"date": "2018-03-02T00:00:00.000Z"
-		},
-		{
 			"id": 10294,
 			"teams": [
 				"HOU",
@@ -670,7 +650,7 @@
 					"route-66"
 				]
 			],
-			"date": "2018-03-02T02:00:00.000Z"
+			"date": "2018-03-02T01:45:00.000Z"
 		},
 		{
 			"id": 10295,
@@ -2313,6 +2293,40 @@
 				]
 			],
 			"date": "2018-03-01T04:10:00.000Z"
+		},
+		{
+			"id": 10293,
+			"teams": [
+				"FLA",
+				"LDN"
+			],
+			"mapData": [
+				[
+					5992,
+					"volskaya",
+					4,
+					3
+				],
+				[
+					5993,
+					"lijiang",
+					0,
+					2
+				],
+				[
+					6937,
+					"kings-row",
+					0,
+					1
+				],
+				[
+					5994,
+					"route-66",
+					2,
+					3
+				]
+			],
+			"date": "2018-03-02T00:00:00.000Z"
 		}
 	]
 }
