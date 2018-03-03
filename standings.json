@@ -1,6 +1,63 @@
 {
 	"teams": [
 		{
+			"id": "SEO",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
+			"secondaryColor": "aa8a00",
+			"color": "000000",
+			"name": "Seoul Dynasty",
+			"mapPoints": {
+				"won": 13,
+				"lost": 3,
+				"draws": 0
+			},
+			"won": 4,
+			"lost": 0,
+			"mapStats": {
+				"volskaya": [
+					1,
+					0,
+					0
+				],
+				"nepal": [
+					2,
+					1,
+					0
+				],
+				"kings-row": [
+					1,
+					0,
+					0
+				],
+				"route-66": [
+					2,
+					0,
+					0
+				],
+				"hanamura": [
+					2,
+					1,
+					0
+				],
+				"lijiang": [
+					1,
+					0,
+					0
+				],
+				"hollywood": [
+					2,
+					1,
+					0
+				],
+				"gibraltar": [
+					2,
+					0,
+					0
+				]
+			},
+			"website": "https://dynasty.overwatchleague.com"
+		},
+		{
 			"id": "PHI",
 			"name": "Philadelphia Fusion",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
@@ -56,115 +113,6 @@
 				]
 			},
 			"website": "https://fusion.overwatchleague.com"
-		},
-		{
-			"id": "SEO",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
-			"secondaryColor": "aa8a00",
-			"color": "000000",
-			"name": "Seoul Dynasty",
-			"mapPoints": {
-				"won": 10,
-				"lost": 2,
-				"draws": 0
-			},
-			"won": 3,
-			"lost": 0,
-			"mapStats": {
-				"volskaya": [
-					1,
-					0,
-					0
-				],
-				"nepal": [
-					2,
-					0,
-					0
-				],
-				"kings-row": [
-					1,
-					0,
-					0
-				],
-				"route-66": [
-					2,
-					0,
-					0
-				],
-				"hanamura": [
-					1,
-					1,
-					0
-				],
-				"lijiang": [
-					1,
-					0,
-					0
-				],
-				"hollywood": [
-					1,
-					1,
-					0
-				],
-				"gibraltar": [
-					1,
-					0,
-					0
-				]
-			},
-			"website": "https://dynasty.overwatchleague.com"
-		},
-		{
-			"id": "GLA",
-			"name": "Los Angeles Gladiators",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/HU1A12H9JPNS1512520986367.svg",
-			"color": "3c1053",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 9,
-				"lost": 3,
-				"draws": 0
-			},
-			"won": 2,
-			"lost": 1,
-			"mapStats": {
-				"hanamura": [
-					1,
-					1,
-					0
-				],
-				"nepal": [
-					2,
-					0,
-					0
-				],
-				"kings-row": [
-					2,
-					1,
-					0
-				],
-				"gibraltar": [
-					1,
-					1,
-					0
-				],
-				"lijiang": [
-					1,
-					0,
-					0
-				],
-				"volskaya": [
-					1,
-					0,
-					0
-				],
-				"route-66": [
-					1,
-					0,
-					0
-				]
-			},
-			"website": "https://gladiators.overwatchleague.com"
 		},
 		{
 			"id": "NYE",
@@ -442,6 +390,63 @@
 			"website": "https://valiant.overwatchleague.com"
 		},
 		{
+			"id": "GLA",
+			"name": "Los Angeles Gladiators",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/HU1A12H9JPNS1512520986367.svg",
+			"color": "3c1053",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 10,
+				"lost": 6,
+				"draws": 0
+			},
+			"won": 2,
+			"lost": 2,
+			"mapStats": {
+				"hanamura": [
+					1,
+					2,
+					0
+				],
+				"nepal": [
+					3,
+					0,
+					0
+				],
+				"kings-row": [
+					2,
+					1,
+					0
+				],
+				"gibraltar": [
+					1,
+					2,
+					0
+				],
+				"lijiang": [
+					1,
+					0,
+					0
+				],
+				"volskaya": [
+					1,
+					0,
+					0
+				],
+				"route-66": [
+					1,
+					0,
+					0
+				],
+				"hollywood": [
+					0,
+					1,
+					0
+				]
+			},
+			"website": "https://gladiators.overwatchleague.com"
+		},
+		{
 			"id": "BOS",
 			"name": "Boston Uprising",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
@@ -667,36 +672,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10297,
-			"teams": [
-				"GLA",
-				"SEO"
-			],
-			"mapData": [
-				[
-					6006,
-					"hanamura",
-					1,
-					2
-				],
-				[
-					6007,
-					"nepal",
-					2,
-					0
-				],
-				[
-					6008,
-					"hollywood"
-				],
-				[
-					6009,
-					"gibraltar"
-				]
-			],
-			"date": "2018-03-03T01:45:00.000Z"
-		},
-		{
 			"id": 10298,
 			"teams": [
 				"DAL",
@@ -720,7 +695,7 @@
 					"gibraltar"
 				]
 			],
-			"date": "2018-03-03T04:00:00.000Z"
+			"date": "2018-03-03T03:35:00.000Z"
 		},
 		{
 			"id": 10299,
@@ -2401,6 +2376,40 @@
 				]
 			],
 			"date": "2018-03-03T00:00:00.000Z"
+		},
+		{
+			"id": 10297,
+			"teams": [
+				"GLA",
+				"SEO"
+			],
+			"mapData": [
+				[
+					6006,
+					"hanamura",
+					1,
+					2
+				],
+				[
+					6007,
+					"nepal",
+					2,
+					0
+				],
+				[
+					6008,
+					"hollywood",
+					1,
+					2
+				],
+				[
+					6009,
+					"gibraltar",
+					0,
+					1
+				]
+			],
+			"date": "2018-03-03T01:45:00.000Z"
 		}
 	]
 }
