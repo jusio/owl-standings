@@ -700,15 +700,21 @@
 			"mapData": [
 				[
 					6021,
-					"hanamura"
+					"hanamura",
+					0,
+					1
 				],
 				[
 					6022,
-					"nepal"
+					"nepal",
+					1,
+					2
 				],
 				[
 					6940,
-					"kings-row"
+					"kings-row",
+					2,
+					0
 				],
 				[
 					6023,
