@@ -700,11 +700,15 @@
 			"mapData": [
 				[
 					6027,
-					"volskaya"
+					"volskaya",
+					4,
+					4
 				],
 				[
 					6028,
-					"lijiang"
+					"lijiang",
+					2,
+					1
 				],
 				[
 					6942,
