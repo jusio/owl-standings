@@ -234,78 +234,21 @@
 			"website": "https://fusion.overwatchleague.com"
 		},
 		{
-			"id": "VAL",
-			"name": "Los Angeles Valiant",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
-			"color": "4a7729",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 9,
-				"lost": 6,
-				"draws": 1
-			},
-			"won": 3,
-			"lost": 1,
-			"mapStats": {
-				"volskaya": [
-					0,
-					2,
-					0
-				],
-				"nepal": [
-					1,
-					1,
-					0
-				],
-				"kings-row": [
-					2,
-					1,
-					0
-				],
-				"route-66": [
-					0,
-					1,
-					0
-				],
-				"hanamura": [
-					1,
-					0,
-					1
-				],
-				"lijiang": [
-					2,
-					0,
-					0
-				],
-				"gibraltar": [
-					2,
-					1,
-					0
-				],
-				"hollywood": [
-					1,
-					0,
-					0
-				]
-			},
-			"website": "https://valiant.overwatchleague.com"
-		},
-		{
 			"id": "GLA",
 			"name": "Los Angeles Gladiators",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/HU1A12H9JPNS1512520986367.svg",
 			"color": "3c1053",
 			"secondaryColor": "ffffff",
 			"mapPoints": {
-				"won": 10,
+				"won": 14,
 				"lost": 6,
 				"draws": 0
 			},
-			"won": 2,
+			"won": 3,
 			"lost": 2,
 			"mapStats": {
 				"hanamura": [
-					1,
+					2,
 					2,
 					0
 				],
@@ -320,12 +263,12 @@
 					0
 				],
 				"gibraltar": [
-					1,
+					2,
 					2,
 					0
 				],
 				"lijiang": [
-					1,
+					2,
 					0,
 					0
 				],
@@ -340,12 +283,69 @@
 					0
 				],
 				"hollywood": [
-					0,
+					1,
 					1,
 					0
 				]
 			},
 			"website": "https://gladiators.overwatchleague.com"
+		},
+		{
+			"id": "VAL",
+			"name": "Los Angeles Valiant",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
+			"color": "4a7729",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 9,
+				"lost": 10,
+				"draws": 1
+			},
+			"won": 3,
+			"lost": 2,
+			"mapStats": {
+				"volskaya": [
+					0,
+					2,
+					0
+				],
+				"nepal": [
+					1,
+					1,
+					0
+				],
+				"kings-row": [
+					2,
+					1,
+					0
+				],
+				"route-66": [
+					0,
+					1,
+					0
+				],
+				"hanamura": [
+					1,
+					1,
+					1
+				],
+				"lijiang": [
+					2,
+					1,
+					0
+				],
+				"gibraltar": [
+					2,
+					2,
+					0
+				],
+				"hollywood": [
+					1,
+					1,
+					0
+				]
+			},
+			"website": "https://valiant.overwatchleague.com"
 		},
 		{
 			"id": "HOU",
@@ -696,40 +696,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10304,
-			"teams": [
-				"VAL",
-				"GLA"
-			],
-			"mapData": [
-				[
-					6030,
-					"hanamura",
-					4,
-					5
-				],
-				[
-					6031,
-					"lijiang",
-					0,
-					2
-				],
-				[
-					6032,
-					"hollywood",
-					1,
-					2
-				],
-				[
-					6033,
-					"gibraltar",
-					3,
-					2
-				]
-			],
-			"date": "2018-03-08T04:00:00.000Z"
-		},
 		{
 			"id": 10305,
 			"teams": [
@@ -2491,6 +2457,40 @@
 				]
 			],
 			"date": "2018-03-08T01:50:00.000Z"
+		},
+		{
+			"id": 10304,
+			"teams": [
+				"VAL",
+				"GLA"
+			],
+			"mapData": [
+				[
+					6030,
+					"hanamura",
+					4,
+					5
+				],
+				[
+					6031,
+					"lijiang",
+					0,
+					2
+				],
+				[
+					6032,
+					"hollywood",
+					1,
+					2
+				],
+				[
+					6033,
+					"gibraltar",
+					5,
+					6
+				]
+			],
+			"date": "2018-03-08T04:00:00.000Z"
 		}
 	]
 }
