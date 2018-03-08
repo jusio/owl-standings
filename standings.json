@@ -410,74 +410,17 @@
 			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
-			"id": "DAL",
-			"name": "Dallas Fuel",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
-			"color": "0c2340",
-			"secondaryColor": "0072ce",
-			"mapPoints": {
-				"won": 8,
-				"lost": 8,
-				"draws": 0
-			},
-			"won": 2,
-			"lost": 2,
-			"mapStats": {
-				"volskaya": [
-					1,
-					0,
-					0
-				],
-				"nepal": [
-					1,
-					2,
-					0
-				],
-				"hollywood": [
-					1,
-					2,
-					0
-				],
-				"route-66": [
-					1,
-					1,
-					0
-				],
-				"hanamura": [
-					1,
-					2,
-					0
-				],
-				"lijiang": [
-					0,
-					1,
-					0
-				],
-				"kings-row": [
-					1,
-					0,
-					0
-				],
-				"gibraltar": [
-					2,
-					0,
-					0
-				]
-			},
-			"website": "https://fuel.overwatchleague.com"
-		},
-		{
 			"id": "SFS",
 			"name": "San Francisco Shock",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/PKGNG1U3MGZ71512520986545.svg",
 			"color": "fc4c02",
 			"secondaryColor": "75787b",
 			"mapPoints": {
-				"won": 6,
+				"won": 9,
 				"lost": 10,
-				"draws": 0
+				"draws": 1
 			},
-			"won": 1,
+			"won": 2,
 			"lost": 3,
 			"mapStats": {
 				"hanamura": [
@@ -491,7 +434,7 @@
 					0
 				],
 				"kings-row": [
-					1,
+					2,
 					2,
 					0
 				],
@@ -501,7 +444,7 @@
 					0
 				],
 				"lijiang": [
-					0,
+					1,
 					2,
 					0
 				],
@@ -513,10 +456,72 @@
 				"volskaya": [
 					1,
 					0,
+					1
+				],
+				"route-66": [
+					1,
+					0,
 					0
 				]
 			},
 			"website": "https://shock.overwatchleague.com"
+		},
+		{
+			"id": "DAL",
+			"name": "Dallas Fuel",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
+			"color": "0c2340",
+			"secondaryColor": "0072ce",
+			"mapPoints": {
+				"won": 8,
+				"lost": 11,
+				"draws": 1
+			},
+			"won": 2,
+			"lost": 3,
+			"mapStats": {
+				"volskaya": [
+					1,
+					0,
+					1
+				],
+				"nepal": [
+					1,
+					2,
+					0
+				],
+				"hollywood": [
+					1,
+					2,
+					0
+				],
+				"route-66": [
+					1,
+					2,
+					0
+				],
+				"hanamura": [
+					1,
+					2,
+					0
+				],
+				"lijiang": [
+					0,
+					2,
+					0
+				],
+				"kings-row": [
+					1,
+					1,
+					0
+				],
+				"gibraltar": [
+					2,
+					0,
+					0
+				]
+			},
+			"website": "https://fuel.overwatchleague.com"
 		},
 		{
 			"id": "BOS",
@@ -691,36 +696,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10303,
-			"teams": [
-				"SFS",
-				"DAL"
-			],
-			"mapData": [
-				[
-					6027,
-					"volskaya",
-					4,
-					4
-				],
-				[
-					6028,
-					"lijiang",
-					2,
-					1
-				],
-				[
-					6942,
-					"kings-row"
-				],
-				[
-					6029,
-					"route-66"
-				]
-			],
-			"date": "2018-03-08T01:50:00.000Z"
-		},
 		{
 			"id": 10304,
 			"teams": [
@@ -2474,6 +2449,40 @@
 				]
 			],
 			"date": "2018-03-08T00:00:00.000Z"
+		},
+		{
+			"id": 10303,
+			"teams": [
+				"SFS",
+				"DAL"
+			],
+			"mapData": [
+				[
+					6027,
+					"volskaya",
+					4,
+					4
+				],
+				[
+					6028,
+					"lijiang",
+					2,
+					1
+				],
+				[
+					6942,
+					"kings-row",
+					3,
+					1
+				],
+				[
+					6029,
+					"route-66",
+					3,
+					1
+				]
+			],
+			"date": "2018-03-08T01:50:00.000Z"
 		}
 	]
 }
