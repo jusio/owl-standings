@@ -713,15 +713,19 @@
 					6031,
 					"lijiang",
 					0,
-					1
+					2
 				],
 				[
 					6032,
-					"hollywood"
+					"hollywood",
+					1,
+					2
 				],
 				[
 					6033,
-					"gibraltar"
+					"gibraltar",
+					3,
+					2
 				]
 			],
 			"date": "2018-03-08T04:00:00.000Z"
