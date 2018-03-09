@@ -705,11 +705,15 @@
 			"mapData": [
 				[
 					6034,
-					"volskaya"
+					"volskaya",
+					3,
+					4
 				],
 				[
 					6035,
-					"lijiang"
+					"lijiang",
+					0,
+					2
 				],
 				[
 					6943,
