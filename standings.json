@@ -58,6 +58,63 @@
 			"website": "https://dynasty.overwatchleague.com"
 		},
 		{
+			"id": "VAL",
+			"name": "Los Angeles Valiant",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
+			"color": "4a7729",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 13,
+				"lost": 10,
+				"draws": 1
+			},
+			"won": 4,
+			"lost": 2,
+			"mapStats": {
+				"volskaya": [
+					1,
+					2,
+					0
+				],
+				"nepal": [
+					1,
+					1,
+					0
+				],
+				"kings-row": [
+					2,
+					1,
+					0
+				],
+				"route-66": [
+					1,
+					1,
+					0
+				],
+				"hanamura": [
+					1,
+					1,
+					1
+				],
+				"lijiang": [
+					3,
+					1,
+					0
+				],
+				"gibraltar": [
+					2,
+					2,
+					0
+				],
+				"hollywood": [
+					2,
+					1,
+					0
+				]
+			},
+			"website": "https://valiant.overwatchleague.com"
+		},
+		{
 			"id": "NYE",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jz/JZHJUJ8QM1AP1508818097057.svg",
 			"color": "171c38",
@@ -296,125 +353,6 @@
 			"website": "https://fusion.overwatchleague.com"
 		},
 		{
-			"id": "VAL",
-			"name": "Los Angeles Valiant",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
-			"color": "4a7729",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 9,
-				"lost": 10,
-				"draws": 1
-			},
-			"won": 3,
-			"lost": 2,
-			"mapStats": {
-				"volskaya": [
-					0,
-					2,
-					0
-				],
-				"nepal": [
-					1,
-					1,
-					0
-				],
-				"kings-row": [
-					2,
-					1,
-					0
-				],
-				"route-66": [
-					0,
-					1,
-					0
-				],
-				"hanamura": [
-					1,
-					1,
-					1
-				],
-				"lijiang": [
-					2,
-					1,
-					0
-				],
-				"gibraltar": [
-					2,
-					2,
-					0
-				],
-				"hollywood": [
-					1,
-					1,
-					0
-				]
-			},
-			"website": "https://valiant.overwatchleague.com"
-		},
-		{
-			"id": "HOU",
-			"name": "Houston Outlaws",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
-			"secondaryColor": "000000",
-			"color": "97d700",
-			"mapPoints": {
-				"won": 9,
-				"lost": 9,
-				"draws": 0
-			},
-			"won": 2,
-			"lost": 2,
-			"mapStats": {
-				"volskaya": [
-					1,
-					2,
-					0
-				],
-				"nepal": [
-					2,
-					0,
-					0
-				],
-				"kings-row": [
-					2,
-					1,
-					0
-				],
-				"route-66": [
-					0,
-					3,
-					0
-				],
-				"ilios": [
-					1,
-					1,
-					0
-				],
-				"hanamura": [
-					1,
-					0,
-					0
-				],
-				"lijiang": [
-					1,
-					1,
-					0
-				],
-				"gibraltar": [
-					1,
-					0,
-					0
-				],
-				"hollywood": [
-					0,
-					1,
-					0
-				]
-			},
-			"website": "https://outlaws.overwatchleague.com"
-		},
-		{
 			"id": "SFS",
 			"name": "San Francisco Shock",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/PKGNG1U3MGZ71512520986545.svg",
@@ -470,6 +408,68 @@
 				]
 			},
 			"website": "https://shock.overwatchleague.com"
+		},
+		{
+			"id": "HOU",
+			"name": "Houston Outlaws",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
+			"secondaryColor": "000000",
+			"color": "97d700",
+			"mapPoints": {
+				"won": 9,
+				"lost": 13,
+				"draws": 0
+			},
+			"won": 2,
+			"lost": 3,
+			"mapStats": {
+				"volskaya": [
+					1,
+					3,
+					0
+				],
+				"nepal": [
+					2,
+					0,
+					0
+				],
+				"kings-row": [
+					2,
+					1,
+					0
+				],
+				"route-66": [
+					0,
+					4,
+					0
+				],
+				"ilios": [
+					1,
+					1,
+					0
+				],
+				"hanamura": [
+					1,
+					0,
+					0
+				],
+				"lijiang": [
+					1,
+					2,
+					0
+				],
+				"gibraltar": [
+					1,
+					0,
+					0
+				],
+				"hollywood": [
+					0,
+					2,
+					0
+				]
+			},
+			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
 			"id": "DAL",
@@ -701,36 +701,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10306,
-			"teams": [
-				"HOU",
-				"VAL"
-			],
-			"mapData": [
-				[
-					6037,
-					"volskaya",
-					1,
-					2
-				],
-				[
-					6038,
-					"lijiang",
-					1,
-					2
-				],
-				[
-					6039,
-					"hollywood"
-				],
-				[
-					6040,
-					"route-66"
-				]
-			],
-			"date": "2018-03-09T02:00:00.000Z"
-		},
 		{
 			"id": 10307,
 			"teams": [
@@ -2508,6 +2478,40 @@
 				]
 			],
 			"date": "2018-03-09T00:00:00.000Z"
+		},
+		{
+			"id": 10306,
+			"teams": [
+				"HOU",
+				"VAL"
+			],
+			"mapData": [
+				[
+					6037,
+					"volskaya",
+					1,
+					2
+				],
+				[
+					6038,
+					"lijiang",
+					1,
+					2
+				],
+				[
+					6039,
+					"hollywood",
+					1,
+					2
+				],
+				[
+					6040,
+					"route-66",
+					1,
+					2
+				]
+			],
+			"date": "2018-03-09T02:00:00.000Z"
 		}
 	]
 }
