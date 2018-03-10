@@ -115,22 +115,79 @@
 			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
+			"id": "GLA",
+			"name": "Los Angeles Gladiators",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/HU1A12H9JPNS1512520986367.svg",
+			"color": "3c1053",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 17,
+				"lost": 7,
+				"draws": 0
+			},
+			"won": 4,
+			"lost": 2,
+			"mapStats": {
+				"hanamura": [
+					2,
+					2,
+					0
+				],
+				"nepal": [
+					3,
+					0,
+					0
+				],
+				"kings-row": [
+					3,
+					1,
+					0
+				],
+				"gibraltar": [
+					2,
+					2,
+					0
+				],
+				"lijiang": [
+					3,
+					0,
+					0
+				],
+				"volskaya": [
+					2,
+					0,
+					0
+				],
+				"route-66": [
+					1,
+					1,
+					0
+				],
+				"hollywood": [
+					1,
+					1,
+					0
+				]
+			},
+			"website": "https://gladiators.overwatchleague.com"
+		},
+		{
 			"id": "LDN",
 			"name": "London Spitfire",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
 			"color": "ff8200",
 			"secondaryColor": "000000",
 			"mapPoints": {
-				"won": 16,
-				"lost": 6,
+				"won": 17,
+				"lost": 9,
 				"draws": 0
 			},
 			"won": 4,
-			"lost": 1,
+			"lost": 2,
 			"mapStats": {
 				"volskaya": [
 					2,
-					1,
+					2,
 					0
 				],
 				"nepal": [
@@ -140,11 +197,11 @@
 				],
 				"kings-row": [
 					1,
-					2,
+					3,
 					0
 				],
 				"route-66": [
-					3,
+					4,
 					0,
 					0
 				],
@@ -155,7 +212,7 @@
 				],
 				"lijiang": [
 					1,
-					1,
+					2,
 					0
 				],
 				"gibraltar": [
@@ -232,63 +289,6 @@
 				]
 			},
 			"website": "https://valiant.overwatchleague.com"
-		},
-		{
-			"id": "GLA",
-			"name": "Los Angeles Gladiators",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/HU1A12H9JPNS1512520986367.svg",
-			"color": "3c1053",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 14,
-				"lost": 6,
-				"draws": 0
-			},
-			"won": 3,
-			"lost": 2,
-			"mapStats": {
-				"hanamura": [
-					2,
-					2,
-					0
-				],
-				"nepal": [
-					3,
-					0,
-					0
-				],
-				"kings-row": [
-					2,
-					1,
-					0
-				],
-				"gibraltar": [
-					2,
-					2,
-					0
-				],
-				"lijiang": [
-					2,
-					0,
-					0
-				],
-				"volskaya": [
-					1,
-					0,
-					0
-				],
-				"route-66": [
-					1,
-					0,
-					0
-				],
-				"hollywood": [
-					1,
-					1,
-					0
-				]
-			},
-			"website": "https://gladiators.overwatchleague.com"
 		},
 		{
 			"id": "PHI",
@@ -707,36 +707,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10311,
-			"teams": [
-				"LDN",
-				"GLA"
-			],
-			"mapData": [
-				[
-					6055,
-					"volskaya",
-					2,
-					3
-				],
-				[
-					6056,
-					"lijiang",
-					0,
-					2
-				],
-				[
-					6946,
-					"kings-row"
-				],
-				[
-					6057,
-					"route-66"
-				]
-			],
-			"date": "2018-03-10T21:00:00.000Z"
-		},
-		{
 			"id": 10312,
 			"teams": [
 				"NYE",
@@ -760,7 +730,7 @@
 					"route-66"
 				]
 			],
-			"date": "2018-03-10T23:00:00.000Z"
+			"date": "2018-03-10T22:50:00.000Z"
 		},
 		{
 			"id": 10313,
@@ -2559,6 +2529,40 @@
 				]
 			],
 			"date": "2018-03-10T04:30:00.000Z"
+		},
+		{
+			"id": 10311,
+			"teams": [
+				"LDN",
+				"GLA"
+			],
+			"mapData": [
+				[
+					6055,
+					"volskaya",
+					2,
+					3
+				],
+				[
+					6056,
+					"lijiang",
+					0,
+					2
+				],
+				[
+					6946,
+					"kings-row",
+					2,
+					3
+				],
+				[
+					6057,
+					"route-66",
+					3,
+					2
+				]
+			],
+			"date": "2018-03-10T21:00:00.000Z"
 		}
 	]
 }
