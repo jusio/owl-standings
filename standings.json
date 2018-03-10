@@ -58,6 +58,63 @@
 			"website": "https://dynasty.overwatchleague.com"
 		},
 		{
+			"id": "NYE",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jz/JZHJUJ8QM1AP1508818097057.svg",
+			"color": "171c38",
+			"secondaryColor": "ffffff",
+			"name": "New York Excelsior",
+			"mapPoints": {
+				"won": 16,
+				"lost": 5,
+				"draws": 0
+			},
+			"won": 4,
+			"lost": 1,
+			"mapStats": {
+				"hanamura": [
+					2,
+					0,
+					0
+				],
+				"lijiang": [
+					2,
+					1,
+					0
+				],
+				"kings-row": [
+					5,
+					0,
+					0
+				],
+				"gibraltar": [
+					2,
+					1,
+					0
+				],
+				"volskaya": [
+					2,
+					1,
+					0
+				],
+				"ilios": [
+					0,
+					1,
+					0
+				],
+				"nepal": [
+					2,
+					0,
+					0
+				],
+				"route-66": [
+					1,
+					1,
+					0
+				]
+			},
+			"website": "https://excelsior.overwatchleague.com"
+		},
+		{
 			"id": "LDN",
 			"name": "London Spitfire",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
@@ -177,63 +234,6 @@
 			"website": "https://valiant.overwatchleague.com"
 		},
 		{
-			"id": "NYE",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jz/JZHJUJ8QM1AP1508818097057.svg",
-			"color": "171c38",
-			"secondaryColor": "ffffff",
-			"name": "New York Excelsior",
-			"mapPoints": {
-				"won": 13,
-				"lost": 4,
-				"draws": 0
-			},
-			"won": 3,
-			"lost": 1,
-			"mapStats": {
-				"hanamura": [
-					2,
-					0,
-					0
-				],
-				"lijiang": [
-					2,
-					1,
-					0
-				],
-				"kings-row": [
-					4,
-					0,
-					0
-				],
-				"gibraltar": [
-					2,
-					1,
-					0
-				],
-				"volskaya": [
-					1,
-					1,
-					0
-				],
-				"ilios": [
-					0,
-					1,
-					0
-				],
-				"nepal": [
-					1,
-					0,
-					0
-				],
-				"route-66": [
-					1,
-					0,
-					0
-				]
-			},
-			"website": "https://excelsior.overwatchleague.com"
-		},
-		{
 			"id": "GLA",
 			"name": "Los Angeles Gladiators",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/HU1A12H9JPNS1512520986367.svg",
@@ -297,12 +297,12 @@
 			"color": "ff9e1b",
 			"secondaryColor": "000000",
 			"mapPoints": {
-				"won": 12,
-				"lost": 9,
+				"won": 13,
+				"lost": 12,
 				"draws": 0
 			},
 			"won": 3,
-			"lost": 2,
+			"lost": 3,
 			"mapStats": {
 				"hanamura": [
 					2,
@@ -326,16 +326,16 @@
 				],
 				"nepal": [
 					1,
-					2,
+					3,
 					0
 				],
 				"volskaya": [
 					0,
-					2,
+					3,
 					0
 				],
 				"route-66": [
-					1,
+					2,
 					1,
 					0
 				],
@@ -346,7 +346,7 @@
 				],
 				"kings-row": [
 					1,
-					0,
+					1,
 					0
 				]
 			},
@@ -702,40 +702,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10309,
-			"teams": [
-				"NYE",
-				"PHI"
-			],
-			"mapData": [
-				[
-					6048,
-					"volskaya",
-					4,
-					3
-				],
-				[
-					6049,
-					"nepal",
-					2,
-					1
-				],
-				[
-					6945,
-					"kings-row",
-					5,
-					4
-				],
-				[
-					6050,
-					"route-66",
-					1,
-					0
-				]
-			],
-			"date": "2018-03-10T02:00:00.000Z"
-		},
-		{
 			"id": 10310,
 			"teams": [
 				"FLA",
@@ -744,7 +710,9 @@
 			"mapData": [
 				[
 					6051,
-					"hanamura"
+					"hanamura",
+					1,
+					0
 				],
 				[
 					6052,
@@ -759,7 +727,7 @@
 					"gibraltar"
 				]
 			],
-			"date": "2018-03-10T04:25:00.000Z"
+			"date": "2018-03-10T04:30:00.000Z"
 		},
 		{
 			"id": 10311,
@@ -2536,6 +2504,40 @@
 				]
 			],
 			"date": "2018-03-10T00:00:00.000Z"
+		},
+		{
+			"id": 10309,
+			"teams": [
+				"NYE",
+				"PHI"
+			],
+			"mapData": [
+				[
+					6048,
+					"volskaya",
+					4,
+					3
+				],
+				[
+					6049,
+					"nepal",
+					2,
+					1
+				],
+				[
+					6945,
+					"kings-row",
+					5,
+					4
+				],
+				[
+					6050,
+					"route-66",
+					3,
+					4
+				]
+			],
+			"date": "2018-03-10T02:00:00.000Z"
 		}
 	]
 }
