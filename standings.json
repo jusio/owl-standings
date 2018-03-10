@@ -710,7 +710,9 @@
 			"mapData": [
 				[
 					6048,
-					"volskaya"
+					"volskaya",
+					4,
+					3
 				],
 				[
 					6049,
