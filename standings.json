@@ -720,11 +720,15 @@
 			"mapData": [
 				[
 					6062,
-					"hanamura"
+					"hanamura",
+					1,
+					2
 				],
 				[
 					6063,
-					"nepal"
+					"nepal",
+					0,
+					2
 				],
 				[
 					6947,
