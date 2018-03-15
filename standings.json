@@ -1,78 +1,21 @@
 {
 	"teams": [
 		{
-			"id": "SEO",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
-			"secondaryColor": "aa8a00",
-			"color": "000000",
-			"name": "Seoul Dynasty",
-			"mapPoints": {
-				"won": 19,
-				"lost": 5,
-				"draws": 0
-			},
-			"won": 6,
-			"lost": 0,
-			"mapStats": {
-				"volskaya": [
-					3,
-					0,
-					0
-				],
-				"nepal": [
-					2,
-					1,
-					0
-				],
-				"kings-row": [
-					1,
-					2,
-					0
-				],
-				"route-66": [
-					3,
-					0,
-					0
-				],
-				"hanamura": [
-					2,
-					1,
-					0
-				],
-				"lijiang": [
-					3,
-					0,
-					0
-				],
-				"hollywood": [
-					2,
-					1,
-					0
-				],
-				"gibraltar": [
-					3,
-					0,
-					0
-				]
-			},
-			"website": "https://dynasty.overwatchleague.com"
-		},
-		{
 			"id": "NYE",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/jz/JZHJUJ8QM1AP1508818097057.svg",
 			"color": "171c38",
 			"secondaryColor": "ffffff",
 			"name": "New York Excelsior",
 			"mapPoints": {
-				"won": 20,
-				"lost": 5,
+				"won": 23,
+				"lost": 7,
 				"draws": 0
 			},
-			"won": 5,
+			"won": 6,
 			"lost": 1,
 			"mapStats": {
 				"hanamura": [
-					2,
+					3,
 					0,
 					0
 				],
@@ -87,7 +30,7 @@
 					0
 				],
 				"gibraltar": [
-					2,
+					3,
 					1,
 					0
 				],
@@ -97,13 +40,13 @@
 					0
 				],
 				"ilios": [
-					0,
+					1,
 					1,
 					0
 				],
 				"nepal": [
 					2,
-					0,
+					1,
 					0
 				],
 				"route-66": [
@@ -113,11 +56,73 @@
 				],
 				"hollywood": [
 					1,
-					0,
+					1,
 					0
 				]
 			},
 			"website": "https://excelsior.overwatchleague.com"
+		},
+		{
+			"id": "SEO",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
+			"secondaryColor": "aa8a00",
+			"color": "000000",
+			"name": "Seoul Dynasty",
+			"mapPoints": {
+				"won": 21,
+				"lost": 8,
+				"draws": 0
+			},
+			"won": 6,
+			"lost": 1,
+			"mapStats": {
+				"volskaya": [
+					3,
+					0,
+					0
+				],
+				"nepal": [
+					3,
+					1,
+					0
+				],
+				"kings-row": [
+					1,
+					2,
+					0
+				],
+				"route-66": [
+					3,
+					0,
+					0
+				],
+				"hanamura": [
+					2,
+					2,
+					0
+				],
+				"lijiang": [
+					3,
+					0,
+					0
+				],
+				"hollywood": [
+					3,
+					1,
+					0
+				],
+				"gibraltar": [
+					3,
+					1,
+					0
+				],
+				"ilios": [
+					0,
+					1,
+					0
+				]
+			},
+			"website": "https://dynasty.overwatchleague.com"
 		},
 		{
 			"id": "GLA",
@@ -717,46 +722,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10315,
-			"teams": [
-				"NYE",
-				"SEO"
-			],
-			"mapData": [
-				[
-					6068,
-					"hanamura",
-					6,
-					4
-				],
-				[
-					6069,
-					"nepal",
-					1,
-					2
-				],
-				[
-					6070,
-					"hollywood",
-					1,
-					2
-				],
-				[
-					6071,
-					"gibraltar",
-					3,
-					2
-				],
-				[
-					7865,
-					"ilios",
-					1,
-					0
-				]
-			],
-			"date": "2018-03-15T00:40:00.000Z"
-		},
-		{
 			"id": 10316,
 			"teams": [
 				"PHI",
@@ -765,7 +730,9 @@
 			"mapData": [
 				[
 					6072,
-					"volskaya"
+					"volskaya",
+					2,
+					0
 				],
 				[
 					6073,
@@ -780,7 +747,7 @@
 					"route-66"
 				]
 			],
-			"date": "2018-03-15T03:15:00.000Z"
+			"date": "2018-03-15T03:10:00.000Z"
 		},
 		{
 			"id": 10317,
@@ -2617,6 +2584,46 @@
 				]
 			],
 			"date": "2018-03-14T23:00:00.000Z"
+		},
+		{
+			"id": 10315,
+			"teams": [
+				"NYE",
+				"SEO"
+			],
+			"mapData": [
+				[
+					6068,
+					"hanamura",
+					6,
+					4
+				],
+				[
+					6069,
+					"nepal",
+					1,
+					2
+				],
+				[
+					6070,
+					"hollywood",
+					1,
+					2
+				],
+				[
+					6071,
+					"gibraltar",
+					3,
+					2
+				],
+				[
+					7865,
+					"ilios",
+					2,
+					0
+				]
+			],
+			"date": "2018-03-15T00:40:00.000Z"
 		}
 	]
 }
