@@ -420,25 +420,25 @@
 			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
-			"id": "DAL",
-			"name": "Dallas Fuel",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
-			"color": "0c2340",
-			"secondaryColor": "0072ce",
+			"id": "BOS",
+			"name": "Boston Uprising",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
+			"color": "174b97",
+			"secondaryColor": "ffffff",
 			"mapPoints": {
-				"won": 10,
-				"lost": 14,
-				"draws": 1
+				"won": 12,
+				"lost": 16,
+				"draws": 0
 			},
-			"won": 2,
+			"won": 3,
 			"lost": 4,
 			"mapStats": {
-				"volskaya": [
-					1,
+				"hanamura": [
 					0,
-					1
+					4,
+					0
 				],
-				"nepal": [
+				"lijiang": [
 					2,
 					2,
 					0
@@ -448,38 +448,33 @@
 					2,
 					0
 				],
-				"route-66": [
+				"gibraltar": [
 					1,
-					2,
-					0
-				],
-				"hanamura": [
-					2,
-					2,
-					0
-				],
-				"lijiang": [
-					0,
-					2,
+					4,
 					0
 				],
 				"kings-row": [
+					2,
+					2,
+					0
+				],
+				"nepal": [
 					1,
 					2,
 					0
 				],
-				"gibraltar": [
-					2,
-					1,
-					0
-				],
-				"ilios": [
+				"volskaya": [
+					3,
 					0,
-					1,
+					0
+				],
+				"route-66": [
+					2,
+					0,
 					0
 				]
 			},
-			"website": "https://fuel.overwatchleague.com"
+			"website": "https://uprising.overwatchleague.com"
 		},
 		{
 			"id": "SFS",
@@ -539,26 +534,26 @@
 			"website": "https://shock.overwatchleague.com"
 		},
 		{
-			"id": "BOS",
-			"name": "Boston Uprising",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LB92M6PBO3X81515523733716.svg",
-			"color": "174b97",
-			"secondaryColor": "ffffff",
+			"id": "DAL",
+			"name": "Dallas Fuel",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
+			"color": "0c2340",
+			"secondaryColor": "0072ce",
 			"mapPoints": {
-				"won": 8,
-				"lost": 16,
-				"draws": 0
+				"won": 10,
+				"lost": 18,
+				"draws": 1
 			},
 			"won": 2,
-			"lost": 4,
+			"lost": 5,
 			"mapStats": {
-				"hanamura": [
-					0,
-					4,
-					0
-				],
-				"lijiang": [
+				"volskaya": [
 					1,
+					1,
+					1
+				],
+				"nepal": [
+					2,
 					2,
 					0
 				],
@@ -567,33 +562,38 @@
 					2,
 					0
 				],
-				"gibraltar": [
+				"route-66": [
+					1,
+					2,
+					0
+				],
+				"hanamura": [
+					2,
+					2,
+					0
+				],
+				"lijiang": [
 					0,
-					4,
+					3,
 					0
 				],
 				"kings-row": [
 					1,
+					3,
+					0
+				],
+				"gibraltar": [
+					2,
 					2,
 					0
 				],
-				"nepal": [
+				"ilios": [
+					0,
 					1,
-					2,
-					0
-				],
-				"volskaya": [
-					2,
-					0,
-					0
-				],
-				"route-66": [
-					2,
-					0,
 					0
 				]
 			},
-			"website": "https://uprising.overwatchleague.com"
+			"website": "https://fuel.overwatchleague.com"
 		},
 		{
 			"id": "FLA",
@@ -717,36 +717,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10314,
-			"teams": [
-				"BOS",
-				"DAL"
-			],
-			"mapData": [
-				[
-					6065,
-					"volskaya",
-					2,
-					1
-				],
-				[
-					6066,
-					"lijiang",
-					2,
-					0
-				],
-				[
-					6948,
-					"kings-row"
-				],
-				[
-					6067,
-					"gibraltar"
-				]
-			],
-			"date": "2018-03-14T23:00:00.000Z"
-		},
-		{
 			"id": 10315,
 			"teams": [
 				"NYE",
@@ -770,7 +740,7 @@
 					"gibraltar"
 				]
 			],
-			"date": "2018-03-15T01:00:00.000Z"
+			"date": "2018-03-15T00:40:00.000Z"
 		},
 		{
 			"id": 10316,
@@ -2599,6 +2569,40 @@
 				]
 			],
 			"date": "2018-03-11T01:00:00.000Z"
+		},
+		{
+			"id": 10314,
+			"teams": [
+				"BOS",
+				"DAL"
+			],
+			"mapData": [
+				[
+					6065,
+					"volskaya",
+					2,
+					1
+				],
+				[
+					6066,
+					"lijiang",
+					2,
+					0
+				],
+				[
+					6948,
+					"kings-row",
+					3,
+					0
+				],
+				[
+					6067,
+					"gibraltar",
+					3,
+					0
+				]
+			],
+			"date": "2018-03-14T23:00:00.000Z"
 		}
 	]
 }
