@@ -307,11 +307,11 @@
 			"color": "ff9e1b",
 			"secondaryColor": "000000",
 			"mapPoints": {
-				"won": 13,
+				"won": 17,
 				"lost": 12,
 				"draws": 0
 			},
-			"won": 3,
+			"won": 4,
 			"lost": 3,
 			"mapStats": {
 				"hanamura": [
@@ -320,12 +320,12 @@
 					0
 				],
 				"lijiang": [
-					1,
+					2,
 					1,
 					0
 				],
 				"hollywood": [
-					3,
+					4,
 					1,
 					0
 				],
@@ -340,12 +340,12 @@
 					0
 				],
 				"volskaya": [
-					0,
+					1,
 					3,
 					0
 				],
 				"route-66": [
-					2,
+					3,
 					1,
 					0
 				],
@@ -670,15 +670,15 @@
 			"secondaryColor": "ffffff",
 			"mapPoints": {
 				"won": 2,
-				"lost": 21,
+				"lost": 25,
 				"draws": 1
 			},
 			"won": 0,
-			"lost": 6,
+			"lost": 7,
 			"mapStats": {
 				"volskaya": [
 					0,
-					4,
+					5,
 					0
 				],
 				"nepal": [
@@ -688,12 +688,12 @@
 				],
 				"hollywood": [
 					1,
-					0,
+					1,
 					0
 				],
 				"route-66": [
 					0,
-					4,
+					5,
 					0
 				],
 				"hanamura": [
@@ -703,7 +703,7 @@
 				],
 				"lijiang": [
 					0,
-					2,
+					3,
 					0
 				],
 				"kings-row": [
@@ -721,34 +721,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10316,
-			"teams": [
-				"PHI",
-				"SHD"
-			],
-			"mapData": [
-				[
-					6072,
-					"volskaya",
-					2,
-					0
-				],
-				[
-					6073,
-					"lijiang"
-				],
-				[
-					6074,
-					"hollywood"
-				],
-				[
-					6075,
-					"route-66"
-				]
-			],
-			"date": "2018-03-15T03:10:00.000Z"
-		},
 		{
 			"id": 10317,
 			"teams": [
@@ -2624,6 +2596,40 @@
 				]
 			],
 			"date": "2018-03-15T00:40:00.000Z"
+		},
+		{
+			"id": 10316,
+			"teams": [
+				"PHI",
+				"SHD"
+			],
+			"mapData": [
+				[
+					6072,
+					"volskaya",
+					2,
+					0
+				],
+				[
+					6073,
+					"lijiang",
+					2,
+					0
+				],
+				[
+					6074,
+					"hollywood",
+					3,
+					1
+				],
+				[
+					6075,
+					"route-66",
+					3,
+					0
+				]
+			],
+			"date": "2018-03-15T03:10:00.000Z"
 		}
 	]
 }
