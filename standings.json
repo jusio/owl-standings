@@ -244,63 +244,6 @@
 			"website": "https://spitfire.overwatchleague.com"
 		},
 		{
-			"id": "VAL",
-			"name": "Los Angeles Valiant",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
-			"color": "4a7729",
-			"secondaryColor": "ffffff",
-			"mapPoints": {
-				"won": 13,
-				"lost": 10,
-				"draws": 1
-			},
-			"won": 4,
-			"lost": 2,
-			"mapStats": {
-				"volskaya": [
-					1,
-					2,
-					0
-				],
-				"nepal": [
-					1,
-					1,
-					0
-				],
-				"kings-row": [
-					2,
-					1,
-					0
-				],
-				"route-66": [
-					1,
-					1,
-					0
-				],
-				"hanamura": [
-					1,
-					1,
-					1
-				],
-				"lijiang": [
-					3,
-					1,
-					0
-				],
-				"gibraltar": [
-					2,
-					2,
-					0
-				],
-				"hollywood": [
-					2,
-					1,
-					0
-				]
-			},
-			"website": "https://valiant.overwatchleague.com"
-		},
-		{
 			"id": "PHI",
 			"name": "Philadelphia Fusion",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
@@ -361,6 +304,63 @@
 				]
 			},
 			"website": "https://fusion.overwatchleague.com"
+		},
+		{
+			"id": "VAL",
+			"name": "Los Angeles Valiant",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
+			"color": "4a7729",
+			"secondaryColor": "ffffff",
+			"mapPoints": {
+				"won": 14,
+				"lost": 13,
+				"draws": 1
+			},
+			"won": 4,
+			"lost": 3,
+			"mapStats": {
+				"volskaya": [
+					1,
+					2,
+					0
+				],
+				"nepal": [
+					1,
+					2,
+					0
+				],
+				"kings-row": [
+					2,
+					1,
+					0
+				],
+				"route-66": [
+					1,
+					2,
+					0
+				],
+				"hanamura": [
+					1,
+					2,
+					1
+				],
+				"lijiang": [
+					3,
+					1,
+					0
+				],
+				"gibraltar": [
+					2,
+					2,
+					0
+				],
+				"hollywood": [
+					3,
+					1,
+					0
+				]
+			},
+			"website": "https://valiant.overwatchleague.com"
 		},
 		{
 			"id": "HOU",
@@ -607,15 +607,15 @@
 			"color": "feda01",
 			"secondaryColor": "af272f",
 			"mapPoints": {
-				"won": 7,
-				"lost": 19,
+				"won": 10,
+				"lost": 20,
 				"draws": 0
 			},
-			"won": 1,
+			"won": 2,
 			"lost": 5,
 			"mapStats": {
 				"hanamura": [
-					1,
+					2,
 					3,
 					0
 				],
@@ -635,13 +635,13 @@
 					0
 				],
 				"nepal": [
-					0,
+					1,
 					2,
 					0
 				],
 				"hollywood": [
 					0,
-					3,
+					4,
 					0
 				],
 				"volskaya": [
@@ -650,7 +650,7 @@
 					0
 				],
 				"route-66": [
-					0,
+					1,
 					2,
 					0
 				],
@@ -722,36 +722,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10318,
-			"teams": [
-				"FLA",
-				"VAL"
-			],
-			"mapData": [
-				[
-					6080,
-					"hanamura",
-					2,
-					1
-				],
-				[
-					6081,
-					"nepal",
-					2,
-					0
-				],
-				[
-					6082,
-					"hollywood"
-				],
-				[
-					6083,
-					"route-66"
-				]
-			],
-			"date": "2018-03-16T00:35:00.000Z"
-		},
-		{
 			"id": 10319,
 			"teams": [
 				"HOU",
@@ -775,7 +745,7 @@
 					"gibraltar"
 				]
 			],
-			"date": "2018-03-16T03:00:00.000Z"
+			"date": "2018-03-16T02:40:00.000Z"
 		},
 		{
 			"id": 10320,
@@ -2642,6 +2612,40 @@
 				]
 			],
 			"date": "2018-03-15T23:00:00.000Z"
+		},
+		{
+			"id": 10318,
+			"teams": [
+				"FLA",
+				"VAL"
+			],
+			"mapData": [
+				[
+					6080,
+					"hanamura",
+					2,
+					1
+				],
+				[
+					6081,
+					"nepal",
+					2,
+					0
+				],
+				[
+					6082,
+					"hollywood",
+					0,
+					1
+				],
+				[
+					6083,
+					"route-66",
+					3,
+					2
+				]
+			],
+			"date": "2018-03-16T00:35:00.000Z"
 		}
 	]
 }
