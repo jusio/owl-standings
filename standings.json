@@ -7,15 +7,15 @@
 			"secondaryColor": "ffffff",
 			"name": "New York Excelsior",
 			"mapPoints": {
-				"won": 23,
+				"won": 27,
 				"lost": 7,
 				"draws": 0
 			},
-			"won": 6,
+			"won": 7,
 			"lost": 1,
 			"mapStats": {
 				"hanamura": [
-					3,
+					4,
 					0,
 					0
 				],
@@ -45,17 +45,17 @@
 					0
 				],
 				"nepal": [
-					2,
+					3,
 					1,
 					0
 				],
 				"route-66": [
-					2,
+					3,
 					1,
 					0
 				],
 				"hollywood": [
-					1,
+					2,
 					1,
 					0
 				]
@@ -670,11 +670,11 @@
 			"secondaryColor": "ffffff",
 			"mapPoints": {
 				"won": 2,
-				"lost": 25,
+				"lost": 29,
 				"draws": 1
 			},
 			"won": 0,
-			"lost": 7,
+			"lost": 8,
 			"mapStats": {
 				"volskaya": [
 					0,
@@ -683,22 +683,22 @@
 				],
 				"nepal": [
 					0,
-					4,
+					5,
 					0
 				],
 				"hollywood": [
 					1,
-					1,
+					2,
 					0
 				],
 				"route-66": [
 					0,
-					5,
+					6,
 					0
 				],
 				"hanamura": [
 					0,
-					1,
+					2,
 					1
 				],
 				"lijiang": [
@@ -721,38 +721,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10317,
-			"teams": [
-				"SHD",
-				"NYE"
-			],
-			"mapData": [
-				[
-					6076,
-					"hanamura",
-					0,
-					1
-				],
-				[
-					6077,
-					"nepal",
-					0,
-					2
-				],
-				[
-					6078,
-					"hollywood",
-					1,
-					0
-				],
-				[
-					6079,
-					"route-66"
-				]
-			],
-			"date": "2018-03-15T23:00:00.000Z"
-		},
 		{
 			"id": 10318,
 			"teams": [
@@ -777,7 +745,7 @@
 					"route-66"
 				]
 			],
-			"date": "2018-03-16T01:00:00.000Z"
+			"date": "2018-03-16T00:35:00.000Z"
 		},
 		{
 			"id": 10319,
@@ -2636,6 +2604,40 @@
 				]
 			],
 			"date": "2018-03-15T03:10:00.000Z"
+		},
+		{
+			"id": 10317,
+			"teams": [
+				"SHD",
+				"NYE"
+			],
+			"mapData": [
+				[
+					6076,
+					"hanamura",
+					0,
+					1
+				],
+				[
+					6077,
+					"nepal",
+					0,
+					2
+				],
+				[
+					6078,
+					"hollywood",
+					1,
+					2
+				],
+				[
+					6079,
+					"route-66",
+					2,
+					3
+				]
+			],
+			"date": "2018-03-15T23:00:00.000Z"
 		}
 	]
 }
