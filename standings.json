@@ -730,15 +730,21 @@
 			"mapData": [
 				[
 					6076,
-					"hanamura"
+					"hanamura",
+					0,
+					1
 				],
 				[
 					6077,
-					"nepal"
+					"nepal",
+					0,
+					2
 				],
 				[
 					6078,
-					"hollywood"
+					"hollywood",
+					1,
+					0
 				],
 				[
 					6079,
