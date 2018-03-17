@@ -63,22 +63,22 @@
 			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
-			"id": "SEO",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
-			"secondaryColor": "aa8a00",
-			"color": "000000",
-			"name": "Seoul Dynasty",
+			"id": "LDN",
+			"name": "London Spitfire",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
+			"color": "ff8200",
+			"secondaryColor": "000000",
 			"mapPoints": {
-				"won": 21,
-				"lost": 8,
+				"won": 24,
+				"lost": 10,
 				"draws": 0
 			},
 			"won": 6,
-			"lost": 1,
+			"lost": 2,
 			"mapStats": {
 				"volskaya": [
 					3,
-					0,
+					2,
 					0
 				],
 				"nepal": [
@@ -87,42 +87,42 @@
 					0
 				],
 				"kings-row": [
-					1,
 					2,
+					3,
 					0
 				],
 				"route-66": [
+					5,
+					0,
+					0
+				],
+				"ilios": [
+					1,
+					1,
+					0
+				],
+				"lijiang": [
+					2,
+					2,
+					0
+				],
+				"gibraltar": [
 					3,
 					0,
 					0
 				],
 				"hanamura": [
-					2,
-					2,
-					0
-				],
-				"lijiang": [
 					3,
 					0,
 					0
 				],
 				"hollywood": [
-					3,
-					1,
-					0
-				],
-				"gibraltar": [
-					3,
-					1,
-					0
-				],
-				"ilios": [
-					0,
+					2,
 					1,
 					0
 				]
 			},
-			"website": "https://dynasty.overwatchleague.com"
+			"website": "https://spitfire.overwatchleague.com"
 		},
 		{
 			"id": "GLA",
@@ -187,22 +187,22 @@
 			"website": "https://gladiators.overwatchleague.com"
 		},
 		{
-			"id": "LDN",
-			"name": "London Spitfire",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
-			"color": "ff8200",
-			"secondaryColor": "000000",
+			"id": "SEO",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
+			"secondaryColor": "aa8a00",
+			"color": "000000",
+			"name": "Seoul Dynasty",
 			"mapPoints": {
-				"won": 20,
-				"lost": 10,
+				"won": 21,
+				"lost": 12,
 				"draws": 0
 			},
-			"won": 5,
+			"won": 6,
 			"lost": 2,
 			"mapStats": {
 				"volskaya": [
 					3,
-					2,
+					0,
 					0
 				],
 				"nepal": [
@@ -216,37 +216,37 @@
 					0
 				],
 				"route-66": [
-					5,
-					0,
-					0
-				],
-				"ilios": [
-					1,
-					1,
-					0
-				],
-				"lijiang": [
-					1,
-					2,
-					0
-				],
-				"gibraltar": [
-					2,
+					3,
 					0,
 					0
 				],
 				"hanamura": [
 					2,
-					0,
+					3,
+					0
+				],
+				"lijiang": [
+					3,
+					1,
 					0
 				],
 				"hollywood": [
+					3,
+					1,
+					0
+				],
+				"gibraltar": [
+					3,
 					2,
+					0
+				],
+				"ilios": [
+					0,
 					1,
 					0
 				]
 			},
-			"website": "https://spitfire.overwatchleague.com"
+			"website": "https://dynasty.overwatchleague.com"
 		},
 		{
 			"id": "PHI",
@@ -737,36 +737,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10323,
-			"teams": [
-				"SEO",
-				"LDN"
-			],
-			"mapData": [
-				[
-					6098,
-					"hanamura",
-					3,
-					4
-				],
-				[
-					6099,
-					"lijiang",
-					0,
-					2
-				],
-				[
-					6951,
-					"kings-row"
-				],
-				[
-					6100,
-					"gibraltar"
-				]
-			],
-			"date": "2018-03-17T20:00:00.000Z"
-		},
-		{
 			"id": 10324,
 			"teams": [
 				"SFS",
@@ -790,7 +760,7 @@
 					"gibraltar"
 				]
 			],
-			"date": "2018-03-17T22:00:00.000Z"
+			"date": "2018-03-17T21:55:00.000Z"
 		},
 		{
 			"id": 10325,
@@ -2709,6 +2679,40 @@
 				]
 			],
 			"date": "2018-03-17T03:00:00.000Z"
+		},
+		{
+			"id": 10323,
+			"teams": [
+				"SEO",
+				"LDN"
+			],
+			"mapData": [
+				[
+					6098,
+					"hanamura",
+					3,
+					4
+				],
+				[
+					6099,
+					"lijiang",
+					0,
+					2
+				],
+				[
+					6951,
+					"kings-row",
+					2,
+					3
+				],
+				[
+					6100,
+					"gibraltar",
+					2,
+					3
+				]
+			],
+			"date": "2018-03-17T20:00:00.000Z"
 		}
 	]
 }
