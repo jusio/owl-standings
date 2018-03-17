@@ -745,11 +745,15 @@
 			"mapData": [
 				[
 					6101,
-					"hanamura"
+					"hanamura",
+					2,
+					1
 				],
 				[
 					6102,
-					"nepal"
+					"nepal",
+					2,
+					0
 				],
 				[
 					6103,
