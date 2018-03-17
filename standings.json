@@ -193,20 +193,20 @@
 			"color": "ff8200",
 			"secondaryColor": "000000",
 			"mapPoints": {
-				"won": 17,
-				"lost": 9,
+				"won": 20,
+				"lost": 10,
 				"draws": 0
 			},
-			"won": 4,
+			"won": 5,
 			"lost": 2,
 			"mapStats": {
 				"volskaya": [
-					2,
+					3,
 					2,
 					0
 				],
 				"nepal": [
-					2,
+					3,
 					1,
 					0
 				],
@@ -216,7 +216,7 @@
 					0
 				],
 				"route-66": [
-					4,
+					5,
 					0,
 					0
 				],
@@ -242,7 +242,7 @@
 				],
 				"hollywood": [
 					2,
-					0,
+					1,
 					0
 				]
 			},
@@ -493,12 +493,12 @@
 			"color": "fc4c02",
 			"secondaryColor": "75787b",
 			"mapPoints": {
-				"won": 9,
-				"lost": 14,
+				"won": 10,
+				"lost": 17,
 				"draws": 1
 			},
 			"won": 2,
-			"lost": 4,
+			"lost": 5,
 			"mapStats": {
 				"hanamura": [
 					2,
@@ -507,7 +507,7 @@
 				],
 				"nepal": [
 					1,
-					1,
+					2,
 					0
 				],
 				"kings-row": [
@@ -526,18 +526,18 @@
 					0
 				],
 				"hollywood": [
-					0,
+					1,
 					2,
 					0
 				],
 				"volskaya": [
 					1,
-					1,
+					2,
 					1
 				],
 				"route-66": [
 					1,
-					1,
+					2,
 					0
 				]
 			},
@@ -726,36 +726,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10321,
-			"teams": [
-				"LDN",
-				"SFS"
-			],
-			"mapData": [
-				[
-					6091,
-					"volskaya",
-					1,
-					0
-				],
-				[
-					6092,
-					"nepal",
-					2,
-					0
-				],
-				[
-					6093,
-					"hollywood"
-				],
-				[
-					6094,
-					"route-66"
-				]
-			],
-			"date": "2018-03-17T01:00:00.000Z"
-		},
 		{
 			"id": 10322,
 			"teams": [
@@ -2677,6 +2647,40 @@
 				]
 			],
 			"date": "2018-03-16T23:00:00.000Z"
+		},
+		{
+			"id": 10321,
+			"teams": [
+				"LDN",
+				"SFS"
+			],
+			"mapData": [
+				[
+					6091,
+					"volskaya",
+					1,
+					0
+				],
+				[
+					6092,
+					"nepal",
+					2,
+					0
+				],
+				[
+					6093,
+					"hollywood",
+					0,
+					1
+				],
+				[
+					6094,
+					"route-66",
+					2,
+					1
+				]
+			],
+			"date": "2018-03-17T01:00:00.000Z"
 		}
 	]
 }
