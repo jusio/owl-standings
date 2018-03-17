@@ -745,11 +745,15 @@
 			"mapData": [
 				[
 					6098,
-					"hanamura"
+					"hanamura",
+					3,
+					4
 				],
 				[
 					6099,
-					"lijiang"
+					"lijiang",
+					0,
+					2
 				],
 				[
 					6951,
