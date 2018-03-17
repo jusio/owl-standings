@@ -131,11 +131,11 @@
 			"color": "3c1053",
 			"secondaryColor": "ffffff",
 			"mapPoints": {
-				"won": 20,
-				"lost": 9,
-				"draws": 0
+				"won": 22,
+				"lost": 10,
+				"draws": 1
 			},
-			"won": 5,
+			"won": 6,
 			"lost": 2,
 			"mapStats": {
 				"hanamura": [
@@ -145,7 +145,7 @@
 				],
 				"nepal": [
 					3,
-					0,
+					1,
 					0
 				],
 				"kings-row": [
@@ -166,15 +166,15 @@
 				"volskaya": [
 					2,
 					1,
-					0
+					1
 				],
 				"route-66": [
-					1,
+					2,
 					1,
 					0
 				],
 				"hollywood": [
-					1,
+					2,
 					1,
 					0
 				],
@@ -612,12 +612,12 @@
 			"color": "feda01",
 			"secondaryColor": "af272f",
 			"mapPoints": {
-				"won": 10,
-				"lost": 20,
-				"draws": 0
+				"won": 11,
+				"lost": 22,
+				"draws": 1
 			},
 			"won": 2,
-			"lost": 5,
+			"lost": 6,
 			"mapStats": {
 				"hanamura": [
 					2,
@@ -640,23 +640,23 @@
 					0
 				],
 				"nepal": [
-					1,
+					2,
 					2,
 					0
 				],
 				"hollywood": [
 					0,
-					4,
+					5,
 					0
 				],
 				"volskaya": [
 					1,
 					1,
-					0
+					1
 				],
 				"route-66": [
 					1,
-					2,
+					3,
 					0
 				],
 				"ilios": [
@@ -726,36 +726,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10320,
-			"teams": [
-				"GLA",
-				"FLA"
-			],
-			"mapData": [
-				[
-					6087,
-					"volskaya",
-					3,
-					3
-				],
-				[
-					6088,
-					"nepal",
-					0,
-					2
-				],
-				[
-					6089,
-					"hollywood"
-				],
-				[
-					6090,
-					"route-66"
-				]
-			],
-			"date": "2018-03-16T23:00:00.000Z"
-		},
 		{
 			"id": 10321,
 			"teams": [
@@ -2669,6 +2639,40 @@
 				]
 			],
 			"date": "2018-03-16T02:40:00.000Z"
+		},
+		{
+			"id": 10320,
+			"teams": [
+				"GLA",
+				"FLA"
+			],
+			"mapData": [
+				[
+					6087,
+					"volskaya",
+					3,
+					3
+				],
+				[
+					6088,
+					"nepal",
+					0,
+					2
+				],
+				[
+					6089,
+					"hollywood",
+					3,
+					1
+				],
+				[
+					6090,
+					"route-66",
+					2,
+					1
+				]
+			],
+			"date": "2018-03-16T23:00:00.000Z"
 		}
 	]
 }
