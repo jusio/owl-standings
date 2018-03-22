@@ -745,7 +745,9 @@
 			"mapData": [
 				[
 					6108,
-					"hanamura"
+					"hanamura",
+					1,
+					2
 				],
 				[
 					6109,
