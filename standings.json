@@ -503,12 +503,12 @@
 			"color": "fc4c02",
 			"secondaryColor": "75787b",
 			"mapPoints": {
-				"won": 13,
-				"lost": 18,
+				"won": 15,
+				"lost": 21,
 				"draws": 1
 			},
 			"won": 3,
-			"lost": 5,
+			"lost": 6,
 			"mapStats": {
 				"hanamura": [
 					3,
@@ -516,13 +516,13 @@
 					0
 				],
 				"nepal": [
-					2,
+					3,
 					2,
 					0
 				],
 				"kings-row": [
 					2,
-					2,
+					3,
 					0
 				],
 				"gibraltar": [
@@ -542,12 +542,17 @@
 				],
 				"volskaya": [
 					1,
-					2,
+					3,
 					1
 				],
 				"route-66": [
-					1,
 					2,
+					2,
+					0
+				],
+				"ilios": [
+					0,
+					1,
 					0
 				]
 			},
@@ -560,11 +565,11 @@
 			"color": "feda01",
 			"secondaryColor": "af272f",
 			"mapPoints": {
-				"won": 11,
-				"lost": 22,
+				"won": 14,
+				"lost": 24,
 				"draws": 1
 			},
-			"won": 2,
+			"won": 3,
 			"lost": 6,
 			"mapStats": {
 				"hanamura": [
@@ -578,7 +583,7 @@
 					0
 				],
 				"kings-row": [
-					1,
+					2,
 					2,
 					0
 				],
@@ -589,7 +594,7 @@
 				],
 				"nepal": [
 					2,
-					2,
+					3,
 					0
 				],
 				"hollywood": [
@@ -598,17 +603,17 @@
 					0
 				],
 				"volskaya": [
-					1,
+					2,
 					1,
 					1
 				],
 				"route-66": [
 					1,
-					3,
+					4,
 					0
 				],
 				"ilios": [
-					1,
+					2,
 					1,
 					0
 				]
@@ -737,46 +742,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10577,
-			"teams": [
-				"FLA",
-				"SFS"
-			],
-			"mapData": [
-				[
-					6112,
-					"volskaya",
-					1,
-					0
-				],
-				[
-					6113,
-					"nepal",
-					0,
-					2
-				],
-				[
-					6953,
-					"kings-row",
-					3,
-					2
-				],
-				[
-					6114,
-					"route-66",
-					1,
-					2
-				],
-				[
-					8069,
-					"ilios",
-					1,
-					0
-				]
-			],
-			"date": "2018-03-22T00:45:00.000Z"
-		},
-		{
 			"id": 10578,
 			"teams": [
 				"SHD",
@@ -785,11 +750,15 @@
 			"mapData": [
 				[
 					6115,
-					"volskaya"
+					"volskaya",
+					0,
+					1
 				],
 				[
 					6116,
-					"lijiang"
+					"lijiang",
+					0,
+					2
 				],
 				[
 					6954,
@@ -2751,6 +2720,46 @@
 				]
 			],
 			"date": "2018-03-21T23:00:00.000Z"
+		},
+		{
+			"id": 10577,
+			"teams": [
+				"FLA",
+				"SFS"
+			],
+			"mapData": [
+				[
+					6112,
+					"volskaya",
+					1,
+					0
+				],
+				[
+					6113,
+					"nepal",
+					0,
+					2
+				],
+				[
+					6953,
+					"kings-row",
+					3,
+					2
+				],
+				[
+					6114,
+					"route-66",
+					1,
+					2
+				],
+				[
+					8069,
+					"ilios",
+					2,
+					0
+				]
+			],
+			"date": "2018-03-22T00:45:00.000Z"
 		}
 	]
 }
