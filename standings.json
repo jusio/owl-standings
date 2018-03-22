@@ -441,15 +441,15 @@
 			"secondaryColor": "000000",
 			"color": "97d700",
 			"mapPoints": {
-				"won": 15,
+				"won": 19,
 				"lost": 21,
 				"draws": 0
 			},
-			"won": 3,
+			"won": 4,
 			"lost": 5,
 			"mapStats": {
 				"volskaya": [
-					2,
+					3,
 					3,
 					0
 				],
@@ -459,7 +459,7 @@
 					0
 				],
 				"kings-row": [
-					2,
+					3,
 					2,
 					0
 				],
@@ -479,12 +479,12 @@
 					0
 				],
 				"lijiang": [
-					1,
+					2,
 					4,
 					0
 				],
 				"gibraltar": [
-					3,
+					4,
 					1,
 					0
 				],
@@ -690,15 +690,15 @@
 			"secondaryColor": "ffffff",
 			"mapPoints": {
 				"won": 2,
-				"lost": 29,
+				"lost": 33,
 				"draws": 1
 			},
 			"won": 0,
-			"lost": 8,
+			"lost": 9,
 			"mapStats": {
 				"volskaya": [
 					0,
-					5,
+					6,
 					0
 				],
 				"nepal": [
@@ -723,17 +723,17 @@
 				],
 				"lijiang": [
 					0,
-					3,
+					4,
 					0
 				],
 				"kings-row": [
 					1,
-					4,
+					5,
 					0
 				],
 				"gibraltar": [
 					0,
-					2,
+					3,
 					0
 				]
 			},
@@ -741,38 +741,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10578,
-			"teams": [
-				"SHD",
-				"HOU"
-			],
-			"mapData": [
-				[
-					6115,
-					"volskaya",
-					0,
-					1
-				],
-				[
-					6116,
-					"lijiang",
-					0,
-					2
-				],
-				[
-					6954,
-					"kings-row",
-					1,
-					2
-				],
-				[
-					6117,
-					"gibraltar"
-				]
-			],
-			"date": "2018-03-22T03:00:00.000Z"
-		},
 		{
 			"id": 10579,
 			"teams": [
@@ -2762,6 +2730,40 @@
 				]
 			],
 			"date": "2018-03-22T00:45:00.000Z"
+		},
+		{
+			"id": 10578,
+			"teams": [
+				"SHD",
+				"HOU"
+			],
+			"mapData": [
+				[
+					6115,
+					"volskaya",
+					0,
+					1
+				],
+				[
+					6116,
+					"lijiang",
+					0,
+					2
+				],
+				[
+					6954,
+					"kings-row",
+					1,
+					2
+				],
+				[
+					6117,
+					"gibraltar",
+					0,
+					1
+				]
+			],
+			"date": "2018-03-22T03:00:00.000Z"
 		}
 	]
 }
