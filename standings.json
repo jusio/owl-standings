@@ -125,68 +125,6 @@
 			"website": "https://spitfire.overwatchleague.com"
 		},
 		{
-			"id": "SEO",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
-			"secondaryColor": "aa8a00",
-			"color": "000000",
-			"name": "Seoul Dynasty",
-			"mapPoints": {
-				"won": 21,
-				"lost": 12,
-				"draws": 0
-			},
-			"won": 6,
-			"lost": 2,
-			"mapStats": {
-				"volskaya": [
-					3,
-					0,
-					0
-				],
-				"nepal": [
-					3,
-					1,
-					0
-				],
-				"kings-row": [
-					1,
-					3,
-					0
-				],
-				"route-66": [
-					3,
-					0,
-					0
-				],
-				"hanamura": [
-					2,
-					3,
-					0
-				],
-				"lijiang": [
-					3,
-					1,
-					0
-				],
-				"hollywood": [
-					3,
-					1,
-					0
-				],
-				"gibraltar": [
-					3,
-					2,
-					0
-				],
-				"ilios": [
-					0,
-					1,
-					0
-				]
-			},
-			"website": "https://dynasty.overwatchleague.com"
-		},
-		{
 			"id": "PHI",
 			"name": "Philadelphia Fusion",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
@@ -311,6 +249,130 @@
 			"website": "https://gladiators.overwatchleague.com"
 		},
 		{
+			"id": "SEO",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
+			"secondaryColor": "aa8a00",
+			"color": "000000",
+			"name": "Seoul Dynasty",
+			"mapPoints": {
+				"won": 22,
+				"lost": 15,
+				"draws": 0
+			},
+			"won": 6,
+			"lost": 3,
+			"mapStats": {
+				"volskaya": [
+					3,
+					0,
+					0
+				],
+				"nepal": [
+					4,
+					1,
+					0
+				],
+				"kings-row": [
+					1,
+					4,
+					0
+				],
+				"route-66": [
+					3,
+					0,
+					0
+				],
+				"hanamura": [
+					2,
+					4,
+					0
+				],
+				"lijiang": [
+					3,
+					1,
+					0
+				],
+				"hollywood": [
+					3,
+					1,
+					0
+				],
+				"gibraltar": [
+					3,
+					3,
+					0
+				],
+				"ilios": [
+					0,
+					1,
+					0
+				]
+			},
+			"website": "https://dynasty.overwatchleague.com"
+		},
+		{
+			"id": "HOU",
+			"name": "Houston Outlaws",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
+			"secondaryColor": "000000",
+			"color": "97d700",
+			"mapPoints": {
+				"won": 22,
+				"lost": 22,
+				"draws": 0
+			},
+			"won": 5,
+			"lost": 5,
+			"mapStats": {
+				"volskaya": [
+					3,
+					3,
+					0
+				],
+				"nepal": [
+					2,
+					2,
+					0
+				],
+				"kings-row": [
+					4,
+					2,
+					0
+				],
+				"route-66": [
+					0,
+					4,
+					0
+				],
+				"ilios": [
+					2,
+					2,
+					0
+				],
+				"hanamura": [
+					2,
+					2,
+					0
+				],
+				"lijiang": [
+					2,
+					4,
+					0
+				],
+				"gibraltar": [
+					5,
+					1,
+					0
+				],
+				"hollywood": [
+					2,
+					2,
+					0
+				]
+			},
+			"website": "https://outlaws.overwatchleague.com"
+		},
+		{
 			"id": "VAL",
 			"name": "Los Angeles Valiant",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/L3U59GQVS1ZK1507822882879.svg",
@@ -433,68 +495,6 @@
 				]
 			},
 			"website": "https://uprising.overwatchleague.com"
-		},
-		{
-			"id": "HOU",
-			"name": "Houston Outlaws",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LTMO2GQOW9FK1516299021322.svg",
-			"secondaryColor": "000000",
-			"color": "97d700",
-			"mapPoints": {
-				"won": 19,
-				"lost": 21,
-				"draws": 0
-			},
-			"won": 4,
-			"lost": 5,
-			"mapStats": {
-				"volskaya": [
-					3,
-					3,
-					0
-				],
-				"nepal": [
-					2,
-					1,
-					0
-				],
-				"kings-row": [
-					3,
-					2,
-					0
-				],
-				"route-66": [
-					0,
-					4,
-					0
-				],
-				"ilios": [
-					2,
-					2,
-					0
-				],
-				"hanamura": [
-					1,
-					2,
-					0
-				],
-				"lijiang": [
-					2,
-					4,
-					0
-				],
-				"gibraltar": [
-					4,
-					1,
-					0
-				],
-				"hollywood": [
-					2,
-					2,
-					0
-				]
-			},
-			"website": "https://outlaws.overwatchleague.com"
 		},
 		{
 			"id": "SFS",
@@ -742,38 +742,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10579,
-			"teams": [
-				"HOU",
-				"SEO"
-			],
-			"mapData": [
-				[
-					6118,
-					"hanamura",
-					2,
-					1
-				],
-				[
-					6119,
-					"nepal",
-					0,
-					2
-				],
-				[
-					6955,
-					"kings-row",
-					3,
-					1
-				],
-				[
-					6120,
-					"gibraltar"
-				]
-			],
-			"date": "2018-03-22T23:00:00.000Z"
-		},
-		{
 			"id": 10580,
 			"teams": [
 				"NYE",
@@ -782,7 +750,9 @@
 			"mapData": [
 				[
 					6121,
-					"hanamura"
+					"hanamura",
+					4,
+					3
 				],
 				[
 					6122,
@@ -2770,6 +2740,40 @@
 				]
 			],
 			"date": "2018-03-22T03:00:00.000Z"
+		},
+		{
+			"id": 10579,
+			"teams": [
+				"HOU",
+				"SEO"
+			],
+			"mapData": [
+				[
+					6118,
+					"hanamura",
+					2,
+					1
+				],
+				[
+					6119,
+					"nepal",
+					0,
+					2
+				],
+				[
+					6955,
+					"kings-row",
+					4,
+					3
+				],
+				[
+					6120,
+					"gibraltar",
+					3,
+					2
+				]
+			],
+			"date": "2018-03-22T23:00:00.000Z"
 		}
 	]
 }
