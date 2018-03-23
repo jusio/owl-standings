@@ -7,21 +7,21 @@
 			"secondaryColor": "ffffff",
 			"name": "New York Excelsior",
 			"mapPoints": {
-				"won": 27,
-				"lost": 7,
+				"won": 30,
+				"lost": 9,
 				"draws": 0
 			},
-			"won": 7,
+			"won": 8,
 			"lost": 1,
 			"mapStats": {
 				"hanamura": [
-					4,
+					5,
 					0,
 					0
 				],
 				"lijiang": [
 					3,
-					1,
+					2,
 					0
 				],
 				"kings-row": [
@@ -31,7 +31,7 @@
 				],
 				"gibraltar": [
 					3,
-					1,
+					2,
 					0
 				],
 				"volskaya": [
@@ -40,7 +40,7 @@
 					0
 				],
 				"ilios": [
-					1,
+					2,
 					1,
 					0
 				],
@@ -55,7 +55,7 @@
 					0
 				],
 				"hollywood": [
-					2,
+					3,
 					1,
 					0
 				]
@@ -627,12 +627,12 @@
 			"color": "0c2340",
 			"secondaryColor": "0072ce",
 			"mapPoints": {
-				"won": 10,
-				"lost": 22,
+				"won": 12,
+				"lost": 25,
 				"draws": 1
 			},
 			"won": 2,
-			"lost": 6,
+			"lost": 7,
 			"mapStats": {
 				"volskaya": [
 					1,
@@ -646,7 +646,7 @@
 				],
 				"hollywood": [
 					1,
-					2,
+					3,
 					0
 				],
 				"route-66": [
@@ -656,11 +656,11 @@
 				],
 				"hanamura": [
 					2,
-					3,
+					4,
 					0
 				],
 				"lijiang": [
-					0,
+					1,
 					4,
 					0
 				],
@@ -670,13 +670,13 @@
 					0
 				],
 				"gibraltar": [
-					2,
+					3,
 					3,
 					0
 				],
 				"ilios": [
 					0,
-					1,
+					2,
 					0
 				]
 			},
@@ -742,40 +742,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10580,
-			"teams": [
-				"NYE",
-				"DAL"
-			],
-			"mapData": [
-				[
-					6121,
-					"hanamura",
-					4,
-					3
-				],
-				[
-					6122,
-					"lijiang",
-					0,
-					2
-				],
-				[
-					6123,
-					"hollywood",
-					3,
-					2
-				],
-				[
-					6124,
-					"gibraltar",
-					2,
-					0
-				]
-			],
-			"date": "2018-03-23T01:00:00.000Z"
-		},
-		{
 			"id": 10581,
 			"teams": [
 				"SFS",
@@ -784,7 +750,9 @@
 			"mapData": [
 				[
 					6125,
-					"hanamura"
+					"hanamura",
+					2,
+					3
 				],
 				[
 					6126,
@@ -799,7 +767,7 @@
 					"route-66"
 				]
 			],
-			"date": "2018-03-23T03:20:00.000Z"
+			"date": "2018-03-23T03:25:00.000Z"
 		},
 		{
 			"id": 10582,
@@ -2780,6 +2748,46 @@
 				]
 			],
 			"date": "2018-03-22T23:00:00.000Z"
+		},
+		{
+			"id": 10580,
+			"teams": [
+				"NYE",
+				"DAL"
+			],
+			"mapData": [
+				[
+					6121,
+					"hanamura",
+					4,
+					3
+				],
+				[
+					6122,
+					"lijiang",
+					0,
+					2
+				],
+				[
+					6123,
+					"hollywood",
+					3,
+					2
+				],
+				[
+					6124,
+					"gibraltar",
+					2,
+					3
+				],
+				[
+					8087,
+					"ilios",
+					2,
+					0
+				]
+			],
+			"date": "2018-03-23T01:00:00.000Z"
 		}
 	]
 }
