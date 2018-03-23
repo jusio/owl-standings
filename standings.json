@@ -751,16 +751,20 @@
 				[
 					6125,
 					"hanamura",
-					2,
+					4,
 					3
 				],
 				[
 					6126,
-					"nepal"
+					"nepal",
+					0,
+					2
 				],
 				[
 					6127,
-					"hollywood"
+					"hollywood",
+					1,
+					0
 				],
 				[
 					6128,
