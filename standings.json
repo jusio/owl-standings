@@ -63,6 +63,68 @@
 			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
+			"id": "SEO",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
+			"secondaryColor": "aa8a00",
+			"color": "000000",
+			"name": "Seoul Dynasty",
+			"mapPoints": {
+				"won": 25,
+				"lost": 16,
+				"draws": 0
+			},
+			"won": 7,
+			"lost": 3,
+			"mapStats": {
+				"volskaya": [
+					4,
+					0,
+					0
+				],
+				"nepal": [
+					5,
+					1,
+					0
+				],
+				"kings-row": [
+					1,
+					4,
+					0
+				],
+				"route-66": [
+					4,
+					0,
+					0
+				],
+				"hanamura": [
+					2,
+					4,
+					0
+				],
+				"lijiang": [
+					3,
+					1,
+					0
+				],
+				"hollywood": [
+					3,
+					2,
+					0
+				],
+				"gibraltar": [
+					3,
+					3,
+					0
+				],
+				"ilios": [
+					0,
+					1,
+					0
+				]
+			},
+			"website": "https://dynasty.overwatchleague.com"
+		},
+		{
 			"id": "LDN",
 			"name": "London Spitfire",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
@@ -247,68 +309,6 @@
 				]
 			},
 			"website": "https://gladiators.overwatchleague.com"
-		},
-		{
-			"id": "SEO",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
-			"secondaryColor": "aa8a00",
-			"color": "000000",
-			"name": "Seoul Dynasty",
-			"mapPoints": {
-				"won": 22,
-				"lost": 15,
-				"draws": 0
-			},
-			"won": 6,
-			"lost": 3,
-			"mapStats": {
-				"volskaya": [
-					3,
-					0,
-					0
-				],
-				"nepal": [
-					4,
-					1,
-					0
-				],
-				"kings-row": [
-					1,
-					4,
-					0
-				],
-				"route-66": [
-					3,
-					0,
-					0
-				],
-				"hanamura": [
-					2,
-					4,
-					0
-				],
-				"lijiang": [
-					3,
-					1,
-					0
-				],
-				"hollywood": [
-					3,
-					1,
-					0
-				],
-				"gibraltar": [
-					3,
-					3,
-					0
-				],
-				"ilios": [
-					0,
-					1,
-					0
-				]
-			},
-			"website": "https://dynasty.overwatchleague.com"
 		},
 		{
 			"id": "BOS",
@@ -497,68 +497,6 @@
 			"website": "https://valiant.overwatchleague.com"
 		},
 		{
-			"id": "FLA",
-			"name": "Florida Mayhem",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
-			"color": "feda01",
-			"secondaryColor": "af272f",
-			"mapPoints": {
-				"won": 14,
-				"lost": 24,
-				"draws": 1
-			},
-			"won": 3,
-			"lost": 6,
-			"mapStats": {
-				"hanamura": [
-					2,
-					3,
-					0
-				],
-				"lijiang": [
-					2,
-					2,
-					0
-				],
-				"kings-row": [
-					2,
-					2,
-					0
-				],
-				"gibraltar": [
-					1,
-					3,
-					0
-				],
-				"nepal": [
-					2,
-					3,
-					0
-				],
-				"hollywood": [
-					0,
-					5,
-					0
-				],
-				"volskaya": [
-					2,
-					1,
-					1
-				],
-				"route-66": [
-					1,
-					4,
-					0
-				],
-				"ilios": [
-					2,
-					1,
-					0
-				]
-			},
-			"website": "https://mayhem.overwatchleague.com"
-		},
-		{
 			"id": "SFS",
 			"name": "San Francisco Shock",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/PKGNG1U3MGZ71512520986545.svg",
@@ -619,6 +557,68 @@
 				]
 			},
 			"website": "https://shock.overwatchleague.com"
+		},
+		{
+			"id": "FLA",
+			"name": "Florida Mayhem",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
+			"color": "feda01",
+			"secondaryColor": "af272f",
+			"mapPoints": {
+				"won": 15,
+				"lost": 27,
+				"draws": 1
+			},
+			"won": 3,
+			"lost": 7,
+			"mapStats": {
+				"hanamura": [
+					2,
+					3,
+					0
+				],
+				"lijiang": [
+					2,
+					2,
+					0
+				],
+				"kings-row": [
+					2,
+					2,
+					0
+				],
+				"gibraltar": [
+					1,
+					3,
+					0
+				],
+				"nepal": [
+					2,
+					4,
+					0
+				],
+				"hollywood": [
+					1,
+					5,
+					0
+				],
+				"volskaya": [
+					2,
+					2,
+					1
+				],
+				"route-66": [
+					1,
+					5,
+					0
+				],
+				"ilios": [
+					2,
+					1,
+					0
+				]
+			},
+			"website": "https://mayhem.overwatchleague.com"
 		},
 		{
 			"id": "DAL",
@@ -742,36 +742,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10582,
-			"teams": [
-				"SEO",
-				"FLA"
-			],
-			"mapData": [
-				[
-					6129,
-					"volskaya",
-					4,
-					3
-				],
-				[
-					6130,
-					"nepal",
-					2,
-					1
-				],
-				[
-					6131,
-					"hollywood"
-				],
-				[
-					6132,
-					"route-66"
-				]
-			],
-			"date": "2018-03-23T23:00:00.000Z"
-		},
-		{
 			"id": 10583,
 			"teams": [
 				"PHI",
@@ -795,7 +765,7 @@
 					"gibraltar"
 				]
 			],
-			"date": "2018-03-24T01:00:00.000Z"
+			"date": "2018-03-24T00:55:00.000Z"
 		},
 		{
 			"id": 10584,
@@ -2804,6 +2774,40 @@
 				]
 			],
 			"date": "2018-03-23T03:25:00.000Z"
+		},
+		{
+			"id": 10582,
+			"teams": [
+				"SEO",
+				"FLA"
+			],
+			"mapData": [
+				[
+					6129,
+					"volskaya",
+					4,
+					3
+				],
+				[
+					6130,
+					"nepal",
+					2,
+					1
+				],
+				[
+					6131,
+					"hollywood",
+					0,
+					1
+				],
+				[
+					6132,
+					"route-66",
+					3,
+					1
+				]
+			],
+			"date": "2018-03-23T23:00:00.000Z"
 		}
 	]
 }
