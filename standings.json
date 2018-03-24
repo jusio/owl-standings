@@ -750,11 +750,15 @@
 			"mapData": [
 				[
 					6144,
-					"volskaya"
+					"volskaya",
+					3,
+					4
 				],
 				[
 					6145,
-					"nepal"
+					"nepal",
+					0,
+					2
 				],
 				[
 					6146,
