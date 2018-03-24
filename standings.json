@@ -63,6 +63,68 @@
 			"website": "https://excelsior.overwatchleague.com"
 		},
 		{
+			"id": "LDN",
+			"name": "London Spitfire",
+			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
+			"color": "ff8200",
+			"secondaryColor": "000000",
+			"mapPoints": {
+				"won": 28,
+				"lost": 10,
+				"draws": 0
+			},
+			"won": 7,
+			"lost": 2,
+			"mapStats": {
+				"volskaya": [
+					3,
+					2,
+					0
+				],
+				"nepal": [
+					3,
+					1,
+					0
+				],
+				"kings-row": [
+					2,
+					3,
+					0
+				],
+				"route-66": [
+					5,
+					0,
+					0
+				],
+				"ilios": [
+					1,
+					1,
+					0
+				],
+				"lijiang": [
+					3,
+					2,
+					0
+				],
+				"gibraltar": [
+					4,
+					0,
+					0
+				],
+				"hanamura": [
+					4,
+					0,
+					0
+				],
+				"hollywood": [
+					3,
+					1,
+					0
+				]
+			},
+			"website": "https://spitfire.overwatchleague.com"
+		},
+		{
 			"id": "PHI",
 			"name": "Philadelphia Fusion",
 			"icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/ZCXZIQT5S9AA1512520986491.svg",
@@ -185,68 +247,6 @@
 				]
 			},
 			"website": "https://dynasty.overwatchleague.com"
-		},
-		{
-			"id": "LDN",
-			"name": "London Spitfire",
-			"icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/HCS229B4DP021507822883016.svg",
-			"color": "ff8200",
-			"secondaryColor": "000000",
-			"mapPoints": {
-				"won": 24,
-				"lost": 10,
-				"draws": 0
-			},
-			"won": 6,
-			"lost": 2,
-			"mapStats": {
-				"volskaya": [
-					3,
-					2,
-					0
-				],
-				"nepal": [
-					3,
-					1,
-					0
-				],
-				"kings-row": [
-					2,
-					3,
-					0
-				],
-				"route-66": [
-					5,
-					0,
-					0
-				],
-				"ilios": [
-					1,
-					1,
-					0
-				],
-				"lijiang": [
-					2,
-					2,
-					0
-				],
-				"gibraltar": [
-					3,
-					0,
-					0
-				],
-				"hanamura": [
-					3,
-					0,
-					0
-				],
-				"hollywood": [
-					2,
-					1,
-					0
-				]
-			},
-			"website": "https://spitfire.overwatchleague.com"
 		},
 		{
 			"id": "GLA",
@@ -690,11 +690,11 @@
 			"secondaryColor": "ffffff",
 			"mapPoints": {
 				"won": 2,
-				"lost": 33,
+				"lost": 37,
 				"draws": 1
 			},
 			"won": 0,
-			"lost": 9,
+			"lost": 10,
 			"mapStats": {
 				"volskaya": [
 					0,
@@ -708,7 +708,7 @@
 				],
 				"hollywood": [
 					1,
-					2,
+					3,
 					0
 				],
 				"route-66": [
@@ -718,12 +718,12 @@
 				],
 				"hanamura": [
 					0,
-					2,
+					3,
 					1
 				],
 				"lijiang": [
 					0,
-					4,
+					5,
 					0
 				],
 				"kings-row": [
@@ -733,7 +733,7 @@
 				],
 				"gibraltar": [
 					0,
-					3,
+					4,
 					0
 				]
 			},
@@ -741,34 +741,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10584,
-			"teams": [
-				"LDN",
-				"SHD"
-			],
-			"mapData": [
-				[
-					6136,
-					"hanamura",
-					1,
-					0
-				],
-				[
-					6137,
-					"lijiang"
-				],
-				[
-					6138,
-					"hollywood"
-				],
-				[
-					6139,
-					"gibraltar"
-				]
-			],
-			"date": "2018-03-24T03:20:00.000Z"
-		},
 		{
 			"id": 10585,
 			"teams": [
@@ -2824,6 +2796,40 @@
 				]
 			],
 			"date": "2018-03-24T00:55:00.000Z"
+		},
+		{
+			"id": 10584,
+			"teams": [
+				"LDN",
+				"SHD"
+			],
+			"mapData": [
+				[
+					6136,
+					"hanamura",
+					2,
+					0
+				],
+				[
+					6137,
+					"lijiang",
+					2,
+					0
+				],
+				[
+					6138,
+					"hollywood",
+					3,
+					0
+				],
+				[
+					6139,
+					"gibraltar",
+					3,
+					1
+				]
+			],
+			"date": "2018-03-24T03:20:00.000Z"
 		}
 	]
 }
