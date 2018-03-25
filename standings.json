@@ -255,12 +255,12 @@
 			"color": "3c1053",
 			"secondaryColor": "ffffff",
 			"mapPoints": {
-				"won": 23,
-				"lost": 13,
+				"won": 25,
+				"lost": 16,
 				"draws": 1
 			},
 			"won": 6,
-			"lost": 3,
+			"lost": 4,
 			"mapStats": {
 				"hanamura": [
 					2,
@@ -284,27 +284,27 @@
 				],
 				"lijiang": [
 					4,
-					0,
+					1,
 					0
 				],
 				"volskaya": [
 					2,
-					1,
+					2,
 					1
 				],
 				"route-66": [
-					2,
+					3,
 					2,
 					0
 				],
 				"hollywood": [
-					2,
+					3,
 					2,
 					0
 				],
 				"ilios": [
 					1,
-					0,
+					1,
 					0
 				]
 			},
@@ -317,11 +317,11 @@
 			"color": "174b97",
 			"secondaryColor": "ffffff",
 			"mapPoints": {
-				"won": 18,
-				"lost": 20,
+				"won": 21,
+				"lost": 22,
 				"draws": 0
 			},
-			"won": 5,
+			"won": 6,
 			"lost": 4,
 			"mapStats": {
 				"hanamura": [
@@ -330,13 +330,13 @@
 					0
 				],
 				"lijiang": [
-					2,
+					3,
 					3,
 					0
 				],
 				"hollywood": [
 					2,
-					2,
+					3,
 					0
 				],
 				"gibraltar": [
@@ -355,17 +355,17 @@
 					0
 				],
 				"volskaya": [
-					4,
+					5,
 					0,
 					0
 				],
 				"route-66": [
 					2,
-					2,
+					3,
 					0
 				],
 				"ilios": [
-					2,
+					3,
 					0,
 					0
 				]
@@ -741,44 +741,6 @@
 		}
 	],
 	"upcomingMatches": [
-		{
-			"id": 10587,
-			"teams": [
-				"BOS",
-				"GLA"
-			],
-			"mapData": [
-				[
-					6148,
-					"volskaya",
-					2,
-					1
-				],
-				[
-					6149,
-					"lijiang",
-					2,
-					0
-				],
-				[
-					6150,
-					"hollywood",
-					3,
-					4
-				],
-				[
-					6151,
-					"route-66",
-					4,
-					5
-				],
-				[
-					8214,
-					"ilios"
-				]
-			],
-			"date": "2018-03-24T23:40:00.000Z"
-		},
 		{
 			"id": 10540,
 			"teams": [
@@ -2888,6 +2850,46 @@
 				]
 			],
 			"date": "2018-03-24T21:55:00.000Z"
+		},
+		{
+			"id": 10587,
+			"teams": [
+				"BOS",
+				"GLA"
+			],
+			"mapData": [
+				[
+					6148,
+					"volskaya",
+					2,
+					1
+				],
+				[
+					6149,
+					"lijiang",
+					2,
+					0
+				],
+				[
+					6150,
+					"hollywood",
+					3,
+					4
+				],
+				[
+					6151,
+					"route-66",
+					4,
+					5
+				],
+				[
+					8214,
+					"ilios",
+					2,
+					1
+				]
+			],
+			"date": "2018-03-24T23:40:00.000Z"
 		}
 	]
 }
