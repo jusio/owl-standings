@@ -7,11 +7,11 @@
 			"secondaryColor": "ffffff",
 			"name": "New York Excelsior",
 			"mapPoints": {
-				"won": 30,
+				"won": 34,
 				"lost": 9,
 				"draws": 0
 			},
-			"won": 8,
+			"won": 9,
 			"lost": 1,
 			"mapStats": {
 				"hanamura": [
@@ -35,7 +35,7 @@
 					0
 				],
 				"volskaya": [
-					3,
+					4,
 					1,
 					0
 				],
@@ -45,17 +45,17 @@
 					0
 				],
 				"nepal": [
-					3,
+					4,
 					1,
 					0
 				],
 				"route-66": [
-					3,
+					4,
 					1,
 					0
 				],
 				"hollywood": [
-					3,
+					4,
 					1,
 					0
 				]
@@ -442,20 +442,20 @@
 			"secondaryColor": "ffffff",
 			"mapPoints": {
 				"won": 18,
-				"lost": 19,
+				"lost": 23,
 				"draws": 1
 			},
 			"won": 4,
-			"lost": 5,
+			"lost": 6,
 			"mapStats": {
 				"volskaya": [
 					1,
-					3,
+					4,
 					0
 				],
 				"nepal": [
 					2,
-					2,
+					3,
 					0
 				],
 				"kings-row": [
@@ -465,7 +465,7 @@
 				],
 				"route-66": [
 					2,
-					2,
+					3,
 					0
 				],
 				"hanamura": [
@@ -485,7 +485,7 @@
 				],
 				"hollywood": [
 					3,
-					1,
+					2,
 					0
 				],
 				"ilios": [
@@ -742,36 +742,6 @@
 	],
 	"upcomingMatches": [
 		{
-			"id": 10586,
-			"teams": [
-				"VAL",
-				"NYE"
-			],
-			"mapData": [
-				[
-					6144,
-					"volskaya",
-					3,
-					4
-				],
-				[
-					6145,
-					"nepal",
-					0,
-					2
-				],
-				[
-					6146,
-					"hollywood"
-				],
-				[
-					6147,
-					"route-66"
-				]
-			],
-			"date": "2018-03-24T21:55:00.000Z"
-		},
-		{
 			"id": 10587,
 			"teams": [
 				"BOS",
@@ -795,7 +765,7 @@
 					"route-66"
 				]
 			],
-			"date": "2018-03-25T00:00:00.000Z"
+			"date": "2018-03-24T23:40:00.000Z"
 		}
 	],
 	"matches": [
@@ -2842,6 +2812,40 @@
 				]
 			],
 			"date": "2018-03-24T20:00:00.000Z"
+		},
+		{
+			"id": 10586,
+			"teams": [
+				"VAL",
+				"NYE"
+			],
+			"mapData": [
+				[
+					6144,
+					"volskaya",
+					3,
+					4
+				],
+				[
+					6145,
+					"nepal",
+					0,
+					2
+				],
+				[
+					6146,
+					"hollywood",
+					0,
+					1
+				],
+				[
+					6147,
+					"route-66",
+					2,
+					3
+				]
+			],
+			"date": "2018-03-24T21:55:00.000Z"
 		}
 	]
 }
