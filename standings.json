@@ -750,15 +750,21 @@
 			"mapData": [
 				[
 					6148,
-					"volskaya"
+					"volskaya",
+					2,
+					1
 				],
 				[
 					6149,
-					"lijiang"
+					"lijiang",
+					2,
+					0
 				],
 				[
 					6150,
-					"hollywood"
+					"hollywood",
+					1,
+					0
 				],
 				[
 					6151,
@@ -766,6 +772,36 @@
 				]
 			],
 			"date": "2018-03-24T23:40:00.000Z"
+		},
+		{
+			"id": 10540,
+			"teams": [
+				"PHI",
+				"LDN"
+			],
+			"mapData": [
+				[
+					8201,
+					"gibraltar"
+				],
+				[
+					8202,
+					"nepal"
+				],
+				[
+					8203,
+					"hanamura"
+				],
+				[
+					8204,
+					"kings-row"
+				],
+				[
+					8205,
+					"route-66"
+				]
+			],
+			"date": "2018-03-25T20:00:00.000Z"
 		}
 	],
 	"matches": [
